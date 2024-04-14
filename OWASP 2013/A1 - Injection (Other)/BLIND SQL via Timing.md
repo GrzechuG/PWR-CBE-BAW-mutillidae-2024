@@ -13,3 +13,4 @@ Ze względu na brak sanytyzacji danych wejściowych formularzu na podstronie zna
 
 **Technika eksploatacji:**
 Ze względu na brak zabezpieczenia formularza, możliwe jest wprowadzenie dodatkowych danych przez atakującego, które całkowicie modyfikuje bezpośrednio zapytanie w języku SQL, doprowadzając do zwrócenia większej ilości informacji, niż jest to planowane. Umieszcznie wyrażenia "'-SLEEP(1) -- " w polu formularza związengo z wprowadzeniem nazwy użytkownika przekształca zapytanie SQL z |SELECT * FROM accounts WHERE username='admin' AND password='password'| na |SELECT * FROM accounts WHERE username=''-SLEEP(1) -- 'AND password=''|. Dodanie wyrażenia |'-SLEEP(1) -- | pozwala na stworzenie zapytania, które w normalnych okolicznościach przy pomocy takich funkcji jak IF pozwala na dowiedzenie się więcej o strukturze bazy, jednakże w tym przypadku pozwoliło to na wyświetlenie całej bazy użytkowników.
+Źródło ataku: https://www.sqlinjection.net/time-based/
