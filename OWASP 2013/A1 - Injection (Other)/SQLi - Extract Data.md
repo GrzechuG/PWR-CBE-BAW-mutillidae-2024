@@ -5,7 +5,7 @@
 ---
 
 **Opis:**
-Ze względu na brak sanytyzacji danych wejściowych formularzu na podstronie znajdującej pod następującym się URL "http://192.168.28.131/mutillidae/index.php?page=user-info.php" możliwy jest atak na poufność danych, przez wykonanie eksploitacji SQL INJECTION pozwalając na nieautoryzowany dostęp do danych przechowywanych w bazie danych. Na podanej stronie istnieje uzyskujemy bezpośredni dostęp do danych logowania użytkownika, a dokładniej do nazwy użytkownika oraz hasła. 
+Ze względu na brak sanytyzacji danych wejściowych formularzu na podstronie znajdującej pod następującym się URL "http://192.168.28.131/mutillidae/index.php?page=user-info.php" możliwy jest atak na poufność danych, przez wykonanie eksploitacji SQL INJECTION pozwalając na nieautoryzowany dostęp do danych przechowywanych w bazie danych. Na podanej stronie uzyskujemy bezpośredni dostęp do danych logowania użytkownika, a dokładniej do nazwy użytkownika oraz hasła. 
 ![obraz](https://github.com/GrzechuG/PWR-CBE-BAW-mutillidae-2024/assets/93217316/9fbed055-31b0-4f78-920e-8d387698c021)
 
 
