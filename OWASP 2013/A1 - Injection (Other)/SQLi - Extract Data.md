@@ -1,4 +1,4 @@
-## Nazwa podatności: [Nazwa podatności]
+## Nazwa podatności: SQL Injection
 
 **Istotność:** 10
 
