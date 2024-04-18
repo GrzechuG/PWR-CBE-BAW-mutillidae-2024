@@ -7,6 +7,13 @@
 **Opis:**
 SQLMap to potężne narzędzie do automatycznego wykrywania i wykorzystywania podatności SQL Injection w aplikacjach internetowych. Jest napisane w języku Python i umożliwia atakującemu przeprowadzenie zautomatyzowanych testów penetracyjnych, identyfikując luki w zabezpieczeniach aplikacji, które mogą prowadzić do wstrzykiwania kodu SQL.
 
+- SQL Injection - error-based:
+W tej technice atakujący wykorzystuje błędy generowane przez bazę danych w odpowiedzi na wstrzyknięty złośliwy kod SQL. Atakujący wprowadza manipulujące zapytanie SQL dane, które mogą prowadzić do błędów w bazie danych. Następnie, poprzez analizę odpowiedzi serwera, atakujący jest w stanie uzyskać informacje na temat struktury bazy danych oraz jej zawartości. Na przykład, atakujący może próbować wstrzyknąć zapytanie takie jak SELECT * FROM users WHERE id = '1' AND '1'='1', które zawsze zwraca prawdę, ale prowadzi do błędu, jeśli typ danych jest nieprawidłowy. Analizując komunikaty o błędach, atakujący może wydedukować strukturę bazy danych i uzyskać dostęp do poufnych informacji.
+
+- SQL Injection - time-based blind:
+
+Ta technika jest używana, gdy aplikacja nie zwraca bezpośrednich komunikatów o błędach, ale atakujący jest w stanie dedukować informacje na temat bazy danych poprzez manipulowanie czasem odpowiedzi serwera. Atakujący wstrzykuje złośliwy kod SQL, który opóźnia odpowiedź serwera w zależności od prawdziwości określonego warunku. Na przykład, atakujący może wstrzyknąć zapytanie takie jak SELECT * FROM users WHERE id = '1' AND IF(SUBSTRING(database(),1,1)='a',SLEEP(5),1) - jeśli pierwszy znak nazwy bazy danych to 'a', to zapytanie spowoduje opóźnienie odpowiedzi serwera. Analizując czas odpowiedzi, atakujący jest w stanie wnioskować informacje na temat struktury bazy danych i jej zawartości.
+
 ---
 
 **Technika eksploatacji:**
