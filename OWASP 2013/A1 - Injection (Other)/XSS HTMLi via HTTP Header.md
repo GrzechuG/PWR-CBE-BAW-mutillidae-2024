@@ -20,12 +20,10 @@ Przy pomocy takiego oprogramowania jak BurpSuite lub zwykłego zapytania przy po
 Przekazane parametry funkcji są bezpośrednio dostarczane do <div ReflectedXSSExecutionPoint="1" class="footer"> co przez przykładowe wyrażenie '<a href=javascript:alert(1)>xss</a>' pozwala na urchomienie funkcji alert(1) w języku javascript przez uruchomienie hiperłącza co zostało pokazane na obrazku w sekcji OPIS
 
 Funkcja:
-<script type="text/javascript">
 $(function() {
 		$('[ReflectedXSSExecutionPoint]').attr("title", "");
 		$('[ReflectedXSSExecutionPoint]').balloon();
 	});
- </script>
  
 Wyeksploitowany DIV:
 <div style="border: 1px solid black;">
