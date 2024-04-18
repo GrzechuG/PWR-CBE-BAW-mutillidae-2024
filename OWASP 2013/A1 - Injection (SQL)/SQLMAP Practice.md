@@ -16,7 +16,7 @@ Po wybraniu z listy rozwijanej użytkownika, którego blog chce się zobaczyć w
 Utworzono plik request.txt z zawartością powyższego zapytania.
 ![image](https://github.com/GrzechuG/PWR-CBE-BAW-mutillidae-2024/assets/28838004/d430c661-7a72-42cf-8d33-dc39255b3728)
 
-Atakowanymi parametrami są oraz `author` `view-someones-blog-php-submit-button`.
+Atakowanymi parametrami są oraz `author` oraz `view-someones-blog-php-submit-button`.
 
 Jak poniżej uruchomiono narzędzie sqlmap:
 ![image](https://github.com/GrzechuG/PWR-CBE-BAW-mutillidae-2024/assets/28838004/163e2db8-bdf8-48d3-9057-1086ed0c81ca)
