@@ -5,12 +5,29 @@
 ---
 
 **Opis:**
-Ze względu na brak sanytyzacji danych wejściowych formularzu na podstronie znajdującej pod następującym się URL "http://192.168.28.131/mutillidae/index.php?page=user-info.php" możliwy jest atak na poufność danych, przez wykonanie eksploitacji SQL INJECTION pozwalając na nieautoryzowany dostęp do danych przechowywanych w bazie danych. Na podanej stronie uzyskujemy bezpośredni dostęp do danych logowania użytkownika, a dokładniej do nazwy użytkownika oraz hasła. 
+
+Możliwe jest wykonanie dowolnego kodu na stronie, ze względu na wdrożoną funkcjonalność, pokazywania aktualnej wersji przeglądarki w stopce strony, która bierze informacje bezpośrednio z nagłówka zapytania HTTP.
+![obraz](https://github.com/GrzechuG/PWR-CBE-BAW-mutillidae-2024/assets/93217316/9749f1db-7eb0-4890-8332-7b1b0e1de1c0)
 
 
 
 ---
 
 **Technika eksploatacji:**
-Ze względu na brak zabezpieczenia formularza, możliwe jest wprowadzenie dodatkowych danych przez atakującego, które całkowicie modyfikuje bezpośrednio zapytanie w języku SQL, doprowadzając do zwrócenia większej ilości informacji, niż jest to planowane. Umieszcznie wyrażenia "' or 1=1 -- " w polu formularza związengo z wprowadzeniem nazwy użytkownika przekształca zapytanie SQL z |SELECT * FROM accounts WHERE username='admin' AND password='password'| na |SELECT * FROM accounts WHERE username='' or 1=1 -- 'AND password=''|. Dodanie wyrażenia |' or 1=1 -- | pozwala na stworzenie zapytania, który zawsze będzie prawdą (1=1) a dopisek '--' umieszcza dalszą część zapytania jako komentarz, przez co atakujący nie potrzebuje znać hasła a dodatkowo nie generuje w ten sposób błędu.
-Metodologia ataku: https://www.sqlinjection.net/string-parameters/
+
+Przy pomocy takiego oprogramowania jak BurpSuite lub zwykłego zapytania przy pomocy domyślnej aplikacji 'curl', możliwa jest manipulacja nagłówkiem zapytania HTTP co pozwala eksploitacje wdrożonej funkcji w języku javascript na stronie na wywołanie dowolnego kodu. 
+
+Przekazane parametry funkcji są bezpośrednio dostarczane do <div ReflectedXSSExecutionPoint="1" class="footer"> co przez przykładowe wyrażenie '<a href=javascript:alert(1)>xss</a>' pozwala na urchomienie funkcji alert(1) w języku javascript przez uruchomienie hiperłącza co zostało pokazane na obrazku w sekcji OPIS
+
+Funkcja:
+$(function() {
+		$('[ReflectedXSSExecutionPoint]').attr("title", "");
+		$('[ReflectedXSSExecutionPoint]').balloon();
+	});
+Wyeksploitowany DIV:
+<div style="border: 1px solid black;">
+		<div ReflectedXSSExecutionPoint="1" class="footer">Browser: <a href=javascript:alert(1)>xss</a></div>
+		<div class="footer">PHP Version: 5.3.2-1ubuntu4.30</div>
+	</div>
+
+Źródło: https://security.stackexchange.com/questions/24908/is-it-possible-to-make-an-xss-with-only-html-tags
