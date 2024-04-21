@@ -12,7 +12,7 @@ Podczas wyświetlania zawartości na stronie innych podstron przez funkcjonalno�
 ---
 
 **Technika eksploatacji:**
-Atakujący po analizie URI i użyciu zmiennej "PathToDocument=" jest w stanie wstrzyknąć dowolny kod na stronie, jednakże nie jest możliwe wyświetlenie plików systemowych. Możliwe jest wykonanie wspomnianej podatności iframe src injection na umieszczenie dowolnej podstrony, na dodatek pozwalając na formatowanie okna w obrębie danego DIV, aby zwiększyć potencjlną wiarygodność okna. 
-
+Atakujący po analizie URI i użyciu zmiennej "PathToDocument=" jest w stanie wstrzyknąć dowolny kod na stronie, jednakże nie jest możliwe wyświetlenie plików systemowych. Możliwe jest wykonanie wspomnianej podatności iframe src injection na umieszczenie dowolnej podstrony, na dodatek pozwalając na formatowanie okna w obrębie danego DIV, aby zwiększyć potencjlną wiarygodność okna. W przypadku omawianej podatności została wyświetlona strona eporta.pwr.edu.pl
+```
 <iframe src=https://eportal.pwr.edu.pl/>
-
+```
