@@ -5,7 +5,8 @@
 ---
 
 **Opis:**
-[Tutaj umieść opis podatności, w tym informacje o jej działaniu, potencjalnych konsekwencjach i innych istotnych szczegółach.]
+![obraz](https://github.com/GrzechuG/PWR-CBE-BAW-mutillidae-2024/assets/93217316/af00cdf2-1e50-4980-be2f-d9aadc33bd67)
+
 
 ---
 
