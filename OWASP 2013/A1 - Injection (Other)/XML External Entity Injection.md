@@ -13,4 +13,13 @@ Możliwe jest w programie 'XML Validator' na wykonanie dowolnego kodu jak wyświ
 **Technika eksploatacji:**
 W tym przypadku kiedy parser XML natrafi na '&xxe;' wewnątrz '<foo>', zastąpi to fragmentem tekstu wskazywanym przez zdefiniowaną encję(specjalny typ konstrukcji, która reprezentuje pewien zestaw znaków lub ciąg znaków) xxe (encja, która odnosi się do zasobów zewnętrznych, takich jak pliki tekstowe). W tym przypadku xxe wskazuje na zawartość pliku /etc/passwd.
 
+Główną częścią eksploitacji jest zewnętrzna xxe, która wskazuje na plik /etc/passwd.
+```
+<!ENTITY xxe SYSTEM "file:///etc/passwd" >
+```
+Po zdefiniowaniu encji, tworzony jest nowy element foo z zawartością pliku /etc/passwd i wyświetlany przez validator.
+```
+<foo>&xxe;</foo>
+```
+
 Źródło: https://github.com/swisskyrepo/PayloadsAllTheThings/blob/master/XXE%20Injection/README.md
