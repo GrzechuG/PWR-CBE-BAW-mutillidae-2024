@@ -1,6 +1,6 @@
-## Nazwa podatności: [Nazwa podatności]
+## Nazwa podatności: HTTP Parameter Pollution
 
-**Istotność:** [Poziom istotności, np. niska, średnia, wysoka]
+**Istotność:** 2
 
 ---
 
