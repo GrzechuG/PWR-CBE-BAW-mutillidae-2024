@@ -13,7 +13,9 @@ Podstrona z funkcją, która pozwala użytkownikowi na personalizację wyglądu 
 
 **Technika eksploatacji:**
 Atakujący wprowadza payload JavaScript jako wartość koloru tła, np.:
+
 `"><script>alert(document.cookie);</script>`
+
 Gdy wartość ta jest osadzona bezpośrednio w atrybucie stylu HTML, zamyka ona atrybut i otwiera tag skryptu.
 
 Kiedy strona jest ładowana lub odświeżana, przeglądarka interpretuje i wykonuje złośliwy skrypt. To pozwala na wykonanie działań z uprawnieniami użytkownika, takich jak dostęp do ciasteczek, które mogą zawierać tokeny sesji lub inne dane uwierzytelniające.
