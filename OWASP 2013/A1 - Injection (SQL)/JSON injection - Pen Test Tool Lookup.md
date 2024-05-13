@@ -22,4 +22,7 @@ Atakujący może przekazać złośliwy payload poprzez metody HTTP, które akcep
   ToolID=1&pen-test-tool-lookup-php-submit-button=Lookup+Tool
 Zakładając, że wartość ToolID jest następnie używana do generowania odpowiedzi JSON na stronie, złośliwy kod JavaScript może być wstrzyknięty i wykonany w przeglądarce ofiary.
 
+![2 2](https://github.com/GrzechuG/PWR-CBE-BAW-mutillidae-2024/assets/56219452/c99185ec-6698-4fd1-89f2-6f8b21a42155)
+
 Gdy złośliwe dane są przetworzone przez serwer i nieodpowiednio zabezpieczone przed wyjściem, struktura JSON zostaje zmodyfikowana, a złośliwy skrypt JavaScript jest wykonywany. To może prowadzić do wykonania dowolnych działań JavaScript w kontekście przeglądarki użytkownika, co może obejmować kradzież cookies (jeśli nie są zabezpieczone flagą HttpOnly), manipulację treścią strony, przekierowania na złośliwe strony, a nawet wykonanie działań w imieniu użytkownika.
+
