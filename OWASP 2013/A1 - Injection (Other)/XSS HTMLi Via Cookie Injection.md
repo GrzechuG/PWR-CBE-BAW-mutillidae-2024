@@ -12,7 +12,7 @@ Manipulacja wartościami nagłówków HTTP, które są następnie odbijane (refl
 **Technika eksploatacji:**
 Złośliwy użytkownik modyfikuje wartość ciasteczka PHPSESSID (lub innego parametru wykorzystywanego przez aplikację) w żądaniu GET, wstawiając tag HTML:
 
-  \<meta http-equiv="refresh" content=\*5; URL=https://www.google.com* /\>
+  `<meta http-equiv="refresh" content=*5; URL=https://www.google.com* />`
   
 Gdy serwer odbije zmodyfikowane ciasteczko w odpowiedzi HTTP i ta odpowiedź zostanie wyświetlona jako część strony HTML, meta tag zostaje zinterpretowany przez przeglądarkę. Tag ten może przekierować użytkownika na zewnętrzną, potencjalnie złośliwą stronę po upływie określonego czasu (tutaj 5 sekund).
 
