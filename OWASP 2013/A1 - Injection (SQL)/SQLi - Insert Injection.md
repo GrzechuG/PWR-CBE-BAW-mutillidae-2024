@@ -1,6 +1,6 @@
 ## Nazwa podatności: SQL Injection
 
-**Istotność:** 10
+**Istotność:** 9
 
 ---
 
@@ -17,7 +17,9 @@ Ze względu na brak zabezpieczenia formularza, możliwe jest wprowadzenie dodatk
 
 
 Umieszczenie w pierwszym polu wybranej nazwy użytkownika i 
+```
   x', (select version())) -- -
+```
 w polu z hasłem i potwierdzeniem hasła skutkuje utworzeniem konta użytkownika o wybranej nazwie z wersją serwera SQL obok nazwy użytkownika (widoczne po zalogowaniu).
 
 ![insert-register](https://github.com/GrzechuG/PWR-CBE-BAW-mutillidae-2024/assets/56219452/33892823-de06-44e2-8ff6-0513e7944a48)
