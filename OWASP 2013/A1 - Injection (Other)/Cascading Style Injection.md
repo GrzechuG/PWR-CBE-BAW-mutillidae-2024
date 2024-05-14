@@ -11,7 +11,7 @@ Podstrona z funkcją, która pozwala użytkownikowi na personalizację wyglądu 
 
 ---
 
-**Technika eksploatacji:**
+**Technika eksploitacji:**
 Atakujący wprowadza payload JavaScript jako wartość koloru tła, np.:
 
 `"><script>alert(document.cookie);</script>`
