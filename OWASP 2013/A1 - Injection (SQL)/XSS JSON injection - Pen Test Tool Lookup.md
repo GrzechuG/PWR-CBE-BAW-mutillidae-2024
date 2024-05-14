@@ -9,7 +9,7 @@ Podatność JSON Injection polega na możliwości modyfikacji struktury danych J
 
 ---
 
-**Technika eksploatacji:**
+**Technika eksploitacji:**
 Eksploitacja rozpoczyna się od stworzenia payloadu. W tym przypadku jest to ciąg:
 ```
   "}});alert(1);//
