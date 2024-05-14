@@ -10,7 +10,7 @@ Ze względu na brak sanityzacji danych wejściowych z pola **password** pod adre
 
 ---
 
-**Technika eksploatacji:**
+**Technika eksploitacji:**
 Ze względu na brak zabezpieczenia formularza, możliwe jest wprowadzenie dodatkowych danych przez atakującego, które bezpośrednio modyfikuje zapytanie w języku SQL, doprowadzając do wykonania podzapytania i zwrócenia większej ilości informacji, niż jest to planowane w sposób, który umożliwia uzyskanie tej informacji po zalogowaniu się przez utworzonego użytkownika
 
 ![image](https://github.com/GrzechuG/PWR-CBE-BAW-mutillidae-2024/assets/56219452/573ce875-fdc1-40e5-ae9e-ff375f2a86a4)
