@@ -9,7 +9,7 @@ Manipulacja wartościami nagłówków HTTP, które są następnie odbijane (refl
 
 ---
 
-**Technika eksploatacji:**
+**Technika eksploitacji:**
 Złośliwy użytkownik modyfikuje wartość ciasteczka PHPSESSID (lub innego parametru wykorzystywanego przez aplikację) w żądaniu GET, wstawiając tag HTML:
 
   `<meta http-equiv="refresh" content=*5; URL=https://www.google.com* />`
