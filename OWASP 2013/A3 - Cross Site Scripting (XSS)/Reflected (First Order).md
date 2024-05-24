@@ -15,14 +15,20 @@ Strona przedstawia się nastepująco:
 ![image](https://github.com/GrzechuG/PWR-CBE-BAW-mutillidae-2024/assets/28838004/9173b5e0-7bda-449c-a5d5-6c50e30b4bf4)
 
 Po wpisaniu wartości jest ona wyświetlana na stronie:
-![image](https://github.com/GrzechuG/PWR-CBE-BAW-mutillidae-2024/assets/28838004/7c3a0623-fa3f-42df-a272-9c2927bf37db)
+![image](https://github.com/GrzechuG/PWR-CBE-BAW-mutillidae-2024/assets/28838004/633c4c87-b66f-40f5-9e3f-816788a5c90c)
+
 
 Kontekst HTML:
-![image](https://github.com/GrzechuG/PWR-CBE-BAW-mutillidae-2024/assets/28838004/6c7cedac-2326-4dbb-9b63-4b01bce68063)
+```html
+<div class="report-header" reflectedxssexecutionpoint="1" title="">Results for google.com</div>
+```
 
 Po podaniu na wejściu payloadu postaci:
 `<script>alert(1);</script>`, w następujący sposób:
 ![image](https://github.com/GrzechuG/PWR-CBE-BAW-mutillidae-2024/assets/28838004/21f2c3b8-812b-4e9f-8ab5-16a0113286d8)
+
+Jak widać na poniższym zrzucie ekranu, atak powiódł się, a kod JavaScript został wykonany przez stronę:
+![image](https://github.com/GrzechuG/PWR-CBE-BAW-mutillidae-2024/assets/28838004/fe058079-9f5d-42e1-9a8e-3bc941d6c11a)
 
 
 ---
