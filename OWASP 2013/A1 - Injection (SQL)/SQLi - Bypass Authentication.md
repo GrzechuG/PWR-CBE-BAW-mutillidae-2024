@@ -12,7 +12,7 @@ SQL Injection (SQLi) to rodzaj podatności, która pozwala atakującemu wstrzykn
 
 ---
 
-**Technika eksploatacji:**
+**Technika eksploitacji:**
 Atakujący może wykorzystać podatność SQL Injection, wprowadzając w pola formularza specjalnie spreparowane dane, które zawierają złośliwy kod SQL. W przypadku tej konkretnej podatności, atakujący wprowadza w polu hasła wartość `' or 'a'='a`, co zmienia generowane zapytanie SQL w taki sposób, że zawsze zwraca ono prawdę (true).
 
 
