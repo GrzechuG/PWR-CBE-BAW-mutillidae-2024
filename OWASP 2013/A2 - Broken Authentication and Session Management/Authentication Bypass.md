@@ -7,6 +7,7 @@
 
 **Opis:**
 Podatność Authentication Bypass (Bruteforce) występuje, gdy aplikacja internetowa nie wprowadza odpowiednich mechanizmów zabezpieczeń, które uniemożliwiłyby atakującemu próby złamania uwierzytelnienia poprzez bruteforce. Atakujący może wielokrotnie próbować logować się do systemu, testując różne kombinacje haseł, aż znajdzie prawidłowe. Jest to szczególnie niebezpieczne, gdy aplikacja nie implementuje ograniczeń dotyczących liczby prób logowania, lub gdy hasła są słabe lub łatwo odgadnialne.
+
 ---
 
 **Technika eksploitacji:**
