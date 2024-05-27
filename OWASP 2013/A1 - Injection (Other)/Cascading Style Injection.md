@@ -1,24 +1,21 @@
-## Nazwa podatności: Cross-Site Scripting (XSS)
+## Nazwa podatności: HTML Injection
 
-**Istotność:** 8
+**Istotność:** 5
 
 ---
 
 **Opis:**
-Cross-Site Scripting (XSS) to typ podatności, który pozwala atakującemu wstrzyknąć złośliwy kod JavaScript do stron, które są następnie wyświetlane innym użytkownikom. Skrypt jest wykonany przez przeglądarkę użytkownika jako część strony HTML. Ataki XSS są szczególnie niebezpieczne, ponieważ pozwalają na wykonywanie skryptów w kontekście domeny ofiary, co może prowadzić do kradzieży danych sesji, manipulacji treścią strony, przekierowania na złośliwe strony, i innych złośliwych działań.
+HTML Injection to podatność, która pozwala atakującemu na wstrzyknięcie złośliwego kodu HTML do strony internetowej. Atakujący może wykorzystać tę podatność do zmiany zawartości strony, kradzieży danych użytkowników lub wykonywania innych złośliwych działań. HTML Injection różni się od Cross-Site Scripting (XSS) tym, że XSS zazwyczaj umożliwia wstrzykiwanie skryptów (JavaScript), podczas gdy HTML Injection koncentruje się na wstrzykiwaniu tagów HTML.
 
-Podstrona z funkcją, która pozwala użytkownikowi na personalizację wyglądu poprzez ustawienie koloru tła (Background color) nie sanitarizuje ani nie koduje wprowadzonych danych, pozwalając na wstrzyknięcie kodu.
+Podstrona z funkcją, która pozwala użytkownikowi na personalizację wyglądu poprzez ustawienie koloru tła (Background color) nie sanitarizuje ani nie koduje wprowadzonych danych, pozwalając na wstrzyknięcie tagów html.
 
 ---
 
 **Technika eksploitacji:**
-Atakujący wprowadza payload JavaScript jako wartość koloru tła, np.:
+Atakujący wprowadza payload HTML jako wartość koloru tła, np.:
 
-`"><script>alert(document.cookie);</script>`
+`<h1>infected</h1>`
 
-Gdy wartość ta jest osadzona bezpośrednio w atrybucie stylu HTML, zamyka ona atrybut i otwiera tag skryptu.
-
-Kiedy strona jest ładowana lub odświeżana, przeglądarka interpretuje i wykonuje złośliwy skrypt. To pozwala na wykonanie działań z uprawnieniami użytkownika, takich jak dostęp do ciasteczek, które mogą zawierać tokeny sesji lub inne dane uwierzytelniające.
-
-![image](https://github.com/GrzechuG/PWR-CBE-BAW-mutillidae-2024/assets/56219452/d3a9b93b-dbd5-4a1b-b52a-546beffbdff1)
+Taki są odczytywane jako taki, a nie zwykły tekst i wypisuje większą czcionką tekst "infected".
+![image](https://github.com/GrzechuG/PWR-CBE-BAW-mutillidae-2024/assets/56219452/2441eb84-dbf6-45d8-b0ae-e1e55c454ce7)
 
