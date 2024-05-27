@@ -1,4 +1,4 @@
-## Nazwa podatności: HTML Injection
+## Nazwa podatności: CSS Injection
 
 **Istotność:** 5
 
