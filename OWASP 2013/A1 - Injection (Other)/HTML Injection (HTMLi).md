@@ -1,10 +1,11 @@
 ## Nazwa podatności: HTML Injection (HTMLi)
 
-**Istotność:** 6
+**Istotność:** Medium
 
 ---
 
 **Opis:**
+
 HTML Injection (HTMLi) to podatność występująca w aplikacjach internetowych, która pozwala atakującemu wstrzyknąć złośliwy kod HTML lub JavaScript do strony internetowej. Podatność ta jest wynikiem niewłaściwego lub braku odpowiedniego filtrowania lub kodowania danych wprowadzanych przez użytkownika przed ich wyświetleniem na stronie internetowej. Atakujący może wykorzystać tę lukę, aby osadzić na stronie internetowej niebezpieczny kod, który może prowadzić do różnych skutków, włączając w to kierowanie użytkownika na fałszywe strony logowania, wyświetlanie fałszywych komunikatów, przechwytywanie danych, ataki typu phishing, infekcję malwarem oraz wiele innych.
 
 Podatność HTML Injection jest szczególnie niebezpieczna, ponieważ atakujący może wpłynąć na wygląd i zachowanie strony internetowej oraz wprowadzić w błąd użytkowników, sprawiając, że uwierzą, iż są na oficjalnej stronie, podczas gdy są na stronie kontrolowanej przez atakującego.
@@ -18,6 +19,7 @@ Przykłady sytuacji, które mogą prowadzić do podatności HTML Injection, obej
 ---
 
 **Technika eksploatacji:**
+
 ![image](https://github.com/GrzechuG/PWR-CBE-BAW-mutillidae-2024/assets/28838004/94726784-5909-4be7-b26e-36979fcf3f8e)
 Analiza zapytania GET pokazuje iż wartość parametru username jest wyświetlana na stronie.
 Po zbadaniu poniższego adresu URL:
