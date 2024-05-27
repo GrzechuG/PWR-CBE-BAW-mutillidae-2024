@@ -1,6 +1,6 @@
 ## Nazwa podatności: Buffer Overflow
 
-**Istotność:** Low
+**Istotność:** Niska
 
 ---
 
