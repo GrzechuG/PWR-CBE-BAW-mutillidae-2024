@@ -11,7 +11,7 @@ Może to prowadzić do kradzieży ciasteczek sesyjnych, przechwytywania danych u
 ---
 
 **Technika eksploitacji:**
-Na stronie http://192.168.255.133/mutillidae/index.php?page=browser-info.php należy do żądania GET wstrzyknąć na koniec User Agentaciąg
+Na stronie http://192.168.255.133/mutillidae/index.php?page=browser-info.php należy do żądania GET wstrzyknąć na koniec User Agenta ciąg
 
 ```
 "><script>alert("XSS");</script>
