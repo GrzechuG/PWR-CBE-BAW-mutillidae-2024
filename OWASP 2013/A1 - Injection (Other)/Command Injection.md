@@ -1,6 +1,6 @@
 ## Nazwa podatności: Wykonanie dowolnego kodu w systemie w aplikacji 'DNS Lookup'
 
-**Istotność:** 10
+**Istotność:** Wysoka
 
 ---
 
