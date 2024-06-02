@@ -1,6 +1,6 @@
 ## Nazwa podatności: XSS: HTMLi via HTTP Header
 
-**Istotność:** 10
+**Istotność:** Wysoka
 
 ---
 
@@ -13,7 +13,7 @@ Możliwe jest wykonanie dowolnego kodu na stronie, ze względu na wdrożoną fun
 
 ---
 
-**Technika eksploatacji:**
+**Technika eksploitacji:**
 
 Przy pomocy takiego oprogramowania jak BurpSuite lub zwykłego zapytania przy pomocy domyślnej aplikacji 'curl', możliwa jest manipulacja nagłówkiem zapytania HTTP co pozwala eksploitacje wdrożonej funkcji w języku javascript na stronie na wywołanie dowolnego kodu. 
 
@@ -36,3 +36,10 @@ Wyeksploitowany DIV:
 ```
  
 Źródło: https://security.stackexchange.com/questions/24908/is-it-possible-to-make-an-xss-with-only-html-tags
+
+
+
+---
+
+**Mitygacja:**
+Należy walidować i sanityzować wszystkie nagłówki HTTP, aby usunąć lub kodować znaki mogące być używane do ataków XSS, szczególnie w kontekście HTML. Należy także stosować Content Security Policy (CSP), aby ograniczyć możliwość wykonywania złośliwego kodu JavaScript i dodawać nagłówki X-Content-Type-Options: nosniff oraz X-XSS-Protection w celu zwiększenia ochrony.
