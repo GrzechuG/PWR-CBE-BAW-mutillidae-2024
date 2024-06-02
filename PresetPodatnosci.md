@@ -14,5 +14,5 @@
 
 ---
 
-**Mitygacja podatności:**
+**Mitygacja:**
 [Tutaj opisz, jak można zmitygować podaną podatność]
