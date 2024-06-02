@@ -1,6 +1,6 @@
 ## Nazwa podatności: HTTP Parameter Pollution
 
-**Istotność:** 2
+**Istotność:** Niska
 
 ---
 
@@ -11,8 +11,13 @@ Możliwe jest umieszczenie wielu parametrów w kodzie URI co może pozwolić na 
 
 ---
 
-**Technika eksploatacji:**
+**Technika eksploitacji:**
 Atakujący może w kodzie URI umieścić wiele parametrów doprowadzając do przekazania wielu parametrów naraz co może doprowadzić do wywołania nieobsłużonego błędu, jednakże podczas testów nie udało się znaleźć krytycznego błędu. Może to jednak doprowadzić do nieprawidłowego działania aplikacji. Adwersarz na podstawie wyświetlonych parametrów może je skopiować a następnie umieścić ponownie w innym miejscu tak jak to miało miejsce w przypadku parametru 'choice'. Pełny kod do ponowienia podatności: 
 ```
 http://192.168.64.141/mutillidae/index.php?page=user-poll.php&csrf-token=&choice=nmap&initials=test&choice=netcat&user-poll-php-submit-button=Submit+Vote&
 ```
+
+---
+
+**Mitygacja:**
+Należy przekonfigurować aplikację tak, aby akceptowała tylko jedno wystąpienie danego parametru i odrzucała pozostałe, używając bibliotek lub frameworków automatycznie zarządzających parametrami w bezpieczny sposób.
