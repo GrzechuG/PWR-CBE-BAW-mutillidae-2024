@@ -20,4 +20,4 @@ https://github.com/danielmiessler/SecLists/tree/master
 ---
 
 **Mitygacja:**
-Należy ścisłe walidować parametr 'page', upewniając się, że zawiera on tylko poprawne wartości. Warto również stosować mechanizmy kontroli dostępu, aby upewnić się, że użytkownicy mają tylko dostęp do stron i plików, do których są uprawnieni. Należy unikać przekazywania wrażliwych informacji, takich jak dane osobowe czy dane krytyczne, za pomocą parametru 'page'.
+Należy ścisłe walidować parametr 'page', upewniając się, że zawiera on tylko poprawne wartości. Warto również stosować mechanizmy kontroli dostępu, aby upewnić się, że użytkownicy mają tylko dostęp do stron i plików, do których są uprawnieni. W przypadku serwera Apache możliwe jest użycie odpowiednich reguł w konfiguracji serwera, takich jak .htaccess, aby ograniczyć dostęp do określonych katalogów lub plików.
