@@ -1,6 +1,6 @@
-## Nazwa podatności: [Nazwa podatności]
+## Nazwa podatności: Frame Source Injection
 
-**Istotność:** 6
+**Istotność:** Średnia
 
 ---
 
@@ -11,8 +11,11 @@ Podczas wyświetlania zawartości na stronie innych podstron przez funkcjonalno�
 
 ---
 
-**Technika eksploatacji:**
+**Technika eksploitacji:**
 Atakujący po analizie URI i użyciu zmiennej "PathToDocument=" jest w stanie wstrzyknąć dowolny kod na stronie, jednakże nie jest możliwe wyświetlenie plików systemowych. Możliwe jest wykonanie wspomnianej podatności iframe src injection na umieszczenie dowolnej podstrony, na dodatek pozwalając na formatowanie okna w obrębie danego DIV, aby zwiększyć potencjlną wiarygodność okna. W przypadku omawianej podatności została wyświetlona strona eporta.pwr.edu.pl
 ```
 <iframe src=https://eportal.pwr.edu.pl/>
 ```
+
+**Mitygacja:**
+Należy upewnić się, że elementy iframe ładowane są tylko z zaufanych źródeł, unikając dynamicznego ustawiania źródeł iframe na podstawie danych wejściowych użytkownika bez odpowiedniej walidacji i sanityzacji.  Należy skonfigurować Content Security Policy (CSP), aby ograniczyć źródła treści, które mogą być załadowane do iframe. Należy używać nagłówków takich jak X-Frame-Options (np. DENY lub SAMEORIGIN), aby ograniczyć możliwość osadzania treści w iframe przez nieautoryzowane źródła.
