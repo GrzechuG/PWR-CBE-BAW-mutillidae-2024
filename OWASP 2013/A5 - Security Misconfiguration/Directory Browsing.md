@@ -16,9 +16,8 @@ Możliwa jest enumeracja podstron przy pomocy dowolnego oprogramowania lub skryp
 
 ---
 
-**Mitygacja podatności:**
-[Tutaj opisz, jak można zmitygować podaną podatność]
-
+**Mitygacja:**
+Aby zabezpieczyć aplikację przed enumeracją podstron, należy wykorzystać autoryzację, aby ograniczyć dostęp do wrażliwych podstron. Upewnij się, że aplikacja zawsze zwraca tę samą odpowiedź HTTP, niezależnie od tego, czy zasób istnieje czy nie. Unikaj specjalnych odpowiedzi dla nieistniejących zasobów, które mogą ujawnić informacje o strukturze aplikacji.
 
 
 
