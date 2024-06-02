@@ -1,6 +1,6 @@
 ## Nazwa podatności: Dostęp do wrażliwych stron oraz plików przez parametr 'page'
 
-**Istotność:** 10
+**Istotność:** Wysoka
 
 ---
 
@@ -10,9 +10,14 @@ Możliwe jest wyeksploitowanie parametru page na stronie "http://192.168.64.141/
 
 ---
 
-**Technika eksploatacji:**
+**Technika eksploitacji:**
 Możliwa jest enumeracja podstron przez parametr 'page=' przy pomocy dowolnego oprogramowania lub skryptu lub przez ręczne umieszczenie tekstu. Aby móc spróbować wyeksportować pliki systemowe trzeba użyć w parametrze poprzedzić to przez wyrażenie "file:///". Do wylistowania podstron został wykorzystany prosty skrypt, którego wynik widać poniżej:
 ![obraz](https://github.com/GrzechuG/PWR-CBE-BAW-mutillidae-2024/assets/93217316/fa89cdd2-95ec-4702-88b7-cde0ca9884a4)
 
 Źródło listy z licencją MIT:
 https://github.com/danielmiessler/SecLists/tree/master
+
+---
+
+**Mitygacja:**
+Należy ścisłe walidować parametr 'page', upewniając się, że zawiera on tylko poprawne wartości. Warto również stosować mechanizmy kontroli dostępu, aby upewnić się, że użytkownicy mają tylko dostęp do stron i plików, do których są uprawnieni. Należy unikać przekazywania wrażliwych informacji, takich jak dane osobowe czy dane krytyczne, za pomocą parametru 'page'.
