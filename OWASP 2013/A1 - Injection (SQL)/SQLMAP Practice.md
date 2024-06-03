@@ -1,6 +1,6 @@
 ## Nazwa podatności: SQLMAP Practice (SQL Injcetion - error-based oraz time-based blind)
 
-**Istotność:** 10
+**Istotność:** Wysoka
 
 ---
 
@@ -48,5 +48,6 @@ Parameter: author (POST)
     Payload: author=admin' UNION ALL SELECT 5318,5318,5318,CONCAT(0x7176717671,0x654b6f75534a4f4a415a596e4169706d436365645a45524d764b5a5078554c415779684b6b744351,0x716b706b71)#&view-someones-blog-php-submit-button=View Blog Entries
 ---
 ```
-
+**Mitygacja:**
+Aby skutecznie zmitygować podatność SQL Injection, należy wdrożyć zestaw najlepszych praktyk oraz zabezpieczeń. Przede wszystkim, jedną z najskuteczniejszych metod ochrony jest stosowanie przygotowanych zapytań (prepared statements) i zapytań parametryzowanych. Techniki te oddzielają kod SQL od danych wejściowych użytkownika, co uniemożliwia wstrzyknięcie złośliwego kodu SQL. Wszystkie dane wejściowe, zarówno te pochodzące od użytkowników, jak i z innych źródeł, muszą być rygorystycznie walidowane i filtrowane. Akceptować należy tylko dane zgodne z oczekiwanym formatem i odrzucać wszelkie podejrzane lub niespodziewane wartości. Ograniczenie uprawnień użytkowników bazy danych jest kolejnym kluczowym krokiem. Aplikacja powinna korzystać z kont użytkowników bazy danych o minimalnych niezbędnych uprawnieniach, a konta te nie powinny mieć nadmiarowych uprawnień, takich jak możliwość wykonywania operacji administracyjnych. Używanie mechanizmów ORM (Object-Relational Mapping), takich jak Hibernate czy Entity Framework, może pomóc w ochronie przed SQL Injection, ponieważ automatycznie generują bezpieczne zapytania SQL bazując na kodzie aplikacji. Ważne jest także regularne aktualizowanie i łatanie oprogramowania, aby upewnić się, że wszystkie komponenty aplikacji, w tym serwer bazy danych, frameworki i biblioteki, są na bieżąco aktualizowane i zabezpieczane przed znanymi podatnościami. Regularne monitorowanie i logowanie aktywności w bazie danych może pomóc w szybkim wykryciu i reagowaniu na podejrzane działania wskazujące na próby ataków SQL Injection. Dodatkowo, regularne przeprowadzanie testów penetracyjnych oraz audytów bezpieczeństwa pozwala na identyfikację i naprawę potencjalnych luk w zabezpieczeniach, zanim zostaną one wykorzystane przez atakujących. Implementacja tych praktyk i mechanizmów zabezpieczeń pozwala znacząco zredukować ryzyko wystąpienia podatności SQL Injection, chroniąc aplikację oraz jej użytkowników przed potencjalnymi atakami i kompromitacją danych.
 
