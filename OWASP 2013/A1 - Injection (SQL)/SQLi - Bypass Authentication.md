@@ -1,7 +1,7 @@
 
 ## Nazwa podatności: SQLi - Bypass Authentication
 
-**Istotność:** 10
+**Istotność:** Wysoka
 
 ---
 
@@ -26,3 +26,14 @@ Kroki konieczne do eksploatacji tej podatności obejmują:
 5. Otrzymanie dostępu do systemu, omijając proces uwierzytelniania.
 
 Atakujący może wykorzystać narzędzia automatyzujące proces wstrzykiwania SQL, takie jak SQLMap, lub ręcznie manipulować danymi wysyłanymi do serwera poprzez narzędzia do przeglądania sieci, takie jak Burp Suite. Opanowanie podatności SQL Injection może umożliwić atakującemu zdobycie dostępu do systemu, kradzież danych, uszkodzenie bazy danych lub nawet przejęcie kontroli nad serwerem.
+
+**Mitygacja:**
+Aby skutecznie zabezpieczyć się przed podatnością SQL Injection i uniknąć omijania uwierzytelniania, istotne jest wdrożenie odpowiednich środków bezpieczeństwa. Przede wszystkim, aplikacja powinna wykorzystywać przygotowane zapytania (prepared statements) lub procedury przechowywane (stored procedures) do wykonywania operacji na bazie danych. Te techniki automatycznie escapują dane wejściowe, eliminując ryzyko wstrzyknięcia złośliwego kodu SQL.
+
+Dodatkowo, konieczne jest dokładne walidowanie i filtracja danych wejściowych, które są używane do tworzenia zapytań SQL. Aplikacja powinna akceptować tylko dane oczekiwane w określonym formacie i odrzucać wszelkie nieprawidłowe lub podejrzane wartości. Szczególną uwagę należy zwrócić na dane pochodzące z formularzy logowania i innych miejsc, gdzie użytkownik może wprowadzać dane uwierzytelniające.
+
+Ponadto, stosowanie mechanizmów kontroli dostępu, takich jak autoryzacja wielopoziomowa (multi-factor authentication) lub zastosowanie silnych haseł i ich szyfrowanie, może dodatkowo zabezpieczyć system przed próbami omijania uwierzytelniania.
+
+Regularne przeglądy kodu aplikacji, testy penetracyjne oraz audyty bezpieczeństwa są kluczowe dla identyfikacji i naprawy potencjalnych luk w zabezpieczeniach. W przypadku wykrycia podatności SQL Injection, należy jak najszybciej wprowadzić odpowiednie poprawki i zaktualizować aplikację.
+
+Wdrażanie tych praktyk i środków bezpieczeństwa pozwoli zredukować ryzyko wystąpienia podatności SQL Injection oraz skutecznie chronić system przed próbami omijania uwierzytelniania i innymi atakami.
