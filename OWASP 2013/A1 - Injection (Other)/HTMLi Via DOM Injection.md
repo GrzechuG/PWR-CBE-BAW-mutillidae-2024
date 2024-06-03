@@ -1,6 +1,6 @@
 ## Nazwa podatności: HTMLi Via DOM Injection
 
-**Istotność:** 8
+**Istotność:** Medium
 
 ---
 
@@ -15,3 +15,6 @@ Aby uniknąć HTML Injection via DOM, należy zawsze dokładnie walidować i fil
 
 **Technika eksploatacji:**
 [Tutaj opisz, jak atakujący może wykorzystać podatność, aby zdobyć dostęp lub wykonać inne złośliwe działania. Możesz uwzględnić kroki konieczne do eksploatacji oraz narzędzia lub techniki wykorzystywane w procesie.]
+
+** Mitygacja podatności:**
+[Tutaj opisz jak można zmitygować pdoatność]
