@@ -1,6 +1,6 @@
 ## Nazwa podatności: XSS Reflected (First Order)
 
-**Istotność:** 9
+**Istotność:** Średnia
 
 ---
 
