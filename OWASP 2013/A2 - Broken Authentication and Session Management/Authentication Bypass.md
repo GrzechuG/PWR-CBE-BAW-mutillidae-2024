@@ -11,7 +11,7 @@ Podatność Authentication Bypass (Bruteforce) występuje, gdy aplikacja interne
 ---
 
 **Technika eksploitacji:**
-W systemie multidae na potrzeby testów ochrony przed atakami bruteforce został utworzony testowy użytkownik o nazwie użytkownika `Dawid` i słabym haśle `dawidszymanski58`.
+W systemie multidae na potrzeby testów ochrony przed atakami bruteforce został utworzony testowy użytkownik o nazwie użytkownika `Dawid` i słabym haśle `password123`.
 
 
 Następnie utworzony został skrypt umożliwiający atak bruteforce na stronę logowania, która wygląda tak jak zaprezentowano poniżej:
@@ -29,6 +29,7 @@ output polecenia:
 ![image](https://github.com/GrzechuG/PWR-CBE-BAW-mutillidae-2024/assets/28838004/8efaf7b3-6389-436c-aea6-25c86a7eb8ac)
 ...
 
+![image](https://github.com/GrzechuG/PWR-CBE-BAW-mutillidae-2024/assets/28838004/2b8ad49d-73e1-4649-b622-2849ab5a8201)
 
 
 
