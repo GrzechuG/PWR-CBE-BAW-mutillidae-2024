@@ -1,7 +1,7 @@
 
 ## Nazwa podatności: Authentication Bypass (Bruteforce)
 
-**Istotność:** 6
+**Istotność:** Niska/Średnia
 
 ---
 
@@ -11,7 +11,26 @@ Podatność Authentication Bypass (Bruteforce) występuje, gdy aplikacja interne
 ---
 
 **Technika eksploitacji:**
-[Tutaj opisz, jak atakujący może wykorzystać podatność, aby zdobyć dostęp lub wykonać inne złośliwe działania. Możesz uwzględnić kroki konieczne do eksploatacji oraz narzędzia lub techniki wykorzystywane w procesie.]
+W systemie multidae na potrzeby testów ochrony przed atakami bruteforce został utworzony testowy użytkownik o nazwie użytkownika `Dawid` i słabym haśle `dawidszymanski58`.
+
+
+Następnie utworzony został skrypt umożliwiający atak bruteforce na stronę logowania, która wygląda tak jak zaprezentowano poniżej:
+![image](https://github.com/GrzechuG/PWR-CBE-BAW-mutillidae-2024/assets/28838004/17b59acf-e8d8-4949-a90c-a2cf3958fda2)
+
+Skrypt przyjmuje 2 argumenty:
+- nazwę użytkownika
+- wordlistę haseł do przetestowania
+
+Jako wordlistę (liste potencjalnych haseł) wykorzystano popularną listę - rockyou.txt.
+
+Wywołano skrypt z argumentami `Dawid` oraz `rockyou.txt`
+![image](https://github.com/GrzechuG/PWR-CBE-BAW-mutillidae-2024/assets/28838004/165f013f-27c5-4bf1-845a-176b45c9bda2)
+output polecenia:
+![image](https://github.com/GrzechuG/PWR-CBE-BAW-mutillidae-2024/assets/28838004/8efaf7b3-6389-436c-aea6-25c86a7eb8ac)
+...
+
+
+
 
 ---
 
