@@ -23,6 +23,7 @@ def pages_enum(popular_url, main_url, check_value, cores=8):
             url = main_url + line.strip()
             urls_to_check.append(url)
 
+    #https://docs.python.org/3/library/concurrent.futures.html
     with ThreadPoolExecutor(max_workers=cores) as executor:
         results = list(tqdm(executor.map(lambda url: find_secret_pages(url, check_value), urls_to_check), total=len(urls_to_check), desc="Przetwarzanie podstron"))
 
