@@ -29,10 +29,10 @@ def pages_enum(popular_url, main_url, check_value, cores=8):
 
     for result in results:
         if result is not None:
-            print(f"-Page Name '{result[0]}': {result[1]}")
+            print(f"-Nazwa strony '{result[0]}': {result[1]}")
 
 if __name__ == "__main__":
-    popular_url = "lista_url_directory.txt" 
+    popular_url_list = "lista_url_directory.txt" 
     check_value = '404 Not Found'
     url = "http://192.168.64.141/mutillidae/"
-    pages_enum(popular_url, url, check_value)
+    pages_enum(popular_url_list, url, check_value)
