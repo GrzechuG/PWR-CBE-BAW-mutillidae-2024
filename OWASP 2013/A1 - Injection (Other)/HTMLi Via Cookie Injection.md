@@ -25,7 +25,7 @@ Złośliwy użytkownik modyfikuje wartość ciasteczka PHPSESSID (lub innego par
 ![image](https://github.com/GrzechuG/PWR-CBE-BAW-mutillidae-2024/assets/56219452/00312398-fdc0-4bd1-9f18-2064a178fe5d)
 
 
-**Mitigacja:**
+**Mitygacja:**
 1. Walidacja i Sanityzacja Wprowadzanych Danych: Upewnij się, że wszystkie dane wejściowe, w tym wartości ciasteczek i parametry w żądaniach GET, są dokładnie sprawdzane i sanitizowane przed ich przetworzeniem. Odrzuć wszelkie dane, które zawierają tagi HTML.
 2. Kodowanie Wprowadzanych Danych: Zastosuj HTML entity encoding, aby wszystkie specjalne znaki w danych wejściowych były traktowane jako zwykły tekst, a nie jako kod HTML.
 3. Ograniczenie Dostępu do Ciasteczek: Ustaw atrybuty HttpOnly i Secure dla ciasteczek, aby ograniczyć ich dostępność tylko do protokołu HTTP/HTTPS i uniemożliwić dostęp do nich za pomocą skryptów.
