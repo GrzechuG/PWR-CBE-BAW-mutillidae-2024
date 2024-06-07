@@ -20,3 +20,10 @@ Atakujący wprowadza payload HTML jako wartość koloru tła, np.:
 Taki są odczytywane jako taki, a nie zwykły tekst i wypisuje większą czcionką tekst "infected".
 ![image](https://github.com/GrzechuG/PWR-CBE-BAW-mutillidae-2024/assets/56219452/2441eb84-dbf6-45d8-b0ae-e1e55c454ce7)
 
+
+**Mitygacja:**
+1. Walidacja i Sanityzacja Wprowadzanych Danych: Upewnij się, że wszelkie dane wejściowe są dokładnie sprawdzane przed ich przetworzeniem. Odrzuć wszelkie dane, które zawierają tagi HTML lub CSS.
+2. Kodowanie Wprowadzanych Danych: Zastosuj odpowiednie kodowanie, takie jak HTML entity encoding, aby wszystkie specjalne znaki w danych wejściowych były traktowane jako zwykły tekst, a nie jako kod HTML/CSS.
+3. Użycie Whitelistingu: Ogranicz dozwolone wartości dla danych wejściowych tylko do tych, które są bezpieczne i oczekiwane, np. tylko dozwolone kolory w formacie HEX.
+4. Nagłówki HTTP: Użyj nagłówków HTTP takich jak Content-Security-Policy (CSP), aby ograniczyć możliwość wstrzykiwania złośliwego kodu.
+5. Bezpieczne Frameworki i Biblioteki: Użyj frameworków i bibliotek, które automatycznie sanitizują dane wejściowe, np. ORM dla bazy danych, czy też biblioteki do renderowania HTML.
