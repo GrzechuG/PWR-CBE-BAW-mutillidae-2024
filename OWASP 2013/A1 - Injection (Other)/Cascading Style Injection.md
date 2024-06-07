@@ -22,8 +22,8 @@ Taki są odczytywane jako taki, a nie zwykły tekst i wypisuje większą czcionk
 
 
 **Mitygacja:**
-1. Walidacja i Sanityzacja Wprowadzanych Danych: Upewnij się, że wszelkie dane wejściowe są dokładnie sprawdzane przed ich przetworzeniem. Odrzuć wszelkie dane, które zawierają tagi HTML lub CSS.
-2. Kodowanie Wprowadzanych Danych: Zastosuj odpowiednie kodowanie, takie jak HTML entity encoding, aby wszystkie specjalne znaki w danych wejściowych były traktowane jako zwykły tekst, a nie jako kod HTML/CSS.
-3. Użycie Whitelistingu: Ogranicz dozwolone wartości dla danych wejściowych tylko do tych, które są bezpieczne i oczekiwane, np. tylko dozwolone kolory w formacie HEX.
+1. Walidacja i sanityzacja wprowadzanych danych: Upewnij się, że wszelkie dane wejściowe są dokładnie sprawdzane przed ich przetworzeniem. Odrzuć wszelkie dane, które zawierają tagi HTML lub CSS.
+2. Kodowanie wprowadzanych danych: Zastosuj odpowiednie kodowanie, takie jak HTML entity encoding, aby wszystkie specjalne znaki w danych wejściowych były traktowane jako zwykły tekst, a nie jako kod HTML/CSS.
+3. Użycie whitelistingu: Ogranicz dozwolone wartości dla danych wejściowych tylko do tych, które są bezpieczne i oczekiwane, np. tylko dozwolone kolory w formacie HEX.
 4. Nagłówki HTTP: Użyj nagłówków HTTP takich jak Content-Security-Policy (CSP), aby ograniczyć możliwość wstrzykiwania złośliwego kodu.
-5. Bezpieczne Frameworki i Biblioteki: Użyj frameworków i bibliotek, które automatycznie sanitizują dane wejściowe, np. ORM dla bazy danych, czy też biblioteki do renderowania HTML.
+5. Bezpieczne frameworki i biblioteki: Użyj frameworków i bibliotek, które automatycznie sanitizują dane wejściowe, np. ORM dla bazy danych, czy też biblioteki do renderowania HTML.
