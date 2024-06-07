@@ -32,3 +32,11 @@ Zakładając, że wartość ToolID jest następnie używana do generowania odpow
 
 Gdy złośliwe dane są przetworzone przez serwer i nieodpowiednio zabezpieczone przed wyjściem, struktura JSON zostaje zmodyfikowana, a złośliwy skrypt JavaScript jest wykonywany. To może prowadzić do wykonania dowolnych działań JavaScript w kontekście przeglądarki użytkownika, co może obejmować kradzież cookies (jeśli nie są zabezpieczone flagą HttpOnly), manipulację treścią strony, przekierowania na złośliwe strony, a nawet wykonanie działań w imieniu użytkownika.
 
+**Mitygacja:**
+1. Walidacja i sanityzacja danych wejściowych: Waliduj i sanityzuj wszystkie dane wejściowe zanim zostaną przetworzone i umieszczone w strukturze JSON. Upewnij się, że akceptowane są tylko dozwolone znaki i formaty danych.
+2. Kodowanie danych wyjściowych: Zawsze koduj dane, które mają być wyświetlone na stronie lub przetworzone przez przeglądarkę. Użyj odpowiednich metod kodowania, takich jak JavaScript encoding i HTML encoding, aby zapobiec wstrzyknięciu złośliwego kodu.
+3. Używanie bibliotek do przetwarzania JSON: Korzystaj z bezpiecznych bibliotek do parsowania i generowania JSON, które automatycznie zabezpieczają dane przed wstrzyknięciem kodu.
+4. Content Security Policy (CSP): Wdróż nagłówki Content Security Policy, aby ograniczyć wykonanie nieautoryzowanego JavaScript na stronie. CSP może pomóc w ograniczeniu miejsc, z których może być wykonywany JavaScript.
+5. Nagłówki HTTP: Upewnij się, że używasz odpowiednich nagłówków HTTP, takich jak X-Content-Type-Options: nosniff, aby zapobiec błędnej interpretacji typu zawartości przez przeglądarkę.
+6. Bezpieczne generowanie JSON: Upewnij się, że serwer poprawnie generuje odpowiedzi JSON, unikając interpolacji danych wejściowych bez odpowiedniej walidacji i kodowania.
+7. Bezpieczne zarządzanie sesjami: Używaj flagi HttpOnly dla ciasteczek sesji, aby zapobiec ich odczytowi przez skrypty JavaScript w przypadku skutecznego ataku XSS.
