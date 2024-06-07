@@ -26,8 +26,8 @@ Złośliwy użytkownik modyfikuje wartość ciasteczka PHPSESSID (lub innego par
 
 
 **Mitygacja:**
-1. Walidacja i Sanityzacja Wprowadzanych Danych: Upewnij się, że wszystkie dane wejściowe, w tym wartości ciasteczek i parametry w żądaniach GET, są dokładnie sprawdzane i sanitizowane przed ich przetworzeniem. Odrzuć wszelkie dane, które zawierają tagi HTML.
-2. Kodowanie Wprowadzanych Danych: Zastosuj HTML entity encoding, aby wszystkie specjalne znaki w danych wejściowych były traktowane jako zwykły tekst, a nie jako kod HTML.
-3. Ograniczenie Dostępu do Ciasteczek: Ustaw atrybuty HttpOnly i Secure dla ciasteczek, aby ograniczyć ich dostępność tylko do protokołu HTTP/HTTPS i uniemożliwić dostęp do nich za pomocą skryptów.
-4. Użycie Whitelistingu: Ogranicz dozwolone wartości dla danych wejściowych tylko do tych, które są bezpieczne i oczekiwane. Na przykład, ciasteczka sesji powinny składać się tylko z bezpiecznych znaków alfanumerycznych.
-5. Separacja Danych i Logiki: Unikaj bezpośredniego wyświetlania danych użytkownika w kodzie HTML bez odpowiedniego kodowania i walidacji.
+1. Walidacja i sanityzacja wprowadzanych danych: Upewnij się, że wszystkie dane wejściowe, w tym wartości ciasteczek i parametry w żądaniach GET, są dokładnie sprawdzane i sanitizowane przed ich przetworzeniem. Odrzuć wszelkie dane, które zawierają tagi HTML.
+2. Kodowanie wprowadzanych danych: Zastosuj HTML entity encoding, aby wszystkie specjalne znaki w danych wejściowych były traktowane jako zwykły tekst, a nie jako kod HTML.
+3. Ograniczenie dostępu do ciasteczek: Ustaw atrybuty HttpOnly i Secure dla ciasteczek, aby ograniczyć ich dostępność tylko do protokołu HTTP/HTTPS i uniemożliwić dostęp do nich za pomocą skryptów.
+4. Użycie whitelistingu: Ogranicz dozwolone wartości dla danych wejściowych tylko do tych, które są bezpieczne i oczekiwane. Na przykład, ciasteczka sesji powinny składać się tylko z bezpiecznych znaków alfanumerycznych.
+5. Separacja danych i logiki: Unikaj bezpośredniego wyświetlania danych użytkownika w kodzie HTML bez odpowiedniego kodowania i walidacji.
