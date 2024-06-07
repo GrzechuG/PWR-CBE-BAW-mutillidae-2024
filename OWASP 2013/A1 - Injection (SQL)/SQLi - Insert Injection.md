@@ -23,3 +23,11 @@ Umieszczenie w pierwszym polu wybranej nazwy użytkownika i
 w polu z hasłem i potwierdzeniem hasła skutkuje utworzeniem konta użytkownika o wybranej nazwie z wersją serwera SQL obok nazwy użytkownika (widoczne po zalogowaniu).
 
 ![insert-register](https://github.com/GrzechuG/PWR-CBE-BAW-mutillidae-2024/assets/56219452/33892823-de06-44e2-8ff6-0513e7944a48)
+
+**Mitigacja:**
+1. Używanie Parametryzowanych Zapytań: Zawsze używaj parametryzowanych zapytań (prepared statements) zamiast dynamicznego generowania zapytań SQL z danymi użytkownika.
+2. Sanityzacja i Walidacja Danych Wejściowych: Waliduj i sanityzuj wszystkie dane wejściowe, upewniając się, że zawierają tylko dozwolone znaki. Na przykład, pola przeznaczone na hasło powinny akceptować tylko bezpieczne znaki alfanumeryczne.
+3. Użycie ORM (Object-Relational Mapping): Korzystaj z bibliotek ORM, które automatycznie chronią przed atakami SQL Injection poprzez separację danych wejściowych od zapytań SQL.
+4. Minimalne Uprawnienia: Przyznaj bazie danych minimalne uprawnienia wymagane do działania aplikacji. Unikaj używania użytkowników bazy danych z uprawnieniami administracyjnymi.
+5. Wykrywanie i Monitorowanie: Implementuj mechanizmy wykrywania i monitorowania nieautoryzowanych działań w bazie danych, takie jak logowanie prób wstrzyknięcia SQL i inne podejrzane aktywności.
+6. Zasady Bezpieczeństwa: Ustal i egzekwuj zasady bezpiecznego kodowania, które obejmują unikanie bezpośredniego używania danych użytkownika w zapytaniach SQL.
