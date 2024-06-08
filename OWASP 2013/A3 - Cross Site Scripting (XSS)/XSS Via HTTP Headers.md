@@ -23,3 +23,11 @@ Po przesłaniu tak zmodyfikowanego zapytania wywoływane jest powiadomienie z za
 
 ![image](https://github.com/GrzechuG/PWR-CBE-BAW-mutillidae-2024/assets/56219452/50e1278b-9081-4941-8718-9799de341146)
 
+**Mitygacja:**
+1. Kodowanie danych wejściowych: Zawsze koduj dane wejściowe przed ich wyświetleniem na stronie. Używaj HTML entity encoding, aby zamienić specjalne znaki na ich odpowiedniki HTML (np. > na \&gt;, < na \&lt;, " na \&quot;).
+1. Walidacja danych wejściowych: Waliduj wszystkie dane wejściowe, aby upewnić się, że zawierają tylko dozwolone znaki i formaty. Odrzuć dane, które mogą zawierać złośliwy kod. W przypadku nagłówka User-Agent, sprawdź, czy zawiera tylko dozwolone znaki.
+1. Content Security Policy (CSP): Wdróż Content Security Policy, aby ograniczyć możliwość wykonania nieautoryzowanego JavaScript. CSP może pomóc w kontrolowaniu, skąd mogą być ładowane i wykonywane skrypty.
+1. HttpOnly i Secure Cookies: Ustaw flagi HttpOnly i Secure dla ciasteczek, aby zapobiec ich odczytowi przez skrypty JavaScript oraz zapewnić, że są przesyłane tylko przez bezpieczne połączenia HTTPS.
+1. Unikanie dynamicznego HTML: Unikaj bezpośredniego wstawiania danych wejściowych użytkownika do HTML. Zamiast tego, korzystaj z bezpiecznych metod renderowania szablonów, które oddzielają dane od logiki prezentacji.
+1. Użycie whitelistingu: Stosuj whitelisting dla danych wejściowych, aby ograniczyć możliwe wartości tylko do tych, które są bezpieczne i oczekiwane.
+1. Bezpieczne frameworki: Korzystaj z frameworków i bibliotek webowych, które automatycznie sanityzują dane wejściowe i kodują dane wyjściowe, minimalizując ryzyko XSS.
