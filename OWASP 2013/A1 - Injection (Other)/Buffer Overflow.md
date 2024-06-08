@@ -20,3 +20,9 @@ Na stronie http://192.168.255.133/mutillidae/index.php?page=repeater.php wpisać
 
 Powoduje to awarię aplikacji i uniemożliwia dalsze korzystanie z niej.
 
+**Mitygacja:**
+1. Walidacja danych wejściowych: Upewnij się, że wszystkie dane wejściowe są dokładnie walidowane. Ogranicz maksymalną wartość liczby powtórzeń do rozsądnego zakresu, np. 1-1000, aby zapobiec niekontrolowanemu wzrostowi wartości.
+1. Bezpieczne zarządzanie pamięcią: Używaj funkcji i bibliotek, które oferują bezpieczne zarządzanie pamięcią.
+1. Zastosowanie limitów: Implementuj limity i mechanizmy ochronne na poziomie serwera, które kontrolują zasoby alokowane na przetwarzanie żądań. Można to osiągnąć poprzez ustawienie limitów czasowych i pamięciowych dla poszczególnych operacji.
+1. Obsługa błędów: Implementuj odpowiednią obsługę błędów, aby aplikacja mogła bezpiecznie radzić sobie z nieoczekiwanymi lub zbyt dużymi danymi wejściowymi. Zamiast powodować awarię aplikacji, wyświetl użytkownikowi komunikat o błędzie.
+1. Ograniczenie długości danych wejściowych: Ustaw maksymalną długość dla wszystkich danych wejściowych, w tym ciągów znaków, które mogą być wprowadzone przez użytkowników.
