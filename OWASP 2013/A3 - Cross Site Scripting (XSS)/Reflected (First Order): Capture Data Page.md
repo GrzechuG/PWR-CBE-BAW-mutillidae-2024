@@ -24,6 +24,6 @@ Gdy serwer odbije zmodyfikowane ciasteczko w odpowiedzi HTTP i ta odpowiedź zos
 1. HttpOnly i Secure Cookies: Ustaw flagi HttpOnly i Secure dla ciasteczek, aby uniemożliwić ich modyfikację przez JavaScript i ograniczyć ich przesyłanie, aby było możliwe tylko przez bezpieczne połączenia HTTPS.
 1. Content Security Policy (CSP): Wdróż nagłówki Content Security Policy, aby ograniczyć możliwość wykonania nieautoryzowanego kodu JavaScript. CSP może pomóc w ograniczeniu miejsc, z których JavaScript może być ładowany i wykonywany.
 1. Bezpieczne parsowanie nagłówków: Unikaj bezpośredniego odbijania wartości nagłówków HTTP w odpowiedziach HTML. Zamiast tego przetwarzaj i parsuj je w sposób bezpieczny, który uniemożliwia wstrzyknięcie kodu.
-1. Bezpieczne frameworki: Korzystaj z frameworków webowych, które automatycznie sanitizują dane wejściowe i kodują dane wyjściowe, minimalizując ryzyko XSS.
+1. Bezpieczne frameworki: Korzystaj z frameworków webowych, które automatycznie sanityzują dane wejściowe i kodują dane wyjściowe, minimalizując ryzyko XSS.
 1. Wykrywanie i monitorowanie: Implementuj mechanizmy wykrywania i monitorowania prób ataków XSS, aby szybko reagować na potencjalne zagrożenia.
 1. Unikanie dynamicznego HTML: Unikaj generowania dynamicznego HTML na podstawie danych wejściowych użytkownika bez odpowiedniego kodowania i walidacji.
