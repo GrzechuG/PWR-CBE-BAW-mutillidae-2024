@@ -32,12 +32,13 @@ def buffer_overflow(ip="192.168.255.133", sleep_time=0):
 
     try:
         browser.find_element(By.NAME, "string_to_repeat").send_keys("hello")
+        print("Buffer Overflow succeeded")
+        return False
     except NoSuchElementException as e:
         print("Buffer Overflow succeeded")
         return True
     finally:
         browser.quit()
-    return False
 
 
 def css_injection(
@@ -66,6 +67,7 @@ def css_injection(
             if rgb == ["64", " 244", " 205"]:
                 print("CSS injection succeeded")
                 return True
+            print("CSS injection failed")
             return False
     except NoSuchElementException as e:
         print(e)
@@ -92,6 +94,7 @@ def command_injection(
             if "Address" in element.text and "root:x:" in element.text:
                 print("Command injection succeeded")
                 return True
+            print("Command injection failed")
             return False
     except NoSuchElementException as e:
         print(e)
@@ -235,11 +238,13 @@ def xss_injection_via_dom_injection(
                     print(f"Script content: {script_content}")
                     print("XSS injection via DOM injection succeeded")
                     return True
+            print("XSS injection via DOM injection failed")
             return False
     except UnexpectedAlertPresentException as e:
         print(e)
         return True
     except TimeoutException:
+        print("Timeout occured!")
         return False
     except NoSuchElementException as e:
         print(e)
@@ -305,11 +310,13 @@ def javascript_injection(
                     print(f"Script content: {script_content}")
                     print("javascript injection succeeded")
                     return True
+            print("javascript injection failed")
             return False
     except UnexpectedAlertPresentException as e:
         print(e)
         return True
     except TimeoutException:
+        print("Timeout occured!")
         return False
     except NoSuchElementException as e:
         print(e)
@@ -343,6 +350,7 @@ def xml_external_entity_injection(
             if "root:x:" in element.text:
                 print("XML external entity injection succeeded")
                 return True
+            print("XML external entity injection failed")
             return False
     except NoSuchElementException as e:
         print(e)
@@ -389,13 +397,10 @@ def xss_injection_via_http_header(
         print(e)
         return True
     except TimeoutException:
+        print("Timeout occured!")
         return False
     except NoSuchElementException as e:
         print(e)
         return False
     finally:
         browser.quit()
-
-
-if __name__ == "__main__":
-    command_injection()
