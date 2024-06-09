@@ -1,3 +1,8 @@
+"""
+Kod którym posiłkowano się:
+https://stackoverflow.com/questions/19003003/check-if-any-alert-exists-using-selenium-with-python
+"""
+
 from selenium.common.exceptions import UnexpectedAlertPresentException
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
@@ -5,7 +10,19 @@ from selenium.common.exceptions import TimeoutException, NoSuchElementException
 from selenium.webdriver.common.by import By
 from xss_alert_checker import FirefoxBrowser
 from time import sleep
-import unittest
+from selenium import webdriver
+
+# from os import path
+
+
+class FirefoxBrowser:
+    def __init__(self):
+        options = webdriver.FirefoxOptions()
+        # if path.exists(r'C:\Program Files (x86)\Mozilla Firefox\firefox.exe'):
+        #     options.binary_location = r'C:\Program Files (x86)\Mozilla Firefox\firefox.exe'
+        # else:
+        #     options.binary_location = r'C:\Program Files\Mozilla Firefox\firefox.exe'
+        self.driver = webdriver.Firefox(options=options)
 
 
 def buffer_overflow(ip="192.168.255.133", sleep_time=0):
