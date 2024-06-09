@@ -24,6 +24,13 @@ w polu z hasłem i potwierdzeniem hasła skutkuje utworzeniem konta użytkownika
 
 ![insert-register](https://github.com/GrzechuG/PWR-CBE-BAW-mutillidae-2024/assets/56219452/33892823-de06-44e2-8ff6-0513e7944a48)
 
+Tester:
+```
+python Tester.py --url http://192.168.64.145/mutillidae/index.php?page=add-to-your-blog.php --sqli Insert
+```
+
+---
+
 **Mitygacja:**
 1. Używanie parametryzowanych zapytań: Zawsze używaj parametryzowanych zapytań (prepared statements) zamiast dynamicznego generowania zapytań SQL z danymi użytkownika.
 2. Sanityzacja i walidacja danych wejściowych: Waliduj i sanityzuj wszystkie dane wejściowe, upewniając się, że zawierają tylko dozwolone znaki. Na przykład, pola przeznaczone na hasło powinny akceptować tylko bezpieczne znaki alfanumeryczne.
