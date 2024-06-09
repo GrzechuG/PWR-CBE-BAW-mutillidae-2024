@@ -24,6 +24,11 @@ Po zdefiniowaniu encji, tworzony jest nowy element foo z zawartością pliku /et
 
 Źródło: https://github.com/swisskyrepo/PayloadsAllTheThings/blob/master/XXE%20Injection/README.md
 
+Tester:
+```
+python Tester.py --url http://192.168.64.145/mutillidae/index.php?page=xml-validator.php --xmleei
+```
+
 ---
 
 **Mitygacja:**
