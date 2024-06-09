@@ -17,7 +17,7 @@ Metodologia ataku: https://www.sqlinjection.net/time-based/
 
 Tester:
 ```
-python Tester.py --url http://192.168.64.145/mutillidae/index.php?page=user-info.php --sqli Timing
+python Tester.py --url http://<Tutaj Podaj IP>/mutillidae/index.php?page=user-info.php --sqli Timing
 ```
 
 ---
