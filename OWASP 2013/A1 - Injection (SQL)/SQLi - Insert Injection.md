@@ -26,7 +26,7 @@ w polu z hasłem i potwierdzeniem hasła skutkuje utworzeniem konta użytkownika
 
 Tester:
 ```
-python Tester.py --url http://192.168.64.145/mutillidae/index.php?page=add-to-your-blog.php --sqli Insert
+python Tester.py --url http://<Tutaj Podaj IP>/mutillidae/index.php?page=add-to-your-blog.php --sqli Insert
 ```
 
 ---
