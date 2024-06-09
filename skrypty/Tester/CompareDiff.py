@@ -3,6 +3,7 @@ from bs4 import BeautifulSoup
 import difflib
 import random
 import string
+import re
 
 #source: https://stackoverflow.com/questions/2257441/random-string-generation-with-upper-case-letters-and-digits
 def generate_random_value():
@@ -25,7 +26,10 @@ def compare_pages_post(url1, data):
     #source https://docs.python.org/3/library/difflib.html
     diff = difflib.unified_diff(page_text1.splitlines(), page_text2.splitlines(), lineterm='')
     
-    return '\n'.join(diff)
+    output = '\n'.join(diff)
+    regex = r'>([^<]+)<'
+
+    return re.findall(regex, output)
 
 def compare_pages(url1, url2):
     page_text1 = get_page_text(url1)
@@ -34,7 +38,10 @@ def compare_pages(url1, url2):
     #source https://docs.python.org/3/library/difflib.html
     diff = difflib.unified_diff(page_text1.splitlines(), page_text2.splitlines(), lineterm='')
     
-    return '\n'.join(diff)
+    output = '\n'.join(diff)
+    regex = r'>([^<]+)<'
+
+    return re.findall(regex, output)
 
 def list_to_dict(list):
     result = {}
@@ -68,35 +75,23 @@ def find_forms(url):
 
     return form_data
 
-def generate_data_forms(form_data, custom_value, sqli=False):
+def generate_data_forms(form_data, custom_value):
     full_forms = []
     random_value = generate_random_value()
     for form_details in form_data:
         filled_form = {}
         keys = list(form_details.keys())
-        if not sqli:
-            for key in keys[:-2]: 
-                filled_form[key] = random_value
-            
-            if len(keys) > 1:
-                filled_form[keys[-2]] = custom_value 
-
-            if len(keys) > 0:
-                filled_form[keys[-1]] = random_value
-
-            full_forms.append(filled_form)
+        if 'page' in keys:
+            page_index = keys.index('page')
         else:
-            if 'page' in keys:
-                page_index = keys.index('page')
+            page_index = -1
+        for idx, key in enumerate(keys):
+            if key == 'page':
+                filled_form[key] = form_details[key]
+            elif idx == page_index + 1:
+                filled_form[key] = custom_value
             else:
-                page_index = -1
-            for idx, key in enumerate(keys):
-                if key == 'page':
-                    filled_form[key] = form_details[key]
-                elif idx == page_index + 1:
-                    filled_form[key] = custom_value
-                else:
-                    filled_form[key] = generate_random_value()
+                filled_form[key] = random_value
 
             full_forms.append(filled_form)
 
