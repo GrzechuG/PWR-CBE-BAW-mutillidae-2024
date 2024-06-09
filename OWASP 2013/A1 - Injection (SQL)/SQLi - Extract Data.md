@@ -15,6 +15,11 @@ Ze względu na brak sanytyzacji danych wejściowych formularzu na podstronie zna
 Ze względu na brak zabezpieczenia formularza, możliwe jest wprowadzenie dodatkowych danych przez atakującego, które całkowicie modyfikuje bezpośrednio zapytanie w języku SQL, doprowadzając do zwrócenia większej ilości informacji, niż jest to planowane. Umieszcznie wyrażenia "' or 1=1 -- " w polu formularza związengo z wprowadzeniem nazwy użytkownika przekształca zapytanie SQL z |SELECT * FROM accounts WHERE username='admin' AND password='password'| na |SELECT * FROM accounts WHERE username='' or 1=1 -- 'AND password=''|. Dodanie wyrażenia |' or 1=1 -- | pozwala na stworzenie zapytania, który zawsze będzie prawdą (1=1) a dopisek '--' umieszcza dalszą część zapytania jako komentarz, przez co atakujący nie potrzebuje znać hasła a dodatkowo nie generuje w ten sposób błędu.
 Metodologia ataku: https://www.sqlinjection.net/string-parameters/
 
+Polecenie do testera:
+```
+python Tester.py --url http://192.168.64.145/mutillidae/index.php?page=user-info.php --sqli Normal
+```
+
 ---
 
 **Mitygacja:**
