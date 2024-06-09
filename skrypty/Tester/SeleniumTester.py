@@ -65,41 +65,35 @@ def main():
     # )
     # parser.add_argument("--postdata", nargs="*", help="Post Data")
     args = parser.parse_args()
+    flag_to_function = {
+        "http_pollution": http_parameter_pollution,
+        "css": css_injection,
+        "frame_source": frame_source_injection,
+        "command": command_injection,
+        "htmli": html_injection,
+        "htmli_cookie": html_injection_via_cookie_into_phpsessid,
+        "htmli_dom": html_injection_via_dom_injection,
+        "xss_dom": xss_injection_via_dom_injection,
+        "javascript": javascript_injection,
+        "xml": xml_external_entity_injection,
+        "xss_http_header": xss_injection_via_http_header,
+    }
 
-    if args.http_pollution:
-        if args.payload:
-            http_parameter_pollution(
-                extract_ip(args.url),
-                args.sleep if args.sleep else 0,
-                args.payload,
-                False,
-            )
-        else:
-            http_parameter_pollution(
-                extract_ip(args.url), args.sleep if args.sleep else 0
-            )
-    elif args.buffer_overflow:
-        buffer_overflow(extract_ip(args.url), args.sleep)
-    elif args.css:
-        pass
-    elif args.frame_source:
-        pass
-    elif args.command:
-        pass
-    elif args.htmli:
-        pass
-    elif args.htmli_cookie:
-        pass
-    elif args.htmli_dom:
-        pass
-    elif args.xss_dom:
-        pass
-    elif args.javascript:
-        pass
-    elif args.xml:
-        pass
-    elif args.xss_http_header:
-        pass
+    for flag, function in flag_to_function.items():
+        if getattr(args, flag):
+            if args.payload:
+                function(
+                    extract_ip(args.url),
+                    args.sleep if args.sleep else 0,
+                    args.payload,
+                    False,
+                )
+                return
+            else:
+                function(extract_ip(args.url), args.sleep if args.sleep else 0)
+                return
+    if args.buffer_overflow:
+        buffer_overflow(extract_ip(args.url), args.sleep if args.sleep else 0)
     # elif args.xssget:
     #     print(xss_get(args.url))
     # elif args.xsspost:
