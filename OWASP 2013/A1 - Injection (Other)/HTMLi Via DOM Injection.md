@@ -34,7 +34,10 @@ Alert został wywołany, co pokazuje udany atak HTML/XSS DOM injection.
 Kod HTML strony wygląda następująco:
 ![image](https://github.com/GrzechuG/PWR-CBE-BAW-mutillidae-2024/assets/28838004/c4d06bfb-2504-43be-a478-b4d308799dad)
 
-
+SeleniumTester:
+```
+python SeleniumTester.py --url <ciąg znaków, zawierający adres ip lub nazwę domeny> --htmli-dom
+```
 
 **Mitygacja podatności:**
 Aby skutecznie zmitygować podatność HTML DOM Injection, kluczowe jest wdrożenie kilku istotnych praktyk programistycznych i zabezpieczeń. Przede wszystkim, należy rygorystycznie walidować i filtrować wszystkie dane wejściowe, które mogą być wstrzykiwane do dokumentu HTML. Dane wejściowe muszą być zgodne z oczekiwanym formatem i nie mogą zawierać niebezpiecznych elementów HTML lub JavaScript. Unikaj bezpośredniego używania niebezpiecznych metod manipulacji DOM, takich jak `innerHTML`, `outerHTML` czy `document.write`. Zamiast tego, preferuj bezpieczne metody, takie jak `textContent` lub `innerText`, które automatycznie kodują wprowadzone dane, eliminując ryzyko wykonania złośliwego kodu. Regularne audyty bezpieczeństwa są również kluczowe, aby identyfikować i naprawiać potencjalne luki w zabezpieczeniach. Stosowanie technik takich jak Content Security Policy (CSP) może dodatkowo zwiększyć poziom ochrony przed atakami HTML DOM Injection, ograniczając możliwość wykonania nieautoryzowanego kodu na stronie. Implementacja tych praktyk pozwala znacząco zredukować ryzyko wystąpienia podatności i zabezpieczyć aplikację przed potencjalnymi atakami.
