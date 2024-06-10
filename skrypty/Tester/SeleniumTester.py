@@ -8,11 +8,14 @@ from re import findall
 
 
 def extract_ip(url):
-    return (
-        findall(r"(?<=:\/\/)(.*?)(?=\/mutillidae)", url)[0]
-        if url
-        else "192.168.255.133"
-    )
+    if not url:
+        return "192.168.255.133"
+    if findall(r"[0-9]+(?:\.[0-9]+){3}:[0-9]+", url):
+        return findall(r"[0-9]+(?:\.[0-9]+){3}:[0-9]+", url)[0]
+    elif findall(r"(?<=:\/\/)(.*?)(?=\/mutillidae)", url):
+        return findall(r"(?<=:\/\/)(.*?)(?=\/mutillidae)", url)[0]
+    elif findall(r"https?://([^/]+)", url):
+        return findall(r"https?://([^/]+)", url)[0]
 
 
 def main():
