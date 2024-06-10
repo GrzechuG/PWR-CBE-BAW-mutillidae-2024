@@ -13,12 +13,17 @@ Podstrona z funkcją, która pozwala użytkownikowi na personalizację wyglądu 
 ---
 
 **Technika eksploitacji:**
-Atakujący wprowadza payload HTML jako wartość koloru tła, np.:
+Atakujący wprowadza payload HTML/CSS jako wartość koloru tła, np.:
 
-`<h1>infected</h1>`
+`<style type="text/css">body { color: #40f4cd }</style>`
 
-Taki są odczytywane jako taki, a nie zwykły tekst i wypisuje większą czcionką tekst "infected".
-![image](https://github.com/GrzechuG/PWR-CBE-BAW-mutillidae-2024/assets/56219452/2441eb84-dbf6-45d8-b0ae-e1e55c454ce7)
+Tagi są odczytywane jako tagi, a nie zwykły tekst i tekst na stronie zmienia kolor na zadany w skrypcie.
+![image](https://github.com/GrzechuG/PWR-CBE-BAW-mutillidae-2024/assets/56219452/35ebe69f-2ca5-4b3d-b322-4613bbf5b0e1)
+
+SeleniumTester:
+```
+python SeleniumTester.py --url http://192.168.64.145/mutillidae/ --css
+```
 
 
 **Mitygacja:**
