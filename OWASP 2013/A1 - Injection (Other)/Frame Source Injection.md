@@ -16,6 +16,11 @@ Atakujący po analizie URI i użyciu zmiennej "PathToDocument=" jest w stanie ws
 <iframe src=https://eportal.pwr.edu.pl/>
 ```
 
+SeleniumTester:
+```
+python SeleniumTester.py --url <ciąg znaków, zawierający adres ip lub nazwę domeny> --frame-source
+```
+
 ---
 
 **Mitygacja:**
