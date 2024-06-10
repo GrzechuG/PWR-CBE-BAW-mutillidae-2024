@@ -22,7 +22,7 @@ Powoduje to awarię aplikacji i uniemożliwia dalsze korzystanie z niej.
 
 SeleniumTester:
 ```
-python SeleniumTester.py --url http://192.168.64.145/mutillidae/ --buffer-overflow
+python SeleniumTester.py --url <ciąg znaków, zawierający adres ip lub nazwę domeny> --buffer-overflow
 ```
 
 **Mitygacja:**
