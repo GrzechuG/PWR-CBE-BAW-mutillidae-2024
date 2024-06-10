@@ -29,6 +29,11 @@ Tester:
 python Tester.py --url http://192.168.64.145/mutillidae/index.php?page=xml-validator.php --xmleei
 ```
 
+SeleniumTester:
+```
+python SeleniumTester.py --url <ciąg znaków, zawierający adres ip lub nazwę domeny> --xml
+```
+
 ---
 
 **Mitygacja:**
