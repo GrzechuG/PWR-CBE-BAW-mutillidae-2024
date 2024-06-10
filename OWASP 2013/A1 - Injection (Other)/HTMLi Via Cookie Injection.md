@@ -24,6 +24,10 @@ Złośliwy użytkownik modyfikuje wartość ciasteczka PHPSESSID (lub innego par
 
 ![image](https://github.com/GrzechuG/PWR-CBE-BAW-mutillidae-2024/assets/56219452/00312398-fdc0-4bd1-9f18-2064a178fe5d)
 
+SeleniumTester:
+```
+python SeleniumTester.py --url <ciąg znaków, zawierający adres ip lub nazwę domeny> --htmli-cookie
+```
 
 **Mitygacja:**
 1. Walidacja i sanityzacja wprowadzanych danych: Upewnij się, że wszystkie dane wejściowe, w tym wartości ciasteczek i parametry w żądaniach GET, są dokładnie sprawdzane i sanitizowane przed ich przetworzeniem. Odrzuć wszelkie dane, które zawierają tagi HTML.
