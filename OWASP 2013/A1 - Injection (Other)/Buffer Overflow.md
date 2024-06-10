@@ -20,6 +20,11 @@ Na stronie http://192.168.255.133/mutillidae/index.php?page=repeater.php wpisać
 
 Powoduje to awarię aplikacji i uniemożliwia dalsze korzystanie z niej.
 
+SeleniumTester:
+```
+python SeleniumTester.py --url http://192.168.64.145/mutillidae/ --buffer-overflow
+```
+
 **Mitygacja:**
 1. Walidacja danych wejściowych: Upewnij się, że wszystkie dane wejściowe są dokładnie walidowane. Ogranicz maksymalną wartość liczby powtórzeń do rozsądnego zakresu, np. 1-1000, aby zapobiec niekontrolowanemu wzrostowi wartości.
 1. Bezpieczne zarządzanie pamięcią: Używaj funkcji i bibliotek, które oferują bezpieczne zarządzanie pamięcią.
