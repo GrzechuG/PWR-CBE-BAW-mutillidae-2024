@@ -37,6 +37,7 @@ Kod HTML strony wygląda następująco:
 SeleniumTester:
 ```
 python SeleniumTester.py --url <ciąg znaków, zawierający adres ip lub nazwę domeny> --htmli-dom
+python SeleniumTester.py --url <ciąg znaków, zawierający adres ip lub nazwę domeny> --xss-dom
 ```
 
 **Mitygacja podatności:**
