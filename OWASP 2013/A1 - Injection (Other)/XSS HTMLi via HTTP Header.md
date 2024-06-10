@@ -37,7 +37,10 @@ Wyeksploitowany DIV:
  
 Źródło: https://security.stackexchange.com/questions/24908/is-it-possible-to-make-an-xss-with-only-html-tags
 
-
+SeleniumTester:
+```
+python SeleniumTester.py --url <ciąg znaków, zawierający adres ip lub nazwę domeny> --xss-http-header
+```
 
 ---
 
