@@ -22,7 +22,7 @@ Tagi są odczytywane jako tagi, a nie zwykły tekst i tekst na stronie zmienia k
 
 SeleniumTester:
 ```
-python SeleniumTester.py --url http://192.168.64.145/mutillidae/ --css
+python SeleniumTester.py --url <ciąg znaków, zawierający adres ip lub nazwę domeny> --css
 ```
 
 
