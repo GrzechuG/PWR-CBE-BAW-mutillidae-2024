@@ -37,6 +37,11 @@ Payload: `http://192.168.198.128/mutillidae/index.php?page=password-generator.ph
 
 ![image](https://github.com/GrzechuG/PWR-CBE-BAW-mutillidae-2024/assets/28838004/5af8ef8c-a05d-4ef6-9613-ca0bf3f65aeb)
 
+SeleniumTester:
+```
+python SeleniumTester.py --url <ciąg znaków, zawierający adres ip lub nazwę domeny> --htmli
+```
+
 ---
 **Mitygacja podatności:**
 Aby skutecznie zmitygować podatność HTML Injection, kluczowe jest zastosowanie kilku fundamentalnych praktyk. Przede wszystkim, wszystkie dane wprowadzane przez użytkowników powinny być rygorystycznie walidowane i filtrowane. Ważne jest, aby akceptować tylko te dane, które są niezbędne dla aplikacji i mają poprawny format. Kolejnym istotnym krokiem jest kodowanie danych wyjściowych. Przed wyświetleniem jakichkolwiek danych wprowadzonych przez użytkownika, należy je odpowiednio zakodować, aby uniknąć interpretacji kodu HTML lub JavaScript przez przeglądarkę. Warto w tym celu korzystać z wbudowanych funkcji do kodowania HTML dostępnych w używanym języku programowania lub frameworku. Dodatkowo, korzystanie z bibliotek i narzędzi do zabezpieczania aplikacji webowych, takich jak OWASP ESAPI (Enterprise Security API), może znacznie ułatwić proces walidacji i kodowania danych. Bezpieczne szablony HTML również odgrywają ważną rolę w zabezpieczaniu aplikacji, gdyż automatycznie kodują dane wprowadzone przez użytkownika. Wiele nowoczesnych frameworków, takich jak Django, Flask, czy Angular, oferuje takie funkcje domyślnie, co dodatkowo wzmacnia bezpieczeństwo. Regularne testowanie bezpieczeństwa aplikacji, poprzez testy penetracyjne czy skanowanie podatności, jest niezbędne do identyfikacji i naprawy potencjalnych luk w zabezpieczeniach. Implementując te praktyki, można znacznie zredukować ryzyko wystąpienia podatności HTML Injection i zabezpieczyć aplikację przed potencjalnymi atakami.
