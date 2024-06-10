@@ -23,6 +23,11 @@ Wynik działania eksploita:
  Po wstrzyknięciu kodu Javascript kod strony wygląda on następująco:
  ![image](https://github.com/GrzechuG/PWR-CBE-BAW-mutillidae-2024/assets/28838004/7065ea74-c062-448b-8a9b-5c9d7e7a6a77)
 
+SeleniumTester:
+```
+python SeleniumTester.py --url <ciąg znaków, zawierający adres ip lub nazwę domeny> --javascript
+```
+
  **Mitygacja:**
 Aby skutecznie zmitygować podatność JavaScript Injection, konieczne jest wdrożenie kilku kluczowych praktyk programistycznych i zabezpieczeń. Przede wszystkim, wszystkie dane wejściowe użytkowników muszą być rygorystycznie walidowane i filtrowane. Oznacza to akceptowanie tylko tych danych, które są niezbędne i zgodne z oczekiwanym formatem. Należy unikać bezpośredniego używania niezaufanych danych wejściowych w kontekście JavaScript, takich jak wstawianie danych użytkownika bezpośrednio do skryptów JavaScript w HTML.
 
