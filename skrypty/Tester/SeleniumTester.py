@@ -6,6 +6,7 @@ import argparse
 from modules.MutillidaeA1Other import *
 from modules.MutillidaeA1Sqli import *
 from modules.MutillidaeA2BrokenAuthentication import *
+from modules.MutillidaeA4IDOR import *
 from re import findall
 
 
@@ -84,6 +85,11 @@ def main():
         action="store_true",
         help="Privilege escalation via cookie injection",
     )
+    parser.add_argument(
+        "--idor",
+        action="store_true",
+        help="Insecure Direct Object References - Text File Viewer",
+    )
     # parser.add_argument("--xssget", action="store_true", help="XSS via GET")
     # parser.add_argument("--xsspost", action="store_true", help="XSS via POST")
     # parser.add_argument(
@@ -112,6 +118,7 @@ def main():
         "sqli_extract_data": sqli_extract_data,
         "sqli_insert": sqli_insert,
         "priv_esc": privilege_escalation_via_cookie_into_uid,
+        "idor": idor,
     }
 
     for flag, function in flag_to_function.items():
