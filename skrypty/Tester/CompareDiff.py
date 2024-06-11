@@ -28,25 +28,25 @@ def get_page_htmli_header(url, data):
     soup = BeautifulSoup(page.content, "html.parser")
     return str(soup)
 
+
 def get_page_htmli_cookie(url, data):
     page = requests.get(url, cookies=data, verify=False)
     soup = BeautifulSoup(page.content, "html.parser")
     return str(soup)
 
+
 def compare_page_htmli(url, inj, cookie):
     page_text_normal = get_page_text(url)
     if cookie == False:
-        header = {
-        "User-Agent": inj
-        }
+        header = {"User-Agent": inj}
         page = get_page_htmli_header(url, header)
     else:
         get_header = requests.get(url)
         get_cookie = get_header.cookies
-        get_cookie_name = list(get_cookie.keys())[0] #ostatni
+        get_cookie_name = list(get_cookie.keys())[0]  # ostatni
         get_cookie.update({get_cookie_name: get_cookie.get(get_cookie_name) + inj})
         page = get_page_htmli_cookie(url, get_cookie)
-   
+
     diff = difflib.unified_diff(
         page_text_normal.splitlines(), page.splitlines(), lineterm=""
     )

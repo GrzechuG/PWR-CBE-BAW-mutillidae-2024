@@ -4,10 +4,17 @@ from Exploitation import http_pollution, sqlinjection, command_inj, xmleei, html
 
 def main():
     parser = argparse.ArgumentParser(description="Porównuje dwie strony HTML.")
-    parser.add_argument("--url", type=str, help="Adres URL strony (wraz z parametrem jeżeli http_polution)")
+    parser.add_argument(
+        "--url",
+        type=str,
+        help="Adres URL strony (wraz z parametrem jeżeli http_polution)",
+    )
     parser.add_argument("--http-polution", action="store_true", help="HTTP polution")
     parser.add_argument(
-        "--parameter", nargs="*", type=str, help='Podaj parametry GET po spacjach w formacie "parametr=wartosc"'
+        "--parameter",
+        nargs="*",
+        type=str,
+        help='Podaj parametry GET po spacjach w formacie "parametr=wartosc"',
     )
     parser.add_argument(
         "--sqli",

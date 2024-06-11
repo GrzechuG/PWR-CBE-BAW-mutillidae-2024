@@ -39,6 +39,9 @@ def xss_persistent(
             print("XSS Persistent successfull!")
             return True
     except UnexpectedAlertPresentException as e:
+        print(
+            "Persistent XSS has already been used on this page and triggered alert when loading the page."
+        )
         print(e)
         return True
     except TimeoutException:
