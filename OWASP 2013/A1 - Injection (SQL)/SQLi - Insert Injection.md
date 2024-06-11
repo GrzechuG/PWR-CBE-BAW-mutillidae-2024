@@ -29,6 +29,11 @@ Tester:
 python Tester.py --url http://<Tutaj Podaj IP>/mutillidae/index.php?page=add-to-your-blog.php --sqli Insert
 ```
 
+SeleniumTester:
+```
+python SeleniumTester.py --url <ciąg znaków, zawierający adres ip lub nazwę domeny> --sqli-insert
+```
+
 ---
 
 **Mitygacja:**

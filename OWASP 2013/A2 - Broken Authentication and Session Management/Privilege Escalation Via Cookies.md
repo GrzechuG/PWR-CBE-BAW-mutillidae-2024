@@ -17,6 +17,11 @@ Ekslpoitacja odbywa się poprzez zmianę numeru uid na 1 w żądaniu GET na pods
 
 ![2](https://github.com/GrzechuG/PWR-CBE-BAW-mutillidae-2024/assets/56219452/0b531ec6-7d9c-4230-8aa8-b2a83e795df2)
 
+SeleniumTester:
+```
+python SeleniumTester.py --url <ciąg znaków, zawierający adres ip lub nazwę domeny> --priv-esc
+```
+
 Mitygacja:
 1. Silna walidacja autoryzacji: Upewnij się, że każda akcja i zasób jest zabezpieczony przez ścisłą walidację uprawnień użytkownika. Sprawdzaj uprawnienia użytkownika na serwerze przed wykonaniem każdej operacji.
 1. Minimalne uprawnienia: Stosuj zasadę minimalnych uprawnień (Principle of Least Privilege). Każdemu użytkownikowi przypisz tylko te uprawnienia, które są niezbędne do wykonania jego obowiązków.
