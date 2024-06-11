@@ -1,5 +1,5 @@
 import argparse
-from Exploitation import http_pollution, sqlinjection, command_inj, xmleei, htmli, frame_inj
+from Exploitation import http_pollution, sqlinjection, command_inj, xmleei, htmli
 
 
 def main():
