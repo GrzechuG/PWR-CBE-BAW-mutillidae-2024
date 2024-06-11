@@ -30,6 +30,10 @@ Po podaniu na wejściu payloadu postaci:
 Jak widać na poniższym zrzucie ekranu, atak powiódł się, a kod JavaScript został wykonany przez stronę:
 ![image](https://github.com/GrzechuG/PWR-CBE-BAW-mutillidae-2024/assets/28838004/fe058079-9f5d-42e1-9a8e-3bc941d6c11a)
 
+SeleniumTester:
+```
+python SeleniumTester.py --url <ciąg znaków, zawierający adres ip lub nazwę domeny> --xss-reflected-1
+```
 
 ---
 
