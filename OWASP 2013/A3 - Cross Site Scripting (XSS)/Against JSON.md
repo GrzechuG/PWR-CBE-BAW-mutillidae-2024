@@ -28,6 +28,10 @@ Nastąpi ucieczka formatu JSON, oraz wykonanie kodu javascript.
 Kod podatnej części wygląda wtedy następująco:
 ![image](https://github.com/GrzechuG/PWR-CBE-BAW-mutillidae-2024/assets/28838004/94bc74f7-7935-4b6e-acdb-dc9e2a25bb35)
 
+SeleniumTester:
+```
+python SeleniumTester.py --url <ciąg znaków, zawierający adres ip lub nazwę domeny> --xss-against-json
+```
 
 ---
 
