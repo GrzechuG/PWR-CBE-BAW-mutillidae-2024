@@ -4,6 +4,7 @@ https://stackoverflow.com/questions/19003003/check-if-any-alert-exists-using-sel
 
 
 """
+
 from selenium.common.exceptions import UnexpectedAlertPresentException
 from selenium import webdriver
 from selenium.webdriver.support.ui import WebDriverWait

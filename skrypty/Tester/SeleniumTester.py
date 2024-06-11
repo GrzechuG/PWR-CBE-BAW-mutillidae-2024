@@ -2,6 +2,7 @@
 Kod którym posiłkowano się:
 https://stackoverflow.com/questions/2890896/how-to-extract-an-ip-address-from-an-html-string
 """
+
 import argparse
 from modules.MutillidaeA1Other import *
 from modules.MutillidaeA1Sqli import *
@@ -99,6 +100,29 @@ def main():
         action="store_true",
         help="Insecure Direct Object References - Text File Viewer",
     )
+
+    parser.add_argument(
+        "--xss-persistent", action="store_true", help="XSS Persistent (Second Order)"
+    )
+
+    parser.add_argument(
+        "--xss-reflected-1", action="store_true", help="Reflected (First Order)"
+    )
+
+
+
+    parser.add_argument(
+        "--xss-reflected-2", action="store_true", help="Reflected (First order) - Set Background colour"
+    )
+    # xss_via_html_attribute
+    parser.add_argument(
+        "--xss-via-html-attribute", action="store_true", help="XSS Via HTML Attribute"
+    )
+    # xss_against_json
+    parser.add_argument(
+        "--xss-against-json", action="store_true", help="XSS Against JSON"
+    )
+
     # parser.add_argument("--xssget", action="store_true", help="XSS via GET")
     # parser.add_argument("--xsspost", action="store_true", help="XSS via POST")
     # parser.add_argument(
@@ -128,6 +152,11 @@ def main():
         "sqli_insert": sqli_insert,
         "priv_esc": privilege_escalation_via_cookie_into_uid,
         "idor": idor,
+        "xss_persistent": xss_persistent,
+        "xss_reflected_1" : xss_reflected_1,
+        "xss_reflected_2" : xss_reflected_2,
+        "xss_via_html_attribute": xss_via_html_attribute,
+        "xss_against_json" : xss_against_json
     }
 
     if extract_ip(args.url) is None:

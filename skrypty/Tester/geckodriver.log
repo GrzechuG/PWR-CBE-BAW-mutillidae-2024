@@ -60,3 +60,1572 @@ JavaScript warning: http://192.168.198.128/mutillidae/javascript/ddsmoothmenu/jq
 Dynamically enable window occlusion 1
 JavaScript error: http://192.168.198.128/mutillidae/index.php?page=password-generator.php&username=%22;alert(1);a=%22, line 1: ReferenceError: onLoadOfBody is not defined
 console.error: (new Error("IndexedDB: main/translations-models list() IndexedDB:  execute() The application is shutting down", "resource://services-settings/IDBHelpers.sys.mjs", 16))
+1718116640244	geckodriver	INFO	Listening on 127.0.0.1:14261
+1718116643278	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "14262" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Grzes\\AppData\\Local\\Temp\\rust_mozprofileMBPuWR"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1718116644047	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1718116644167	Marionette	INFO	Listening on port 14272
+WebDriver BiDi listening on ws://127.0.0.1:14262
+Read port: 14272
+1718116644362	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:14262/devtools/browser/bb19b64e-7596-4b4e-93b6-d30d654b8db2
+JavaScript warning: http://192.168.198.128/mutillidae/javascript/ddsmoothmenu/jquery.min.js, line 19: unreachable code after return statement
+JavaScript error: http://192.168.198.128/mutillidae/index.php?page=set-background-color.php, line 1: ReferenceError: onLoadOfBody is not defined
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://192.168.198.128."
+JavaScript warning: http://192.168.198.128/mutillidae/javascript/ddsmoothmenu/jquery.min.js, line 19: unreachable code after return statement
+JavaScript error: http://192.168.198.128/mutillidae/index.php?page=set-background-color.php, line 1: ReferenceError: onLoadOfBody is not defined
+1718116647248	Marionette	INFO	Stopped listening on port 14272
+Dynamically enable window occlusion 1
+1718117088919	geckodriver	INFO	Listening on 127.0.0.1:14404
+1718117099836	geckodriver	INFO	Listening on 127.0.0.1:14409
+1718117102881	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "14410" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Grzes\\AppData\\Local\\Temp\\rust_mozprofilenySlfI"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1718117103342	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1718117103440	Marionette	INFO	Listening on port 14417
+WebDriver BiDi listening on ws://127.0.0.1:14410
+Read port: 14417
+1718117103634	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:14410/devtools/browser/1bc73dc6-790c-47d0-858d-6314abc23104
+JavaScript warning: http://192.168.198.128/mutillidae/javascript/ddsmoothmenu/jquery.min.js, line 19: unreachable code after return statement
+JavaScript error: http://192.168.198.128/mutillidae/index.php?page=password-generator.php&username=%22;alert(1);a=%22, line 1: ReferenceError: onLoadOfBody is not defined
+1718117106052	Marionette	INFO	Stopped listening on port 14417
+Dynamically enable window occlusion 1
+1718117384948	geckodriver	INFO	Listening on 127.0.0.1:14544
+1718117388003	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "14545" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Grzes\\AppData\\Local\\Temp\\rust_mozprofileORVJOv"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1718117388351	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1718117388440	Marionette	INFO	Listening on port 14554
+WebDriver BiDi listening on ws://127.0.0.1:14545
+Read port: 14554
+1718117388614	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:14545/devtools/browser/a5c4f9a0-61f3-4f63-b63a-43ce12fe2275
+JavaScript warning: http://192.168.198.128/mutillidae/javascript/ddsmoothmenu/jquery.min.js, line 19: unreachable code after return statement
+JavaScript error: http://192.168.198.128/mutillidae/index.php?page=add-to-your-blog.php, line 922: SyntaxError: unterminated comment
+JavaScript error: http://192.168.198.128/mutillidae/index.php?page=add-to-your-blog.php, line 1: ReferenceError: onLoadOfBody is not defined
+1718117394374	Marionette	INFO	Stopped listening on port 14554
+Dynamically enable window occlusion 1
+1718117426955	geckodriver	INFO	Listening on 127.0.0.1:14616
+1718117429991	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "14617" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Grzes\\AppData\\Local\\Temp\\rust_mozprofilekFtktY"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1718117430357	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1718117430445	Marionette	INFO	Listening on port 14625
+WebDriver BiDi listening on ws://127.0.0.1:14617
+Read port: 14625
+1718117430617	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:14617/devtools/browser/55421806-ff43-4d1c-91da-5f187bbc4f3c
+JavaScript warning: http://192.168.198.128/mutillidae/javascript/ddsmoothmenu/jquery.min.js, line 19: unreachable code after return statement
+JavaScript error: http://192.168.198.128/mutillidae/index.php?page=add-to-your-blog.php, line 922: SyntaxError: unterminated comment
+JavaScript error: http://192.168.198.128/mutillidae/index.php?page=add-to-your-blog.php, line 1: ReferenceError: onLoadOfBody is not defined
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://192.168.198.128."
+JavaScript error: http://192.168.198.128/mutillidae/index.php?page=add-to-your-blog.php, line 1: ReferenceError: onSubmitBlogEntry is not defined
+JavaScript warning: http://192.168.198.128/mutillidae/javascript/ddsmoothmenu/jquery.min.js, line 19: unreachable code after return statement
+JavaScript error: http://192.168.198.128/mutillidae/index.php?page=add-to-your-blog.php, line 922: SyntaxError: unterminated comment
+JavaScript error: http://192.168.198.128/mutillidae/index.php?page=add-to-your-blog.php, line 1: ReferenceError: onLoadOfBody is not defined
+1718117433939	Marionette	INFO	Stopped listening on port 14625
+Dynamically enable window occlusion 1
+1718117836112	geckodriver	INFO	Listening on 127.0.0.1:15021
+1718117839142	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "15022" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Grzes\\AppData\\Local\\Temp\\rust_mozprofilel5l75N"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1718117839488	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1718117839576	Marionette	INFO	Listening on port 15031
+WebDriver BiDi listening on ws://127.0.0.1:15022
+Read port: 15031
+1718117839750	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:15022/devtools/browser/e0e11635-8902-42f0-b450-67062d84a9c2
+JavaScript warning: http://192.168.198.128/mutillidae/javascript/ddsmoothmenu/jquery.min.js, line 19: unreachable code after return statement
+JavaScript error: http://192.168.198.128/mutillidae/index.php?page=add-to-your-blog.php, line 922: SyntaxError: unterminated comment
+1718117842031	Marionette	INFO	Stopped listening on port 15031
+JavaScript error: http://192.168.198.128/mutillidae/javascript/jQuery/jquery.balloon.js, line 250: TypeError: options is undefined
+Dynamically enable window occlusion 1
+console.error: (new Error("IndexedDB: main/translations-models list() IndexedDB:  execute() The application is shutting down", "resource://services-settings/IDBHelpers.sys.mjs", 16))
+1718117866498	geckodriver	INFO	Listening on 127.0.0.1:15072
+1718117869547	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "15073" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Grzes\\AppData\\Local\\Temp\\rust_mozprofilepXsgJ3"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1718117869888	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1718117869974	Marionette	INFO	Listening on port 15082
+WebDriver BiDi listening on ws://127.0.0.1:15073
+Read port: 15082
+1718117870155	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:15073/devtools/browser/24e5a283-ff44-4647-8088-54f361125248
+JavaScript warning: http://192.168.198.128/mutillidae/javascript/ddsmoothmenu/jquery.min.js, line 19: unreachable code after return statement
+JavaScript error: http://192.168.198.128/mutillidae/index.php?page=dns-lookup.php, line 1016: SyntaxError: expected expression, got ';'
+JavaScript error: http://192.168.198.128/mutillidae/index.php?page=dns-lookup.php, line 1: ReferenceError: onLoadOfBody is not defined
+JavaScript error: http://192.168.198.128/mutillidae/javascript/jQuery/jquery.balloon.js, line 250: TypeError: options is undefined
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://192.168.198.128."
+JavaScript error: http://192.168.198.128/mutillidae/index.php?page=dns-lookup.php, line 1: ReferenceError: onSubmitOfForm is not defined
+JavaScript warning: http://192.168.198.128/mutillidae/javascript/ddsmoothmenu/jquery.min.js, line 19: unreachable code after return statement
+JavaScript error: http://192.168.198.128/mutillidae/index.php?page=dns-lookup.php, line 1016: SyntaxError: expected expression, got ';'
+JavaScript error: http://192.168.198.128/mutillidae/index.php?page=dns-lookup.php, line 1: ReferenceError: onLoadOfBody is not defined
+1718117872597	Marionette	INFO	Stopped listening on port 15082
+Dynamically enable window occlusion 1
+1718118101604	geckodriver	INFO	Listening on 127.0.0.1:15247
+1718118104638	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "15248" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Grzes\\AppData\\Local\\Temp\\rust_mozprofilezR6BVA"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1718118104983	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1718118105072	Marionette	INFO	Listening on port 15257
+WebDriver BiDi listening on ws://127.0.0.1:15248
+Read port: 15257
+1718118105240	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:15248/devtools/browser/0aab80ed-84b7-419e-8c78-b216555bb12e
+JavaScript warning: http://192.168.198.128/mutillidae/javascript/ddsmoothmenu/jquery.min.js, line 19: unreachable code after return statement
+JavaScript error: http://192.168.198.128/mutillidae/index.php?page=dns-lookup.php, line 1016: SyntaxError: expected expression, got ';'
+JavaScript error: http://192.168.198.128/mutillidae/index.php?page=dns-lookup.php, line 1: ReferenceError: onLoadOfBody is not defined
+JavaScript warning: http://192.168.198.128/mutillidae/javascript/ddsmoothmenu/jquery.min.js, line 19: unreachable code after return statement
+JavaScript error: http://192.168.198.128/mutillidae/index.php?page=dns-lookup.php, line 1016: SyntaxError: expected expression, got ';'
+JavaScript error: http://192.168.198.128/mutillidae/index.php?page=dns-lookup.php, line 1: ReferenceError: onLoadOfBody is not defined
+1718118110634	Marionette	INFO	Stopped listening on port 15257
+Dynamically enable window occlusion 1
+1718118160991	geckodriver	INFO	Listening on 127.0.0.1:15337
+1718118164044	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "15338" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Grzes\\AppData\\Local\\Temp\\rust_mozprofileJ0VH9l"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1718118164384	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1718118164475	Marionette	INFO	Listening on port 15347
+WebDriver BiDi listening on ws://127.0.0.1:15338
+Read port: 15347
+1718118164652	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:15338/devtools/browser/bc291ac5-7532-4f7a-8554-a3e0fd298df5
+JavaScript warning: http://192.168.198.128/mutillidae/javascript/ddsmoothmenu/jquery.min.js, line 19: unreachable code after return statement
+JavaScript error: http://192.168.198.128/mutillidae/index.php?page=capture-data.php, line 1: ReferenceError: onLoadOfBody is not defined
+JavaScript warning: http://192.168.198.128/mutillidae/javascript/ddsmoothmenu/jquery.min.js, line 19: unreachable code after return statement
+JavaScript error: http://192.168.198.128/mutillidae/index.php?page=capture-data.php, line 1: ReferenceError: onLoadOfBody is not defined
+1718118170189	Marionette	INFO	Stopped listening on port 15347
+Dynamically enable window occlusion 1
+1718118291875	geckodriver	INFO	Listening on 127.0.0.1:15484
+1718118294953	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "15485" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Grzes\\AppData\\Local\\Temp\\rust_mozprofileSHzA7h"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1718118295308	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1718118295404	Marionette	INFO	Listening on port 15494
+WebDriver BiDi listening on ws://127.0.0.1:15485
+Read port: 15494
+1718118295572	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:15485/devtools/browser/141460c2-7db8-4732-9c24-6ae13a7d1e64
+JavaScript warning: http://192.168.198.128/mutillidae/javascript/ddsmoothmenu/jquery.min.js, line 19: unreachable code after return statement
+JavaScript error: http://192.168.198.128/mutillidae/index.php?page=capture-data.php, line 1: ReferenceError: onLoadOfBody is not defined
+1718118297625	Marionette	INFO	Stopped listening on port 15494
+Dynamically enable window occlusion 1
+1718118312254	geckodriver	INFO	Listening on 127.0.0.1:15536
+1718118315295	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "15537" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Grzes\\AppData\\Local\\Temp\\rust_mozprofileZ3B5Mp"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1718118315640	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1718118315729	Marionette	INFO	Listening on port 15545
+WebDriver BiDi listening on ws://127.0.0.1:15537
+Read port: 15545
+1718118315910	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:15537/devtools/browser/ce4a5140-3831-48fb-8bc9-4e4a1bcee7d5
+JavaScript warning: http://192.168.198.128/mutillidae/javascript/ddsmoothmenu/jquery.min.js, line 19: unreachable code after return statement
+JavaScript error: http://192.168.198.128/mutillidae/index.php?page=capture-data.php, line 1: ReferenceError: onLoadOfBody is not defined
+JavaScript warning: http://192.168.198.128/mutillidae/javascript/ddsmoothmenu/jquery.min.js, line 19: unreachable code after return statement
+JavaScript error: http://192.168.198.128/mutillidae/index.php?page=capture-data.php, line 1: ReferenceError: onLoadOfBody is not defined
+1718118322169	Marionette	INFO	Stopped listening on port 15545
+Dynamically enable window occlusion 1
+1718118536619	geckodriver	INFO	Listening on 127.0.0.1:15738
+1718118539681	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "15739" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Grzes\\AppData\\Local\\Temp\\rust_mozprofileGDJmEl"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1718118540044	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1718118540136	Marionette	INFO	Listening on port 15750
+WebDriver BiDi listening on ws://127.0.0.1:15739
+Read port: 15750
+1718118540335	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:15739/devtools/browser/aedf115c-2c77-4c01-bf76-1cc3cc2b8702
+JavaScript warning: http://192.168.198.128/mutillidae/javascript/ddsmoothmenu/jquery.min.js, line 19: unreachable code after return statement
+JavaScript error: http://192.168.198.128/mutillidae/index.php?page=capture-data.php, line 1: ReferenceError: onLoadOfBody is not defined
+1718118542584	Marionette	INFO	Stopped listening on port 15750
+Dynamically enable window occlusion 1
+1718118588901	geckodriver	INFO	Listening on 127.0.0.1:15810
+1718118591939	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "15811" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Grzes\\AppData\\Local\\Temp\\rust_mozprofilelQPoKe"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1718118592288	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1718118592377	Marionette	INFO	Listening on port 15820
+WebDriver BiDi listening on ws://127.0.0.1:15811
+Read port: 15820
+1718118592557	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:15811/devtools/browser/17095b56-ec65-413e-97c0-18fef68ce8c9
+JavaScript warning: http://192.168.198.128/mutillidae/javascript/ddsmoothmenu/jquery.min.js, line 19: unreachable code after return statement
+JavaScript error: http://192.168.198.128/mutillidae/index.php?page=capture-data.php, line 1: ReferenceError: onLoadOfBody is not defined
+1718118594682	Marionette	INFO	Stopped listening on port 15820
+Dynamically enable window occlusion 1
+1718118604265	geckodriver	INFO	Listening on 127.0.0.1:15855
+1718118607314	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "15856" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Grzes\\AppData\\Local\\Temp\\rust_mozprofileW2quq2"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1718118607656	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1718118607750	Marionette	INFO	Listening on port 15864
+WebDriver BiDi listening on ws://127.0.0.1:15856
+Read port: 15864
+1718118607932	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:15856/devtools/browser/6ac92658-c646-4a4b-b984-8d2ab09e3918
+JavaScript warning: http://192.168.198.128/mutillidae/javascript/ddsmoothmenu/jquery.min.js, line 19: unreachable code after return statement
+JavaScript error: http://192.168.198.128/mutillidae/index.php?page=capture-data.php, line 1: ReferenceError: onLoadOfBody is not defined
+1718118609954	Marionette	INFO	Stopped listening on port 15864
+Dynamically enable window occlusion 1
+1718118678678	geckodriver	INFO	Listening on 127.0.0.1:15930
+1718118681733	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "15931" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Grzes\\AppData\\Local\\Temp\\rust_mozprofileeqDCCi"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1718118682075	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1718118682168	Marionette	INFO	Listening on port 15940
+WebDriver BiDi listening on ws://127.0.0.1:15931
+Read port: 15940
+1718118682364	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:15931/devtools/browser/1368ef3f-0bc6-4eba-8422-33a2a9be79cb
+JavaScript warning: http://192.168.198.128/mutillidae/javascript/ddsmoothmenu/jquery.min.js, line 19: unreachable code after return statement
+JavaScript error: http://192.168.198.128/mutillidae/index.php?page=capture-data.php, line 1: ReferenceError: onLoadOfBody is not defined
+JavaScript warning: http://192.168.198.128/mutillidae/javascript/ddsmoothmenu/jquery.min.js, line 19: unreachable code after return statement
+JavaScript error: http://192.168.198.128/mutillidae/index.php?page=capture-data.php, line 1: ReferenceError: onLoadOfBody is not defined
+1718118687854	Marionette	INFO	Stopped listening on port 15940
+Dynamically enable window occlusion 1
+1718118712304	geckodriver	INFO	Listening on 127.0.0.1:16002
+1718118715355	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "16003" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Grzes\\AppData\\Local\\Temp\\rust_mozprofilefP1TMa"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1718118715698	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1718118715791	Marionette	INFO	Listening on port 16013
+WebDriver BiDi listening on ws://127.0.0.1:16003
+Read port: 16013
+1718118715974	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:16003/devtools/browser/4858ce36-8913-4786-b406-7ebecfeceefb
+JavaScript warning: http://192.168.198.128/mutillidae/javascript/ddsmoothmenu/jquery.min.js, line 19: unreachable code after return statement
+JavaScript error: http://192.168.198.128/mutillidae/index.php?page=capture-data.php, line 1: ReferenceError: onLoadOfBody is not defined
+1718118721060	Marionette	INFO	Stopped listening on port 16013
+Dynamically enable window occlusion 1
+1718118874976	geckodriver	INFO	Listening on 127.0.0.1:16151
+1718118878018	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "16152" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Grzes\\AppData\\Local\\Temp\\rust_mozprofileSrPqnt"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1718118878368	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1718118878459	Marionette	INFO	Listening on port 16161
+WebDriver BiDi listening on ws://127.0.0.1:16152
+Read port: 16161
+1718118878654	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:16152/devtools/browser/50759b67-8c3e-4eac-bc4a-82980dfb0349
+JavaScript warning: http://192.168.198.128/mutillidae/javascript/ddsmoothmenu/jquery.min.js, line 19: unreachable code after return statement
+JavaScript error: http://192.168.198.128/mutillidae/index.php?page=capture-data.php, line 1: ReferenceError: onLoadOfBody is not defined
+1718118883770	Marionette	INFO	Stopped listening on port 16161
+Dynamically enable window occlusion 1
+1718118954688	geckodriver	INFO	Listening on 127.0.0.1:16238
+1718118957730	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "16239" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Grzes\\AppData\\Local\\Temp\\rust_mozprofileFw5U2y"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1718118958076	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1718118958167	Marionette	INFO	Listening on port 16248
+WebDriver BiDi listening on ws://127.0.0.1:16239
+Read port: 16248
+1718118958352	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:16239/devtools/browser/b61de1cd-b9a3-4331-8a92-eb8cc8d43f14
+JavaScript warning: http://192.168.198.128/mutillidae/javascript/ddsmoothmenu/jquery.min.js, line 19: unreachable code after return statement
+JavaScript error: http://192.168.198.128/mutillidae/index.php?page=capture-data.php, line 1: ReferenceError: onLoadOfBody is not defined
+1718118963386	Marionette	INFO	Stopped listening on port 16248
+Dynamically enable window occlusion 1
+1718119048524	geckodriver	INFO	Listening on 127.0.0.1:16372
+1718119051577	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "16373" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Grzes\\AppData\\Local\\Temp\\rust_mozprofileTnYSPX"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1718119051924	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1718119052016	Marionette	INFO	Listening on port 16382
+WebDriver BiDi listening on ws://127.0.0.1:16373
+Read port: 16382
+1718119052199	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:16373/devtools/browser/8a7f21d0-39e0-4957-8efb-eb81138e2ba1
+JavaScript warning: http://192.168.198.128/mutillidae/javascript/ddsmoothmenu/jquery.min.js, line 19: unreachable code after return statement
+JavaScript error: http://192.168.198.128/mutillidae/index.php?page=capture-data.php, line 1: ReferenceError: onLoadOfBody is not defined
+1718119057393	Marionette	INFO	Stopped listening on port 16382
+Dynamically enable window occlusion 1
+1718119328460	geckodriver	INFO	Listening on 127.0.0.1:1964
+1718119331496	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "1965" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Grzes\\AppData\\Local\\Temp\\rust_mozprofilez3IaR9"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1718119331842	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1718119331931	Marionette	INFO	Listening on port 1977
+WebDriver BiDi listening on ws://127.0.0.1:1965
+Read port: 1977
+1718119332110	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:1965/devtools/browser/3e9d22be-f6f6-44bc-a4ca-ff6b8a557ca6
+JavaScript warning: http://192.168.198.128/mutillidae/javascript/ddsmoothmenu/jquery.min.js, line 19: unreachable code after return statement
+JavaScript error: http://192.168.198.128/mutillidae/index.php?page=set-background-color.php, line 1: ReferenceError: onLoadOfBody is not defined
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://192.168.198.128."
+JavaScript warning: http://192.168.198.128/mutillidae/javascript/ddsmoothmenu/jquery.min.js, line 19: unreachable code after return statement
+1718119334484	Marionette	INFO	Stopped listening on port 1977
+JavaScript error: http://192.168.198.128/mutillidae/index.php?page=set-background-color.php, line 1: ReferenceError: onLoadOfBody is not defined
+Dynamically enable window occlusion 1
+1718119343421	geckodriver	INFO	Listening on 127.0.0.1:2014
+1718119346467	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "2015" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Grzes\\AppData\\Local\\Temp\\rust_mozprofileTp5pIZ"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1718119346807	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1718119346894	Marionette	INFO	Listening on port 2031
+WebDriver BiDi listening on ws://127.0.0.1:2015
+Read port: 2031
+1718119347087	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:2015/devtools/browser/e24d3c3f-622b-417d-a52f-6f1ac2de8ef9
+JavaScript warning: http://192.168.198.128/mutillidae/javascript/ddsmoothmenu/jquery.min.js, line 19: unreachable code after return statement
+JavaScript error: http://192.168.198.128/mutillidae/index.php?page=set-background-color.php, line 1: ReferenceError: onLoadOfBody is not defined
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://192.168.198.128."
+JavaScript warning: http://192.168.198.128/mutillidae/javascript/ddsmoothmenu/jquery.min.js, line 19: unreachable code after return statement
+1718119349403	Marionette	INFO	Stopped listening on port 2031
+JavaScript error: http://192.168.198.128/mutillidae/index.php?page=set-background-color.php, line 1: ReferenceError: onLoadOfBody is not defined
+Dynamically enable window occlusion 1
+1718119357998	geckodriver	INFO	Listening on 127.0.0.1:2064
+1718119361077	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "2065" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Grzes\\AppData\\Local\\Temp\\rust_mozprofile1KC1uA"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1718119361440	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1718119361533	Marionette	INFO	Listening on port 2074
+WebDriver BiDi listening on ws://127.0.0.1:2065
+Read port: 2074
+1718119361730	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:2065/devtools/browser/3d234ba5-96a9-49a6-a106-7cb72c81993d
+JavaScript warning: http://192.168.198.128/mutillidae/javascript/ddsmoothmenu/jquery.min.js, line 19: unreachable code after return statement
+JavaScript error: http://192.168.198.128/mutillidae/index.php?page=set-background-color.php, line 1: ReferenceError: onLoadOfBody is not defined
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://192.168.198.128."
+JavaScript warning: http://192.168.198.128/mutillidae/javascript/ddsmoothmenu/jquery.min.js, line 19: unreachable code after return statement
+1718119364240	Marionette	INFO	Stopped listening on port 2074
+JavaScript error: http://192.168.198.128/mutillidae/index.php?page=set-background-color.php, line 1: ReferenceError: onLoadOfBody is not defined
+Dynamically enable window occlusion 1
+1718119379981	geckodriver	INFO	Listening on 127.0.0.1:2114
+1718119383051	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "2115" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Grzes\\AppData\\Local\\Temp\\rust_mozprofileaXOyxY"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1718119383394	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1718119383483	Marionette	INFO	Listening on port 2123
+WebDriver BiDi listening on ws://127.0.0.1:2115
+Read port: 2123
+1718119383659	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:2115/devtools/browser/3baa5fa0-56af-47a4-9fab-1e94749794c1
+JavaScript warning: http://192.168.198.128/mutillidae/javascript/ddsmoothmenu/jquery.min.js, line 19: unreachable code after return statement
+JavaScript error: http://192.168.198.128/mutillidae/index.php?page=set-background-color.php, line 1: ReferenceError: onLoadOfBody is not defined
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://192.168.198.128."
+JavaScript warning: http://192.168.198.128/mutillidae/javascript/ddsmoothmenu/jquery.min.js, line 19: unreachable code after return statement
+1718119386029	Marionette	INFO	Stopped listening on port 2123
+Dynamically enable window occlusion 1
+JavaScript error: resource://gre/modules/Prompter.sys.mjs, line 1212: NS_ERROR_NOT_AVAILABLE: prompt aborted by user
+1718119428345	geckodriver	INFO	Listening on 127.0.0.1:2248
+1718119431355	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "2249" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Grzes\\AppData\\Local\\Temp\\rust_mozprofileJjpfw9"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1718119431742	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1718119431840	Marionette	INFO	Listening on port 2263
+WebDriver BiDi listening on ws://127.0.0.1:2249
+Read port: 2263
+1718119431998	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:2249/devtools/browser/40ab3464-b40c-4748-98f9-7206406094f9
+JavaScript warning: http://192.168.198.128/mutillidae/javascript/ddsmoothmenu/jquery.min.js, line 19: unreachable code after return statement
+JavaScript error: http://192.168.198.128/mutillidae/index.php?page=set-background-color.php, line 1: ReferenceError: onLoadOfBody is not defined
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://192.168.198.128."
+JavaScript warning: http://192.168.198.128/mutillidae/javascript/ddsmoothmenu/jquery.min.js, line 19: unreachable code after return statement
+1718119434578	Marionette	INFO	Stopped listening on port 2263
+Dynamically enable window occlusion 1
+JavaScript error: resource://gre/modules/Prompter.sys.mjs, line 1212: NS_ERROR_NOT_AVAILABLE: prompt aborted by user
+1718119484331	geckodriver	INFO	Listening on 127.0.0.1:2513
+1718119487371	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "2514" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Grzes\\AppData\\Local\\Temp\\rust_mozprofileC8gdtk"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1718119487757	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1718119488284	Marionette	INFO	Listening on port 2523
+WebDriver BiDi listening on ws://127.0.0.1:2514
+Read port: 2523
+1718119488482	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:2514/devtools/browser/ed0434ec-d951-4dd6-961a-1f6d6e8cf6fb
+JavaScript warning: http://192.168.198.128/mutillidae/javascript/ddsmoothmenu/jquery.min.js, line 19: unreachable code after return statement
+JavaScript error: http://192.168.198.128/mutillidae/index.php?page=set-background-color.php, line 1: ReferenceError: onLoadOfBody is not defined
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://192.168.198.128."
+JavaScript warning: http://192.168.198.128/mutillidae/javascript/ddsmoothmenu/jquery.min.js, line 19: unreachable code after return statement
+1718119492377	Marionette	INFO	Stopped listening on port 2523
+JavaScript error: http://192.168.198.128/mutillidae/index.php?page=set-background-color.php, line 1: ReferenceError: onLoadOfBody is not defined
+Dynamically enable window occlusion 1
+1718119501851	geckodriver	INFO	Listening on 127.0.0.1:2560
+1718119504884	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "2561" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Grzes\\AppData\\Local\\Temp\\rust_mozprofileJ3HVbI"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1718119505228	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1718119505346	Marionette	INFO	Listening on port 2570
+WebDriver BiDi listening on ws://127.0.0.1:2561
+Read port: 2570
+1718119505542	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:2561/devtools/browser/d5ecfa66-b5ec-4973-b6cd-a1b8953c580a
+JavaScript warning: http://192.168.198.128/mutillidae/javascript/ddsmoothmenu/jquery.min.js, line 19: unreachable code after return statement
+JavaScript error: http://192.168.198.128/mutillidae/index.php?page=set-background-color.php, line 1: ReferenceError: onLoadOfBody is not defined
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://192.168.198.128."
+JavaScript warning: http://192.168.198.128/mutillidae/javascript/ddsmoothmenu/jquery.min.js, line 19: unreachable code after return statement
+1718119508227	Marionette	INFO	Stopped listening on port 2570
+JavaScript error: http://192.168.198.128/mutillidae/index.php?page=set-background-color.php, line 1: ReferenceError: onLoadOfBody is not defined
+Dynamically enable window occlusion 1
+1718119534912	geckodriver	INFO	Listening on 127.0.0.1:23876
+1718119537951	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "23877" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Grzes\\AppData\\Local\\Temp\\rust_mozprofileykiAks"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1718119538305	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1718119538402	Marionette	INFO	Listening on port 23885
+WebDriver BiDi listening on ws://127.0.0.1:23877
+Read port: 23885
+1718119538574	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:23877/devtools/browser/99349a77-8b47-463d-9e46-8c4b587858d1
+JavaScript warning: http://192.168.198.128/mutillidae/javascript/ddsmoothmenu/jquery.min.js, line 19: unreachable code after return statement
+JavaScript error: http://192.168.198.128/mutillidae/index.php?page=set-background-color.php, line 1: ReferenceError: onLoadOfBody is not defined
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://192.168.198.128."
+JavaScript warning: http://192.168.198.128/mutillidae/javascript/ddsmoothmenu/jquery.min.js, line 19: unreachable code after return statement
+1718119540861	Marionette	INFO	Stopped listening on port 23885
+JavaScript error: http://192.168.198.128/mutillidae/index.php?page=set-background-color.php, line 1: ReferenceError: onLoadOfBody is not defined
+Dynamically enable window occlusion 1
+1718119650581	geckodriver	INFO	Listening on 127.0.0.1:23974
+1718119653636	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "23975" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Grzes\\AppData\\Local\\Temp\\rust_mozprofileJpvvKj"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1718119653977	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1718119654074	Marionette	INFO	Listening on port 23984
+WebDriver BiDi listening on ws://127.0.0.1:23975
+Read port: 23984
+1718119654251	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:23975/devtools/browser/cb8aa590-e156-41bd-9fbc-ca2d1a9cdd54
+JavaScript warning: http://192.168.198.128/mutillidae/javascript/ddsmoothmenu/jquery.min.js, line 19: unreachable code after return statement
+JavaScript error: http://192.168.198.128/mutillidae/index.php?page=set-background-color.php, line 1: ReferenceError: onLoadOfBody is not defined
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://192.168.198.128."
+JavaScript warning: http://192.168.198.128/mutillidae/javascript/ddsmoothmenu/jquery.min.js, line 19: unreachable code after return statement
+1718119656553	Marionette	INFO	Stopped listening on port 23984
+JavaScript error: http://192.168.198.128/mutillidae/index.php?page=set-background-color.php, line 1: ReferenceError: onLoadOfBody is not defined
+Dynamically enable window occlusion 1
+1718119677055	geckodriver	INFO	Listening on 127.0.0.1:24026
+1718119680086	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "24027" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Grzes\\AppData\\Local\\Temp\\rust_mozprofile4isXpa"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1718119680435	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1718119680527	Marionette	INFO	Listening on port 24038
+WebDriver BiDi listening on ws://127.0.0.1:24027
+Read port: 24038
+1718119680700	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:24027/devtools/browser/8f27024a-d59e-44ca-9bc1-36aa34198fdf
+JavaScript warning: http://192.168.198.128/mutillidae/javascript/ddsmoothmenu/jquery.min.js, line 19: unreachable code after return statement
+JavaScript error: http://192.168.198.128/mutillidae/index.php?page=set-background-color.php, line 1: ReferenceError: onLoadOfBody is not defined
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://192.168.198.128."
+JavaScript warning: http://192.168.198.128/mutillidae/javascript/ddsmoothmenu/jquery.min.js, line 19: unreachable code after return statement
+1718119682958	Marionette	INFO	Stopped listening on port 24038
+Dynamically enable window occlusion 1
+JavaScript error: resource://gre/modules/Prompter.sys.mjs, line 1212: NS_ERROR_NOT_AVAILABLE: prompt aborted by user
+1718119763143	geckodriver	INFO	Listening on 127.0.0.1:24118
+1718119766192	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "24119" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Grzes\\AppData\\Local\\Temp\\rust_mozprofileaCHTcU"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1718119766534	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1718119766623	Marionette	INFO	Listening on port 24129
+WebDriver BiDi listening on ws://127.0.0.1:24119
+Read port: 24129
+1718119766804	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:24119/devtools/browser/7796ba18-12c2-4dbe-b4d2-c7b48e34d995
+JavaScript warning: http://192.168.198.128/mutillidae/javascript/ddsmoothmenu/jquery.min.js, line 19: unreachable code after return statement
+JavaScript error: http://192.168.198.128/mutillidae/index.php?page=set-background-color.php, line 1: ReferenceError: onLoadOfBody is not defined
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://192.168.198.128."
+JavaScript warning: http://192.168.198.128/mutillidae/javascript/ddsmoothmenu/jquery.min.js, line 19: unreachable code after return statement
+1718119769273	Marionette	INFO	Stopped listening on port 24129
+JavaScript error: http://192.168.198.128/mutillidae/index.php?page=set-background-color.php, line 1: ReferenceError: onLoadOfBody is not defined
+Dynamically enable window occlusion 1
+1718119788374	geckodriver	INFO	Listening on 127.0.0.1:24172
+1718119791412	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "24173" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Grzes\\AppData\\Local\\Temp\\rust_mozprofile8MrmZ8"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1718119791755	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1718119791845	Marionette	INFO	Listening on port 24182
+WebDriver BiDi listening on ws://127.0.0.1:24173
+Read port: 24182
+1718119792025	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:24173/devtools/browser/ce18ea8d-ff25-40eb-aa2a-29e10170f07a
+JavaScript warning: http://192.168.198.128/mutillidae/javascript/ddsmoothmenu/jquery.min.js, line 19: unreachable code after return statement
+JavaScript error: http://192.168.198.128/mutillidae/index.php?page=set-background-color.php, line 1: ReferenceError: onLoadOfBody is not defined
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://192.168.198.128."
+JavaScript warning: http://192.168.198.128/mutillidae/javascript/ddsmoothmenu/jquery.min.js, line 19: unreachable code after return statement
+1718119794325	Marionette	INFO	Stopped listening on port 24182
+JavaScript error: http://192.168.198.128/mutillidae/index.php?page=set-background-color.php, line 1: ReferenceError: onLoadOfBody is not defined
+Dynamically enable window occlusion 1
+1718119806955	geckodriver	INFO	Listening on 127.0.0.1:24221
+1718119809990	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "24222" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Grzes\\AppData\\Local\\Temp\\rust_mozprofileQxq8Z1"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1718119810333	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1718119810422	Marionette	INFO	Listening on port 24231
+WebDriver BiDi listening on ws://127.0.0.1:24222
+Read port: 24231
+1718119810599	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:24222/devtools/browser/7996da1b-ee2f-4b4c-b7a0-1e87deac3c81
+JavaScript warning: http://192.168.198.128/mutillidae/javascript/ddsmoothmenu/jquery.min.js, line 19: unreachable code after return statement
+JavaScript error: http://192.168.198.128/mutillidae/index.php?page=set-background-color.php, line 1: ReferenceError: onLoadOfBody is not defined
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://192.168.198.128."
+JavaScript warning: http://192.168.198.128/mutillidae/javascript/ddsmoothmenu/jquery.min.js, line 19: unreachable code after return statement
+1718119812908	Marionette	INFO	Stopped listening on port 24231
+JavaScript error: http://192.168.198.128/mutillidae/index.php?page=set-background-color.php, line 1: ReferenceError: onLoadOfBody is not defined
+Dynamically enable window occlusion 1
+1718119820845	geckodriver	INFO	Listening on 127.0.0.1:24265
+1718119823883	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "24266" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Grzes\\AppData\\Local\\Temp\\rust_mozprofileSe2DvU"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1718119824224	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1718119824310	Marionette	INFO	Listening on port 24275
+WebDriver BiDi listening on ws://127.0.0.1:24266
+Read port: 24275
+1718119824497	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:24266/devtools/browser/b36a0954-4cec-42d0-9ec7-19c30e5d9ebc
+JavaScript warning: http://192.168.198.128/mutillidae/javascript/ddsmoothmenu/jquery.min.js, line 19: unreachable code after return statement
+JavaScript error: http://192.168.198.128/mutillidae/index.php?page=set-background-color.php, line 1: ReferenceError: onLoadOfBody is not defined
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://192.168.198.128."
+JavaScript warning: http://192.168.198.128/mutillidae/javascript/ddsmoothmenu/jquery.min.js, line 19: unreachable code after return statement
+1718119826941	Marionette	INFO	Stopped listening on port 24275
+JavaScript error: http://192.168.198.128/mutillidae/index.php?page=set-background-color.php, line 1: ReferenceError: onLoadOfBody is not defined
+Dynamically enable window occlusion 1
+1718119936279	geckodriver	INFO	Listening on 127.0.0.1:24361
+1718119939330	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "24362" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Grzes\\AppData\\Local\\Temp\\rust_mozprofileV0EVM4"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1718119939685	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1718119939772	Marionette	INFO	Listening on port 24370
+WebDriver BiDi listening on ws://127.0.0.1:24362
+Read port: 24370
+1718119939951	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:24362/devtools/browser/7dff958b-b795-4520-a653-61b6d52d02f3
+JavaScript warning: http://192.168.198.128/mutillidae/javascript/ddsmoothmenu/jquery.min.js, line 19: unreachable code after return statement
+JavaScript error: http://192.168.198.128/mutillidae/index.php?page=set-background-color.php, line 1: ReferenceError: onLoadOfBody is not defined
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://192.168.198.128."
+JavaScript warning: http://192.168.198.128/mutillidae/javascript/ddsmoothmenu/jquery.min.js, line 19: unreachable code after return statement
+1718119942414	Marionette	INFO	Stopped listening on port 24370
+Dynamically enable window occlusion 1
+JavaScript error: resource://gre/modules/Prompter.sys.mjs, line 1212: NS_ERROR_NOT_AVAILABLE: prompt aborted by user
+1718120015796	geckodriver	INFO	Listening on 127.0.0.1:24436
+1718120018852	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "24437" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Grzes\\AppData\\Local\\Temp\\rust_mozprofileJCnkKl"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1718120019196	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1718120019289	Marionette	INFO	Listening on port 24446
+WebDriver BiDi listening on ws://127.0.0.1:24437
+Read port: 24446
+1718120019458	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:24437/devtools/browser/c11a8953-88ca-4aa0-a197-d8cd91dd09b6
+JavaScript warning: http://192.168.198.128/mutillidae/javascript/ddsmoothmenu/jquery.min.js, line 19: unreachable code after return statement
+JavaScript error: http://192.168.198.128/mutillidae/index.php?page=set-background-color.php, line 1: ReferenceError: onLoadOfBody is not defined
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://192.168.198.128."
+JavaScript warning: http://192.168.198.128/mutillidae/javascript/ddsmoothmenu/jquery.min.js, line 19: unreachable code after return statement
+1718120049319	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+1718120054391	Marionette	INFO	Stopped listening on port 24446
+Dynamically enable window occlusion 1
+JavaScript error: resource://gre/modules/Prompter.sys.mjs, line 1212: NS_ERROR_NOT_AVAILABLE: prompt aborted by user
+1718120176039	geckodriver	INFO	Listening on 127.0.0.1:24573
+1718120179087	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "24574" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Grzes\\AppData\\Local\\Temp\\rust_mozprofiletU3tFu"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1718120179435	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1718120179526	Marionette	INFO	Listening on port 24583
+WebDriver BiDi listening on ws://127.0.0.1:24574
+Read port: 24583
+1718120179727	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:24574/devtools/browser/44b992ba-c412-4d35-8541-649e2eff4c1d
+JavaScript warning: http://192.168.198.128/mutillidae/javascript/ddsmoothmenu/jquery.min.js, line 19: unreachable code after return statement
+JavaScript error: http://192.168.198.128/mutillidae/index.php?page=set-background-color.php, line 1: ReferenceError: onLoadOfBody is not defined
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://192.168.198.128."
+JavaScript warning: http://192.168.198.128/mutillidae/javascript/ddsmoothmenu/jquery.min.js, line 19: unreachable code after return statement
+1718120210843	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+1718120212317	Marionette	INFO	Stopped listening on port 24583
+Dynamically enable window occlusion 1
+JavaScript error: resource://gre/modules/Prompter.sys.mjs, line 1212: NS_ERROR_NOT_AVAILABLE: prompt aborted by user
+console.warn: services.settings: main/translations-identification-models sync interrupted by shutdown
+console.warn: services.settings: main/addons-manager-settings sync interrupted by shutdown
+console.warn: services.settings: main/query-stripping sync interrupted by shutdown
+console.warn: services.settings: main/partitioning-exempt-urls sync interrupted by shutdown
+console.warn: services.settings: main/translations-wasm sync interrupted by shutdown
+console.warn: services.settings: main/search-config-icons sync interrupted by shutdown
+console.warn: services.settings: main/search-config-overrides sync interrupted by shutdown
+console.warn: services.settings: main/search-default-override-allowlist sync interrupted by shutdown
+console.warn: services.settings: main/search-config-overrides-v2 sync interrupted by shutdown
+console.warn: services.settings: main/search-config sync interrupted by shutdown
+console.warn: services.settings: main/fingerprinting-protection-overrides sync interrupted by shutdown
+console.warn: services.settings: main/url-classifier-skip-urls sync interrupted by shutdown
+console.warn: services.settings: main/translations-models sync interrupted by shutdown
+1718120268015	geckodriver	INFO	Listening on 127.0.0.1:24674
+1718120271073	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "24675" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Grzes\\AppData\\Local\\Temp\\rust_mozprofileM2GaZC"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1718120271432	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1718120271520	Marionette	INFO	Listening on port 24685
+WebDriver BiDi listening on ws://127.0.0.1:24675
+Read port: 24685
+1718120271695	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:24675/devtools/browser/ce356a70-7ef4-4e72-9b89-e60fc242c84b
+JavaScript warning: http://192.168.198.128/mutillidae/javascript/ddsmoothmenu/jquery.min.js, line 19: unreachable code after return statement
+JavaScript error: http://192.168.198.128/mutillidae/index.php?page=set-background-color.php, line 1: ReferenceError: onLoadOfBody is not defined
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://192.168.198.128."
+JavaScript warning: http://192.168.198.128/mutillidae/javascript/ddsmoothmenu/jquery.min.js, line 19: unreachable code after return statement
+1718120301505	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+JavaScript error: http://192.168.198.128/mutillidae/index.php?page=set-background-color.php, line 1: ReferenceError: onLoadOfBody is not defined
+1718120304106	Marionette	INFO	Stopped listening on port 24685
+Dynamically enable window occlusion 1
+1718120448018	geckodriver	INFO	Listening on 127.0.0.1:24823
+1718120451056	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "24824" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Grzes\\AppData\\Local\\Temp\\rust_mozprofileDmev1n"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1718120451402	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1718120451491	Marionette	INFO	Listening on port 24833
+WebDriver BiDi listening on ws://127.0.0.1:24824
+Read port: 24833
+1718120451667	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:24824/devtools/browser/52ccd118-2b3e-4cf2-ac03-20bdadb0c7f2
+JavaScript warning: http://192.168.198.128/mutillidae/javascript/ddsmoothmenu/jquery.min.js, line 19: unreachable code after return statement
+JavaScript error: http://192.168.198.128/mutillidae/index.php?page=add-to-your-blog.php, line 922: SyntaxError: unterminated comment
+1718120453740	Marionette	INFO	Stopped listening on port 24833
+Dynamically enable window occlusion 1
+console.error: (new Error("IndexedDB: main/translations-models list() IndexedDB:  execute() The application is shutting down", "resource://services-settings/IDBHelpers.sys.mjs", 16))
+1718120608511	geckodriver	INFO	Listening on 127.0.0.1:24995
+1718120611479	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "24996" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Grzes\\AppData\\Local\\Temp\\rust_mozprofilerS9s4q"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1718120612070	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1718120612189	Marionette	INFO	Listening on port 25006
+WebDriver BiDi listening on ws://127.0.0.1:24996
+Read port: 25006
+1718120612369	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:24996/devtools/browser/668a2102-ead2-4dc6-93ff-a2b8207b82fd
+JavaScript warning: http://192.168.198.128/mutillidae/javascript/ddsmoothmenu/jquery.min.js, line 19: unreachable code after return statement
+JavaScript error: http://192.168.198.128/mutillidae/index.php?page=add-to-your-blog.php, line 922: SyntaxError: unterminated comment
+1718120614348	Marionette	INFO	Stopped listening on port 25006
+Dynamically enable window occlusion 1
+console.error: (new Error("IndexedDB: main/translations-models list() IndexedDB:  execute() The application is shutting down", "resource://services-settings/IDBHelpers.sys.mjs", 16))
+1718120710719	geckodriver	INFO	Listening on 127.0.0.1:25123
+1718120713682	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "25124" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Grzes\\AppData\\Local\\Temp\\rust_mozprofileI9bbRN"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1718120714055	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1718120714156	Marionette	INFO	Listening on port 25133
+WebDriver BiDi listening on ws://127.0.0.1:25124
+Read port: 25133
+1718120714343	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:25124/devtools/browser/3e9eeaa0-8e47-497b-ba7a-0b7ff4fd79f3
+JavaScript warning: http://192.168.198.128/mutillidae/javascript/ddsmoothmenu/jquery.min.js, line 19: unreachable code after return statement
+JavaScript error: http://192.168.198.128/mutillidae/index.php?page=add-to-your-blog.php, line 922: SyntaxError: unterminated comment
+1718120716503	Marionette	INFO	Stopped listening on port 25133
+Dynamically enable window occlusion 1
+console.error: (new Error("IndexedDB: main/translations-models list() IndexedDB:  execute() The application is shutting down", "resource://services-settings/IDBHelpers.sys.mjs", 16))
+1718120847564	geckodriver	INFO	Listening on 127.0.0.1:25241
+1718120850545	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "25242" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Grzes\\AppData\\Local\\Temp\\rust_mozprofileXTiAVX"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1718120850925	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1718120851018	Marionette	INFO	Listening on port 25251
+WebDriver BiDi listening on ws://127.0.0.1:25242
+Read port: 25251
+1718120851202	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:25242/devtools/browser/45327383-6ac3-4f80-b9e8-38fa2c3266ca
+JavaScript warning: http://192.168.198.128/mutillidae/javascript/ddsmoothmenu/jquery.min.js, line 19: unreachable code after return statement
+JavaScript error: http://192.168.198.128/mutillidae/index.php?page=add-to-your-blog.php, line 922: SyntaxError: unterminated comment
+1718120853327	Marionette	INFO	Stopped listening on port 25251
+Dynamically enable window occlusion 1
+console.error: (new Error("IndexedDB: main/translations-models list() IndexedDB:  execute() The application is shutting down", "resource://services-settings/IDBHelpers.sys.mjs", 16))
+1718120885243	geckodriver	INFO	Listening on 127.0.0.1:25299
+1718120888284	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "25300" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Grzes\\AppData\\Local\\Temp\\rust_mozprofileMCyOgl"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1718120888625	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1718120888715	Marionette	INFO	Listening on port 25309
+WebDriver BiDi listening on ws://127.0.0.1:25300
+Read port: 25309
+1718120888886	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:25300/devtools/browser/c676a23b-0526-49a2-bf4a-26fe655170c0
+JavaScript warning: http://192.168.198.128/mutillidae/javascript/ddsmoothmenu/jquery.min.js, line 19: unreachable code after return statement
+JavaScript error: http://192.168.198.128/mutillidae/index.php?page=add-to-your-blog.php, line 922: SyntaxError: unterminated comment
+1718120891046	Marionette	INFO	Stopped listening on port 25309
+JavaScript error: http://192.168.198.128/mutillidae/index.php?page=add-to-your-blog.php, line 1: ReferenceError: onLoadOfBody is not defined
+Dynamically enable window occlusion 1
+console.error: (new Error("IndexedDB: main/translations-models list() IndexedDB:  execute() The application is shutting down", "resource://services-settings/IDBHelpers.sys.mjs", 16))
+1718120975729	geckodriver	INFO	Listening on 127.0.0.1:25381
+1718120978769	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "25382" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Grzes\\AppData\\Local\\Temp\\rust_mozprofileBLkUaI"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1718120979109	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1718120979198	Marionette	INFO	Listening on port 25392
+WebDriver BiDi listening on ws://127.0.0.1:25382
+Read port: 25392
+1718120979395	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:25382/devtools/browser/7bc75f51-9f90-4b25-a4cc-f6702fa10f21
+JavaScript warning: http://192.168.198.128/mutillidae/javascript/ddsmoothmenu/jquery.min.js, line 19: unreachable code after return statement
+JavaScript error: http://192.168.198.128/mutillidae/index.php?page=add-to-your-blog.php, line 922: SyntaxError: unterminated comment
+1718120981464	Marionette	INFO	Stopped listening on port 25392
+Dynamically enable window occlusion 1
+console.error: (new Error("IndexedDB: main/translations-models list() IndexedDB:  execute() The application is shutting down", "resource://services-settings/IDBHelpers.sys.mjs", 16))
+1718121107421	geckodriver	INFO	Listening on 127.0.0.1:25490
+1718121110327	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "25491" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Grzes\\AppData\\Local\\Temp\\rust_mozprofile9I2tfx"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1718121110690	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1718121110779	Marionette	INFO	Listening on port 25500
+WebDriver BiDi listening on ws://127.0.0.1:25491
+Read port: 25500
+1718121110964	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:25491/devtools/browser/b8540e35-d40a-4651-b0ec-fc37547143e9
+JavaScript warning: http://192.168.198.128/mutillidae/javascript/ddsmoothmenu/jquery.min.js, line 19: unreachable code after return statement
+JavaScript error: http://192.168.198.128/mutillidae/index.php?page=add-to-your-blog.php, line 922: SyntaxError: unterminated comment
+1718121113173	Marionette	INFO	Stopped listening on port 25500
+JavaScript error: http://192.168.198.128/mutillidae/javascript/jQuery/jquery.balloon.js, line 250: TypeError: options is undefined
+Dynamically enable window occlusion 1
+console.error: (new Error("IndexedDB: main/translations-models list() IndexedDB:  execute() The application is shutting down", "resource://services-settings/IDBHelpers.sys.mjs", 16))
+1718121154606	geckodriver	INFO	Listening on 127.0.0.1:25572
+1718121157640	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "25573" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Grzes\\AppData\\Local\\Temp\\rust_mozprofilelz7s6y"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1718121158009	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1718121158096	Marionette	INFO	Listening on port 25583
+WebDriver BiDi listening on ws://127.0.0.1:25573
+Read port: 25583
+1718121158279	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:25573/devtools/browser/440b0bc9-825f-4bf6-ad3e-f6f187e248ba
+JavaScript warning: http://192.168.198.128/mutillidae/javascript/ddsmoothmenu/jquery.min.js, line 19: unreachable code after return statement
+JavaScript error: http://192.168.198.128/mutillidae/index.php?page=add-to-your-blog.php, line 922: SyntaxError: unterminated comment
+1718121160524	Marionette	INFO	Stopped listening on port 25583
+JavaScript error: http://192.168.198.128/mutillidae/index.php?page=add-to-your-blog.php, line 1: ReferenceError: onLoadOfBody is not defined
+Dynamically enable window occlusion 1
+console.error: (new Error("IndexedDB: main/translations-models list() IndexedDB:  execute() The application is shutting down", "resource://services-settings/IDBHelpers.sys.mjs", 16))
+1718121180311	geckodriver	INFO	Listening on 127.0.0.1:25624
+1718121183367	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "25625" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Grzes\\AppData\\Local\\Temp\\rust_mozprofile5bLrXe"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1718121183706	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1718121183795	Marionette	INFO	Listening on port 25636
+WebDriver BiDi listening on ws://127.0.0.1:25625
+Read port: 25636
+1718121183982	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:25625/devtools/browser/aba092b1-560a-4294-8903-211fc584b753
+JavaScript warning: http://192.168.198.128/mutillidae/javascript/ddsmoothmenu/jquery.min.js, line 19: unreachable code after return statement
+JavaScript error: http://192.168.198.128/mutillidae/index.php?page=add-to-your-blog.php, line 922: SyntaxError: unterminated comment
+1718121185958	Marionette	INFO	Stopped listening on port 25636
+Dynamically enable window occlusion 1
+console.error: (new Error("IndexedDB: main/translations-models list() IndexedDB:  execute() The application is shutting down", "resource://services-settings/IDBHelpers.sys.mjs", 16))
+1718121211013	geckodriver	INFO	Listening on 127.0.0.1:25682
+1718121214048	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "25683" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Grzes\\AppData\\Local\\Temp\\rust_mozprofilexrQEpr"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1718121214401	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1718121214492	Marionette	INFO	Listening on port 25693
+WebDriver BiDi listening on ws://127.0.0.1:25683
+Read port: 25693
+1718121214667	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:25683/devtools/browser/b1541a07-efef-456f-a5eb-7ae5056bc920
+JavaScript warning: http://192.168.198.128/mutillidae/javascript/ddsmoothmenu/jquery.min.js, line 19: unreachable code after return statement
+JavaScript error: http://192.168.198.128/mutillidae/index.php?page=add-to-your-blog.php, line 922: SyntaxError: unterminated comment
+1718121217911	Marionette	INFO	Stopped listening on port 25693
+JavaScript error: http://192.168.198.128/mutillidae/index.php?page=add-to-your-blog.php, line 1: ReferenceError: onLoadOfBody is not defined
+Dynamically enable window occlusion 1
+JavaScript error: resource://gre/modules/ContentPrefServiceParent.sys.mjs, line 115: InvalidStateError: JSProcessActorParent.sendAsyncMessage: Actor 'ContentPrefs' cannot send message 'ContentPrefs:HandleCompletion' during shutdown.
+console.error: (new InvalidStateError("JSProcessActorParent.sendAsyncMessage: Actor 'ContentPrefs' cannot send message 'ContentPrefs:HandleCompletion' during shutdown.", (void 0), 115))
+console.error: (new Error("IndexedDB: main/translations-models list() IndexedDB:  execute() The application is shutting down", "resource://services-settings/IDBHelpers.sys.mjs", 16))
+1718121235194	geckodriver	INFO	Listening on 127.0.0.1:25737
+1718121238234	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "25738" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Grzes\\AppData\\Local\\Temp\\rust_mozprofilesA0jSN"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1718121238598	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1718121238690	Marionette	INFO	Listening on port 25749
+WebDriver BiDi listening on ws://127.0.0.1:25738
+Read port: 25749
+1718121238869	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:25738/devtools/browser/9e98ab16-e99c-46a1-9033-03173f188d05
+JavaScript warning: http://192.168.198.128/mutillidae/javascript/ddsmoothmenu/jquery.min.js, line 19: unreachable code after return statement
+JavaScript error: http://192.168.198.128/mutillidae/index.php?page=add-to-your-blog.php, line 922: SyntaxError: unterminated comment
+1718121243882	Marionette	INFO	Stopped listening on port 25749
+JavaScript warning: http://192.168.198.128/mutillidae/javascript/ddsmoothmenu/jquery.min.js, line 12: Script terminated by timeout at:
+each@http://192.168.198.128/mutillidae/javascript/ddsmoothmenu/jquery.min.js:12:7738
+ready@http://192.168.198.128/mutillidae/javascript/ddsmoothmenu/jquery.min.js:19:20541
+B/<@http://192.168.198.128/mutillidae/javascript/ddsmoothmenu/jquery.min.js:19:20855
+
+JavaScript error: http://192.168.198.128/mutillidae/index.php?page=add-to-your-blog.php, line 1: ReferenceError: onLoadOfBody is not defined
+Dynamically enable window occlusion 1
+JavaScript error: resource://gre/modules/ContentPrefServiceParent.sys.mjs, line 115: InvalidStateError: JSProcessActorParent.sendAsyncMessage: Actor 'ContentPrefs' cannot send message 'ContentPrefs:HandleCompletion' during shutdown.
+console.error: (new InvalidStateError("JSProcessActorParent.sendAsyncMessage: Actor 'ContentPrefs' cannot send message 'ContentPrefs:HandleCompletion' during shutdown.", (void 0), 115))
+console.log: "RemoteSettingsWorker error: AbortError: IndexedDB:  execute() A request was aborted, for example through a call to IDBTransaction.abort."
+console.error: (new RemoteSettingsWorkerError("AbortError: IndexedDB:  execute() A request was aborted, for example through a call to IDBTransaction.abort.", "resource://services-settings/RemoteSettingsWorker.sys.mjs", 34))
+1718121295319	geckodriver	INFO	Listening on 127.0.0.1:25818
+1718121298310	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "25819" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Grzes\\AppData\\Local\\Temp\\rust_mozprofileGcMNJf"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1718121298670	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1718121298762	Marionette	INFO	Listening on port 25827
+WebDriver BiDi listening on ws://127.0.0.1:25819
+Read port: 25827
+1718121298964	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:25819/devtools/browser/30fa79b4-12ca-44a9-9b99-74aa896a4015
+JavaScript warning: http://192.168.198.128/mutillidae/javascript/ddsmoothmenu/jquery.min.js, line 19: unreachable code after return statement
+JavaScript error: http://192.168.198.128/mutillidae/index.php?page=add-to-your-blog.php, line 922: SyntaxError: unterminated comment
+JavaScript error: http://192.168.198.128/mutillidae/index.php?page=add-to-your-blog.php, line 1: ReferenceError: onLoadOfBody is not defined
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://192.168.198.128."
+JavaScript error: http://192.168.198.128/mutillidae/index.php?page=add-to-your-blog.php, line 1: ReferenceError: onSubmitBlogEntry is not defined
+JavaScript warning: http://192.168.198.128/mutillidae/javascript/ddsmoothmenu/jquery.min.js, line 19: unreachable code after return statement
+JavaScript error: http://192.168.198.128/mutillidae/index.php?page=add-to-your-blog.php, line 922: SyntaxError: unterminated comment
+JavaScript error: http://192.168.198.128/mutillidae/index.php?page=add-to-your-blog.php, line 1: ReferenceError: onLoadOfBody is not defined
+1718121304377	Marionette	INFO	Stopped listening on port 25827
+Dynamically enable window occlusion 1
+1718121320504	geckodriver	INFO	Listening on 127.0.0.1:25867
+1718121323497	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "25868" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Grzes\\AppData\\Local\\Temp\\rust_mozprofilehTAC07"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1718121323856	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1718121323951	Marionette	INFO	Listening on port 25875
+WebDriver BiDi listening on ws://127.0.0.1:25868
+Read port: 25875
+1718121324153	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:25868/devtools/browser/6bc4a1a2-e57f-45af-93d7-8261330212ea
+JavaScript warning: http://192.168.198.128/mutillidae/javascript/ddsmoothmenu/jquery.min.js, line 19: unreachable code after return statement
+JavaScript error: http://192.168.198.128/mutillidae/index.php?page=capture-data.php, line 1: ReferenceError: onLoadOfBody is not defined
+1718121329310	Marionette	INFO	Stopped listening on port 25875
+Dynamically enable window occlusion 1
+1718121339414	geckodriver	INFO	Listening on 127.0.0.1:25918
+1718121342471	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "25919" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Grzes\\AppData\\Local\\Temp\\rust_mozprofileiYGATW"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1718121342822	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1718121342915	Marionette	INFO	Listening on port 25926
+WebDriver BiDi listening on ws://127.0.0.1:25919
+Read port: 25926
+1718121343085	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:25919/devtools/browser/c888abb5-5b5e-4a29-a1ae-e96655c9dec2
+JavaScript warning: http://192.168.198.128/mutillidae/javascript/ddsmoothmenu/jquery.min.js, line 19: unreachable code after return statement
+JavaScript error: http://192.168.198.128/mutillidae/index.php?page=set-background-color.php, line 1: ReferenceError: onLoadOfBody is not defined
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://192.168.198.128."
+JavaScript warning: http://192.168.198.128/mutillidae/javascript/ddsmoothmenu/jquery.min.js, line 19: unreachable code after return statement
+1718121345543	Marionette	INFO	Stopped listening on port 25926
+Dynamically enable window occlusion 1
+JavaScript error: resource://gre/modules/Prompter.sys.mjs, line 1212: NS_ERROR_NOT_AVAILABLE: prompt aborted by user
+1718121359347	geckodriver	INFO	Listening on 127.0.0.1:25959
+1718121362398	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "25960" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Grzes\\AppData\\Local\\Temp\\rust_mozprofilevjsFDG"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1718121362762	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1718121362854	Marionette	INFO	Listening on port 25968
+WebDriver BiDi listening on ws://127.0.0.1:25960
+Read port: 25968
+1718121363040	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:25960/devtools/browser/b94e219f-82b4-44dc-9e11-3fa807e91222
+JavaScript warning: http://192.168.198.128/mutillidae/javascript/ddsmoothmenu/jquery.min.js, line 19: unreachable code after return statement
+JavaScript error: http://192.168.198.128/mutillidae/index.php?page=set-background-color.php, line 1: ReferenceError: onLoadOfBody is not defined
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://192.168.198.128."
+JavaScript warning: http://192.168.198.128/mutillidae/javascript/ddsmoothmenu/jquery.min.js, line 19: unreachable code after return statement
+1718121365490	Marionette	INFO	Stopped listening on port 25968
+Dynamically enable window occlusion 1
+JavaScript error: resource://gre/modules/Prompter.sys.mjs, line 1212: NS_ERROR_NOT_AVAILABLE: prompt aborted by user
+1718121419151	geckodriver	INFO	Listening on 127.0.0.1:26007
+1718121422198	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "26008" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Grzes\\AppData\\Local\\Temp\\rust_mozprofileusAy8D"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1718121422557	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1718121422647	Marionette	INFO	Listening on port 26015
+WebDriver BiDi listening on ws://127.0.0.1:26008
+Read port: 26015
+1718121422828	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:26008/devtools/browser/be5316d4-c19a-411e-a7b3-d2622aeca3af
+JavaScript warning: http://192.168.198.128/mutillidae/javascript/ddsmoothmenu/jquery.min.js, line 19: unreachable code after return statement
+JavaScript error: http://192.168.198.128/mutillidae/index.php?page=set-background-color.php, line 1: ReferenceError: onLoadOfBody is not defined
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://192.168.198.128."
+JavaScript warning: http://192.168.198.128/mutillidae/javascript/ddsmoothmenu/jquery.min.js, line 19: unreachable code after return statement
+1718121425108	Marionette	INFO	Stopped listening on port 26015
+Dynamically enable window occlusion 1
+JavaScript error: resource://gre/modules/Prompter.sys.mjs, line 1060: AbortError: Actor 'Prompt' destroyed before query 'Prompt:Open' was resolved
+1718121460520	geckodriver	INFO	Listening on 127.0.0.1:26043
+1718121463559	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "26044" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Grzes\\AppData\\Local\\Temp\\rust_mozprofilem9jvO1"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1718121463913	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1718121464002	Marionette	INFO	Listening on port 26052
+WebDriver BiDi listening on ws://127.0.0.1:26044
+Read port: 26052
+1718121464172	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:26044/devtools/browser/9e55e855-34bf-4978-b31e-b8a6c2e10763
+JavaScript warning: http://192.168.198.128/mutillidae/javascript/ddsmoothmenu/jquery.min.js, line 19: unreachable code after return statement
+JavaScript error: http://192.168.198.128/mutillidae/index.php?page=set-background-color.php, line 1: ReferenceError: onLoadOfBody is not defined
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://192.168.198.128."
+JavaScript warning: http://192.168.198.128/mutillidae/javascript/ddsmoothmenu/jquery.min.js, line 19: unreachable code after return statement
+1718121466658	Marionette	INFO	Stopped listening on port 26052
+JavaScript error: http://192.168.198.128/mutillidae/index.php?page=set-background-color.php, line 1: ReferenceError: onLoadOfBody is not defined
+Dynamically enable window occlusion 1
+1718121546626	geckodriver	INFO	Listening on 127.0.0.1:26091
+1718121549674	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "26092" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Grzes\\AppData\\Local\\Temp\\rust_mozprofileBNsJSO"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1718121550039	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1718121550134	Marionette	INFO	Listening on port 26099
+WebDriver BiDi listening on ws://127.0.0.1:26092
+Read port: 26099
+1718121550325	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:26092/devtools/browser/825d82ec-c0d1-4973-9586-bb7839b81c25
+JavaScript warning: http://192.168.198.128/mutillidae/javascript/ddsmoothmenu/jquery.min.js, line 19: unreachable code after return statement
+JavaScript error: http://192.168.198.128/mutillidae/index.php?page=set-background-color.php, line 1: ReferenceError: onLoadOfBody is not defined
+JavaScript error: http://192.168.198.128/mutillidae/javascript/jQuery/jquery.balloon.js, line 250: TypeError: options is undefined
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://192.168.198.128."
+JavaScript warning: http://192.168.198.128/mutillidae/javascript/ddsmoothmenu/jquery.min.js, line 19: unreachable code after return statement
+1718121552923	Marionette	INFO	Stopped listening on port 26099
+JavaScript error: http://192.168.198.128/mutillidae/index.php?page=set-background-color.php, line 1: ReferenceError: onLoadOfBody is not defined
+Dynamically enable window occlusion 1
+1718121639145	geckodriver	INFO	Listening on 127.0.0.1:26144
+1718121642211	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "26145" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Grzes\\AppData\\Local\\Temp\\rust_mozprofiledkBtKM"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1718121642581	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1718121642674	Marionette	INFO	Listening on port 26153
+WebDriver BiDi listening on ws://127.0.0.1:26145
+Read port: 26153
+1718121642852	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:26145/devtools/browser/caee6fa3-7e50-4cde-bc21-5736c4ddf319
+JavaScript warning: http://192.168.198.128/mutillidae/javascript/ddsmoothmenu/jquery.min.js, line 19: unreachable code after return statement
+JavaScript error: http://192.168.198.128/mutillidae/index.php?page=set-background-color.php, line 1: ReferenceError: onLoadOfBody is not defined
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://192.168.198.128."
+JavaScript warning: http://192.168.198.128/mutillidae/javascript/ddsmoothmenu/jquery.min.js, line 19: unreachable code after return statement
+1718121645272	Marionette	INFO	Stopped listening on port 26153
+Dynamically enable window occlusion 1
+JavaScript error: chrome://global/content/customElements.js, line 17: ReferenceError: window is not defined
+1718121709533	geckodriver	INFO	Listening on 127.0.0.1:26182
+1718121712498	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "26183" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Grzes\\AppData\\Local\\Temp\\rust_mozprofiles97Lav"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1718121712898	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1718121713011	Marionette	INFO	Listening on port 26190
+WebDriver BiDi listening on ws://127.0.0.1:26183
+Read port: 26190
+1718121713206	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:26183/devtools/browser/abe20519-a542-43ec-a13a-73815327a64e
+JavaScript warning: http://192.168.198.128/mutillidae/javascript/ddsmoothmenu/jquery.min.js, line 19: unreachable code after return statement
+JavaScript error: http://192.168.198.128/mutillidae/index.php?page=set-background-color.php, line 1: ReferenceError: onLoadOfBody is not defined
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://192.168.198.128."
+JavaScript warning: http://192.168.198.128/mutillidae/javascript/ddsmoothmenu/jquery.min.js, line 19: unreachable code after return statement
+1718121716102	Marionette	INFO	Stopped listening on port 26190
+Dynamically enable window occlusion 1
+JavaScript error: resource://gre/modules/Prompter.sys.mjs, line 1212: NS_ERROR_NOT_AVAILABLE: prompt aborted by user
+1718121801168	geckodriver	INFO	Listening on 127.0.0.1:26230
+1718121804202	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "26231" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Grzes\\AppData\\Local\\Temp\\rust_mozprofileqFK6oc"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1718121804612	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1718121804676	Marionette	INFO	Listening on port 26238
+WebDriver BiDi listening on ws://127.0.0.1:26231
+Read port: 26238
+1718121804789	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:26231/devtools/browser/85f509a4-8dc9-4734-b9bd-577c155a1ece
+JavaScript warning: http://192.168.198.128/mutillidae/javascript/ddsmoothmenu/jquery.min.js, line 19: unreachable code after return statement
+JavaScript error: http://192.168.198.128/mutillidae/index.php?page=add-to-your-blog.php, line 922: SyntaxError: unterminated comment
+JavaScript error: http://192.168.198.128/mutillidae/index.php?page=add-to-your-blog.php, line 1: ReferenceError: onLoadOfBody is not defined
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://192.168.198.128."
+JavaScript error: http://192.168.198.128/mutillidae/index.php?page=add-to-your-blog.php, line 1: ReferenceError: onSubmitBlogEntry is not defined
+JavaScript warning: http://192.168.198.128/mutillidae/javascript/ddsmoothmenu/jquery.min.js, line 19: unreachable code after return statement
+JavaScript error: http://192.168.198.128/mutillidae/index.php?page=add-to-your-blog.php, line 922: SyntaxError: unterminated comment
+1718121809956	Marionette	INFO	Stopped listening on port 26238
+JavaScript error: http://192.168.198.128/mutillidae/index.php?page=add-to-your-blog.php, line 1: ReferenceError: onLoadOfBody is not defined
+Dynamically enable window occlusion 1
+JavaScript error: resource://gre/modules/ContentPrefServiceParent.sys.mjs, line 115: InvalidStateError: JSProcessActorParent.sendAsyncMessage: Actor 'ContentPrefs' cannot send message 'ContentPrefs:HandleCompletion' during shutdown.
+console.error: (new InvalidStateError("JSProcessActorParent.sendAsyncMessage: Actor 'ContentPrefs' cannot send message 'ContentPrefs:HandleCompletion' during shutdown.", (void 0), 115))
+1718121874776	geckodriver	INFO	Listening on 127.0.0.1:26282
+1718121877814	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "26283" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Grzes\\AppData\\Local\\Temp\\rust_mozprofilerHTeg3"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1718121878170	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1718121878265	Marionette	INFO	Listening on port 26291
+WebDriver BiDi listening on ws://127.0.0.1:26283
+Read port: 26291
+1718121878525	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:26283/devtools/browser/57787948-fdce-4405-8b93-ac3853b344e4
+JavaScript warning: http://192.168.198.128/mutillidae/javascript/ddsmoothmenu/jquery.min.js, line 19: unreachable code after return statement
+JavaScript error: http://192.168.198.128/mutillidae/index.php?page=capture-data.php, line 1: ReferenceError: onLoadOfBody is not defined
+1718121883630	Marionette	INFO	Stopped listening on port 26291
+Dynamically enable window occlusion 1
+1718122203045	geckodriver	INFO	Listening on 127.0.0.1:26409
+1718122206023	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "26410" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Grzes\\AppData\\Local\\Temp\\rust_mozprofileXoYQT3"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1718122206422	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1718122206519	Marionette	INFO	Listening on port 26417
+WebDriver BiDi listening on ws://127.0.0.1:26410
+Read port: 26417
+1718122206674	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:26410/devtools/browser/085a7aad-eaec-471e-a185-bb960037d54f
+JavaScript warning: http://192.168.198.128/mutillidae/javascript/ddsmoothmenu/jquery.min.js, line 19: unreachable code after return statement
+JavaScript error: http://192.168.198.128/mutillidae/index.php?page=capture-data.php, line 1: ReferenceError: onLoadOfBody is not defined
+JavaScript warning: http://192.168.198.128/mutillidae/javascript/ddsmoothmenu/jquery.min.js, line 19: unreachable code after return statement
+JavaScript error: http://192.168.198.128/mutillidae/index.php?page=capture-data.php, line 1: ReferenceError: onLoadOfBody is not defined
+1718122209262	Marionette	INFO	Stopped listening on port 26417
+Dynamically enable window occlusion 1
+1718122263619	geckodriver	INFO	Listening on 127.0.0.1:26459
+1718122266617	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "26460" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Grzes\\AppData\\Local\\Temp\\rust_mozprofileeiOubr"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1718122266995	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1718122267091	Marionette	INFO	Listening on port 26467
+WebDriver BiDi listening on ws://127.0.0.1:26460
+Read port: 26467
+1718122267263	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:26460/devtools/browser/8c9253fd-26ca-417b-a379-706fd2ba9f9a
+JavaScript warning: http://192.168.198.128/mutillidae/javascript/ddsmoothmenu/jquery.min.js, line 19: unreachable code after return statement
+JavaScript error: http://192.168.198.128/mutillidae/index.php?page=capture-data.php, line 1: ReferenceError: onLoadOfBody is not defined
+JavaScript warning: http://192.168.198.128/mutillidae/javascript/ddsmoothmenu/jquery.min.js, line 19: unreachable code after return statement
+JavaScript error: http://192.168.198.128/mutillidae/index.php?page=capture-data.php, line 1: ReferenceError: onLoadOfBody is not defined
+1718122269664	Marionette	INFO	Stopped listening on port 26467
+Dynamically enable window occlusion 1
+1718122416592	geckodriver	INFO	Listening on 127.0.0.1:26564
+1718122419600	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "26565" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Grzes\\AppData\\Local\\Temp\\rust_mozprofileH7qBth"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1718122419974	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1718122420066	Marionette	INFO	Listening on port 26572
+WebDriver BiDi listening on ws://127.0.0.1:26565
+Read port: 26572
+1718122420255	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:26565/devtools/browser/4a77d088-a562-4f24-8b62-88fb5ca03d00
+JavaScript warning: http://192.168.198.128/mutillidae/javascript/ddsmoothmenu/jquery.min.js, line 19: unreachable code after return statement
+JavaScript error: http://192.168.198.128/mutillidae/index.php?page=set-background-color.php, line 1: ReferenceError: onLoadOfBody is not defined
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://192.168.198.128."
+JavaScript warning: http://192.168.198.128/mutillidae/javascript/ddsmoothmenu/jquery.min.js, line 19: unreachable code after return statement
+1718122422841	Marionette	INFO	Stopped listening on port 26572
+Dynamically enable window occlusion 1
+JavaScript error: resource://gre/modules/Prompter.sys.mjs, line 1212: NS_ERROR_NOT_AVAILABLE: prompt aborted by user
+1718123412991	geckodriver	INFO	Listening on 127.0.0.1:47439
+1718123415938	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "47440" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Grzes\\AppData\\Local\\Temp\\rust_mozprofilerXaG8g"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1718123416364	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1718123416465	Marionette	INFO	Listening on port 47447
+WebDriver BiDi listening on ws://127.0.0.1:47440
+Read port: 47447
+1718123416668	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:47440/devtools/browser/d2864a49-63f1-45d6-8df5-787ffbbec82c
+JavaScript warning: http://192.168.198.128/mutillidae/javascript/ddsmoothmenu/jquery.min.js, line 19: unreachable code after return statement
+JavaScript error: http://192.168.198.128/mutillidae/index.php?page=set-background-color.php, line 1: ReferenceError: onLoadOfBody is not defined
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://192.168.198.128."
+JavaScript warning: http://192.168.198.128/mutillidae/javascript/ddsmoothmenu/jquery.min.js, line 19: unreachable code after return statement
+1718123419168	Marionette	INFO	Stopped listening on port 47447
+Dynamically enable window occlusion 1
+JavaScript error: resource://gre/modules/Prompter.sys.mjs, line 1212: NS_ERROR_NOT_AVAILABLE: prompt aborted by user
+1718123613585	geckodriver	INFO	Listening on 127.0.0.1:47522
+1718123616642	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "47523" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Grzes\\AppData\\Local\\Temp\\rust_mozprofileIxqplc"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1718123616993	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1718123617082	Marionette	INFO	Listening on port 47531
+WebDriver BiDi listening on ws://127.0.0.1:47523
+Read port: 47531
+1718123617253	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:47523/devtools/browser/478b5309-6854-4fcb-93d2-090460763e08
+JavaScript warning: http://192.168.198.128/mutillidae/javascript/ddsmoothmenu/jquery.min.js, line 19: unreachable code after return statement
+1718123619326	Marionette	INFO	Stopped listening on port 47531
+Dynamically enable window occlusion 1
+console.error: (new Error("IndexedDB: main/translations-models list() IndexedDB:  execute() The application is shutting down", "resource://services-settings/IDBHelpers.sys.mjs", 16))
+1718123651301	geckodriver	INFO	Listening on 127.0.0.1:47563
+1718123654353	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "47564" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Grzes\\AppData\\Local\\Temp\\rust_mozprofileV5VuuP"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1718123654712	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1718123654801	Marionette	INFO	Listening on port 47574
+WebDriver BiDi listening on ws://127.0.0.1:47564
+Read port: 47574
+1718123654988	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:47564/devtools/browser/45c70c11-cd5a-4fcd-88ed-36dc7f0ec693
+JavaScript warning: http://192.168.198.128/mutillidae/javascript/ddsmoothmenu/jquery.min.js, line 19: unreachable code after return statement
+1718123657129	Marionette	INFO	Stopped listening on port 47574
+Dynamically enable window occlusion 1
+console.error: (new Error("IndexedDB: main/translations-models list() IndexedDB:  execute() The application is shutting down", "resource://services-settings/IDBHelpers.sys.mjs", 16))
+1718123959118	geckodriver	INFO	Listening on 127.0.0.1:47679
+1718123962148	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "47680" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Grzes\\AppData\\Local\\Temp\\rust_mozprofiletF64mE"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1718123962505	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1718123962595	Marionette	INFO	Listening on port 47687
+WebDriver BiDi listening on ws://127.0.0.1:47680
+Read port: 47687
+1718123962776	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:47680/devtools/browser/0a787105-cdd6-4202-8957-0d8361807a98
+JavaScript warning: http://192.168.198.128/mutillidae/javascript/ddsmoothmenu/jquery.min.js, line 19: unreachable code after return statement
+JavaScript error: http://192.168.198.128/mutillidae/index.php?page=set-background-color.php, line 1: ReferenceError: onLoadOfBody is not defined
+1718123964988	Marionette	INFO	Stopped listening on port 47687
+Dynamically enable window occlusion 1
+1718124006059	geckodriver	INFO	Listening on 127.0.0.1:47716
+1718124009091	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "47717" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Grzes\\AppData\\Local\\Temp\\rust_mozprofilemFD2Rs"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1718124009443	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1718124009534	Marionette	INFO	Listening on port 47725
+WebDriver BiDi listening on ws://127.0.0.1:47717
+Read port: 47725
+1718124009712	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:47717/devtools/browser/038a0cb9-9beb-437d-907e-75b2ed8c1211
+JavaScript warning: http://192.168.198.128/mutillidae/javascript/ddsmoothmenu/jquery.min.js, line 19: unreachable code after return statement
+JavaScript error: http://192.168.198.128/mutillidae/index.php?page=set-background-color.php, line 1: ReferenceError: onLoadOfBody is not defined
+1718124011877	Marionette	INFO	Stopped listening on port 47725
+Dynamically enable window occlusion 1
+1718124054892	geckodriver	INFO	Listening on 127.0.0.1:47759
+1718124057946	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "47760" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Grzes\\AppData\\Local\\Temp\\rust_mozprofileqLYUyq"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1718124058314	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1718124058414	Marionette	INFO	Listening on port 47768
+WebDriver BiDi listening on ws://127.0.0.1:47760
+Read port: 47768
+1718124058665	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:47760/devtools/browser/a382c468-e8dd-499e-ad12-f0f399b3c506
+JavaScript warning: http://192.168.198.128/mutillidae/javascript/ddsmoothmenu/jquery.min.js, line 19: unreachable code after return statement
+JavaScript error: http://192.168.198.128/mutillidae/index.php?page=set-background-color.php, line 1: ReferenceError: onLoadOfBody is not defined
+1718124065808	Marionette	INFO	Stopped listening on port 47768
+Dynamically enable window occlusion 1
+1718124077392	geckodriver	INFO	Listening on 127.0.0.1:47817
+1718124080442	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "47818" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Grzes\\AppData\\Local\\Temp\\rust_mozprofileImWjCq"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1718124080782	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1718124080873	Marionette	INFO	Listening on port 47827
+WebDriver BiDi listening on ws://127.0.0.1:47818
+Read port: 47827
+1718124081057	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:47818/devtools/browser/af05069f-8276-44af-bf80-82f06098f1ff
+JavaScript warning: http://192.168.198.128/mutillidae/javascript/ddsmoothmenu/jquery.min.js, line 19: unreachable code after return statement
+JavaScript error: http://192.168.198.128/mutillidae/index.php?page=set-background-color.php, line 1: ReferenceError: onLoadOfBody is not defined
+1718124088416	Marionette	INFO	Stopped listening on port 47827
+Dynamically enable window occlusion 1
+1718124140919	geckodriver	INFO	Listening on 127.0.0.1:47879
+1718124143986	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "47880" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Grzes\\AppData\\Local\\Temp\\rust_mozprofilewR3FgZ"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1718124144380	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1718124144470	Marionette	INFO	Listening on port 47889
+WebDriver BiDi listening on ws://127.0.0.1:47880
+Read port: 47889
+1718124144639	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:47880/devtools/browser/8f287c72-ddd8-480e-b310-64103f3f692d
+JavaScript warning: http://192.168.198.128/mutillidae/javascript/ddsmoothmenu/jquery.min.js, line 19: unreachable code after return statement
+JavaScript error: http://192.168.198.128/mutillidae/index.php?page=pen-test-tool-lookup.php, line 1: ReferenceError: onLoadOfBody is not defined
+1718124146813	Marionette	INFO	Stopped listening on port 47889
+Dynamically enable window occlusion 1
+1718124178519	geckodriver	INFO	Listening on 127.0.0.1:47919
+1718124181553	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "47920" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Grzes\\AppData\\Local\\Temp\\rust_mozprofilesPHSPo"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1718124181960	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1718124182076	Marionette	INFO	Listening on port 47927
+WebDriver BiDi listening on ws://127.0.0.1:47920
+Read port: 47927
+1718124182271	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:47920/devtools/browser/37634b36-b981-4dca-99a6-c8c502374413
+JavaScript warning: http://192.168.198.128/mutillidae/javascript/ddsmoothmenu/jquery.min.js, line 19: unreachable code after return statement
+JavaScript error: http://192.168.198.128/mutillidae/index.php?page=pen-test-tool-lookup.php, line 1: ReferenceError: onLoadOfBody is not defined
+1718124184613	Marionette	INFO	Stopped listening on port 47927
+Dynamically enable window occlusion 1
+1718124235688	geckodriver	INFO	Listening on 127.0.0.1:47959
+1718124238690	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "47960" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Grzes\\AppData\\Local\\Temp\\rust_mozprofileHOJh9R"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1718124239126	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1718124239216	Marionette	INFO	Listening on port 47967
+WebDriver BiDi listening on ws://127.0.0.1:47960
+Read port: 47967
+1718124239408	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:47960/devtools/browser/cd00559e-f51d-4f75-9dae-17891c801d40
+JavaScript warning: http://192.168.198.128/mutillidae/javascript/ddsmoothmenu/jquery.min.js, line 19: unreachable code after return statement
+JavaScript error: http://192.168.198.128/mutillidae/index.php?page=pen-test-tool-lookup.php, line 1: ReferenceError: onLoadOfBody is not defined
+1718124241702	Marionette	INFO	Stopped listening on port 47967
+Dynamically enable window occlusion 1
+1718124278074	geckodriver	INFO	Listening on 127.0.0.1:47998
+1718124281009	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "47999" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Grzes\\AppData\\Local\\Temp\\rust_mozprofiley683uX"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1718124281375	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1718124281464	Marionette	INFO	Listening on port 48006
+WebDriver BiDi listening on ws://127.0.0.1:47999
+Read port: 48006
+1718124281638	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:47999/devtools/browser/9d18b016-4760-46d4-a059-6ab749182906
+JavaScript warning: http://192.168.198.128/mutillidae/javascript/ddsmoothmenu/jquery.min.js, line 19: unreachable code after return statement
+JavaScript error: http://192.168.198.128/mutillidae/index.php?page=pen-test-tool-lookup.php, line 1: ReferenceError: onLoadOfBody is not defined
+1718124286949	Marionette	INFO	Stopped listening on port 48006
+Dynamically enable window occlusion 1
+1718124326271	geckodriver	INFO	Listening on 127.0.0.1:48074
+1718124329293	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "48075" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Grzes\\AppData\\Local\\Temp\\rust_mozprofile3YWm7U"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1718124329637	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1718124329733	Marionette	INFO	Listening on port 48084
+WebDriver BiDi listening on ws://127.0.0.1:48075
+Read port: 48084
+1718124329909	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:48075/devtools/browser/b5c42f57-6832-4394-85a1-0c1b1f186956
+JavaScript warning: http://192.168.198.128/mutillidae/javascript/ddsmoothmenu/jquery.min.js, line 19: unreachable code after return statement
+JavaScript error: http://192.168.198.128/mutillidae/index.php?page=pen-test-tool-lookup.php, line 1: ReferenceError: onLoadOfBody is not defined
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://192.168.198.128."
+JavaScript warning: http://192.168.198.128/mutillidae/javascript/ddsmoothmenu/jquery.min.js, line 19: unreachable code after return statement
+JavaScript error: http://192.168.198.128/mutillidae/index.php?page=pen-test-tool-lookup.php, line 1: ReferenceError: onLoadOfBody is not defined
+1718124335361	Marionette	INFO	Stopped listening on port 48084
+Dynamically enable window occlusion 1
+1718124476072	geckodriver	INFO	Listening on 127.0.0.1:48223
+1718124479077	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "48224" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Grzes\\AppData\\Local\\Temp\\rust_mozprofileJVah4S"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1718124479425	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1718124479517	Marionette	INFO	Listening on port 48233
+WebDriver BiDi listening on ws://127.0.0.1:48224
+Read port: 48233
+1718124479703	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:48224/devtools/browser/a66845a3-74f6-44a0-a4d9-31b9208e4f9f
+JavaScript warning: http://192.168.198.128/mutillidae/javascript/ddsmoothmenu/jquery.min.js, line 19: unreachable code after return statement
+JavaScript error: http://192.168.198.128/mutillidae/index.php?page=pen-test-tool-lookup.php, line 1: ReferenceError: onLoadOfBody is not defined
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://192.168.198.128."
+JavaScript warning: http://192.168.198.128/mutillidae/javascript/ddsmoothmenu/jquery.min.js, line 19: unreachable code after return statement
+JavaScript error: http://192.168.198.128/mutillidae/index.php?page=pen-test-tool-lookup.php, line 1: ReferenceError: onLoadOfBody is not defined
+1718124485087	Marionette	INFO	Stopped listening on port 48233
+Dynamically enable window occlusion 1
+1718124514538	geckodriver	INFO	Listening on 127.0.0.1:48292
+1718124517549	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "48293" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Grzes\\AppData\\Local\\Temp\\rust_mozprofile56gyZl"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1718124517927	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1718124518018	Marionette	INFO	Listening on port 48302
+WebDriver BiDi listening on ws://127.0.0.1:48293
+Read port: 48302
+1718124518193	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:48293/devtools/browser/0d51759e-4579-411e-a762-62c9fa580068
+JavaScript warning: http://192.168.198.128/mutillidae/javascript/ddsmoothmenu/jquery.min.js, line 19: unreachable code after return statement
+JavaScript error: http://192.168.198.128/mutillidae/index.php?page=pen-test-tool-lookup.php, line 1: ReferenceError: onLoadOfBody is not defined
+1718124520277	Marionette	INFO	Stopped listening on port 48302
+Dynamically enable window occlusion 1
+1718124556345	geckodriver	INFO	Listening on 127.0.0.1:48353
+1718124559382	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "48354" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Grzes\\AppData\\Local\\Temp\\rust_mozprofilearJ2mK"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1718124559733	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1718124559826	Marionette	INFO	Listening on port 48362
+WebDriver BiDi listening on ws://127.0.0.1:48354
+Read port: 48362
+1718124560012	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:48354/devtools/browser/b2c5528d-a4ae-4dc9-b688-8e1c6be18707
+JavaScript warning: http://192.168.198.128/mutillidae/javascript/ddsmoothmenu/jquery.min.js, line 19: unreachable code after return statement
+JavaScript error: http://192.168.198.128/mutillidae/index.php?page=pen-test-tool-lookup.php, line 1: ReferenceError: onLoadOfBody is not defined
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://192.168.198.128."
+JavaScript warning: http://192.168.198.128/mutillidae/javascript/ddsmoothmenu/jquery.min.js, line 19: unreachable code after return statement
+JavaScript error: http://192.168.198.128/mutillidae/index.php?page=pen-test-tool-lookup.php, line 1: ReferenceError: onLoadOfBody is not defined
+1718124565563	Marionette	INFO	Stopped listening on port 48362
+Dynamically enable window occlusion 1
+1718124575297	geckodriver	INFO	Listening on 127.0.0.1:48414
+1718124578286	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "48415" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Grzes\\AppData\\Local\\Temp\\rust_mozprofilecbH2tw"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1718124578633	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1718124578769	Marionette	INFO	Listening on port 48424
+WebDriver BiDi listening on ws://127.0.0.1:48415
+Read port: 48424
+1718124578928	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:48415/devtools/browser/d8508527-68ef-45fc-a815-2040e5e74929
+JavaScript warning: http://192.168.198.128/mutillidae/javascript/ddsmoothmenu/jquery.min.js, line 19: unreachable code after return statement
+JavaScript error: http://192.168.198.128/mutillidae/index.php?page=pen-test-tool-lookup.php, line 1: ReferenceError: onLoadOfBody is not defined
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://192.168.198.128."
+JavaScript warning: http://192.168.198.128/mutillidae/javascript/ddsmoothmenu/jquery.min.js, line 19: unreachable code after return statement
+JavaScript error: http://192.168.198.128/mutillidae/index.php?page=pen-test-tool-lookup.php, line 1: ReferenceError: onLoadOfBody is not defined
+1718124584576	Marionette	INFO	Stopped listening on port 48424
+Dynamically enable window occlusion 1
+1718124592774	geckodriver	INFO	Listening on 127.0.0.1:48472
+1718124595823	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "48473" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Grzes\\AppData\\Local\\Temp\\rust_mozprofilei8lQaU"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1718124596185	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1718124596280	Marionette	INFO	Listening on port 48481
+WebDriver BiDi listening on ws://127.0.0.1:48473
+Read port: 48481
+1718124596468	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:48473/devtools/browser/cbd3fe0a-f8b1-4655-8a43-1a01556ac324
+JavaScript warning: http://192.168.198.128/mutillidae/javascript/ddsmoothmenu/jquery.min.js, line 19: unreachable code after return statement
+JavaScript error: http://192.168.198.128/mutillidae/index.php?page=pen-test-tool-lookup.php, line 1: ReferenceError: onLoadOfBody is not defined
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://192.168.198.128."
+JavaScript warning: http://192.168.198.128/mutillidae/javascript/ddsmoothmenu/jquery.min.js, line 19: unreachable code after return statement
+JavaScript error: http://192.168.198.128/mutillidae/index.php?page=pen-test-tool-lookup.php, line 1: ReferenceError: onLoadOfBody is not defined
+1718124602233	Marionette	INFO	Stopped listening on port 48481
+Dynamically enable window occlusion 1
+1718124634353	geckodriver	INFO	Listening on 127.0.0.1:48541
+1718124637399	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "48542" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Grzes\\AppData\\Local\\Temp\\rust_mozprofileGkmf9U"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1718124637758	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1718124637855	Marionette	INFO	Listening on port 48550
+WebDriver BiDi listening on ws://127.0.0.1:48542
+Read port: 48550
+1718124638028	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:48542/devtools/browser/c3055f49-8dc1-4789-a602-09bd81d77928
+JavaScript warning: http://192.168.198.128/mutillidae/javascript/ddsmoothmenu/jquery.min.js, line 19: unreachable code after return statement
+JavaScript error: http://192.168.198.128/mutillidae/index.php?page=pen-test-tool-lookup.php, line 1: ReferenceError: onLoadOfBody is not defined
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://192.168.198.128."
+JavaScript warning: http://192.168.198.128/mutillidae/javascript/ddsmoothmenu/jquery.min.js, line 19: unreachable code after return statement
+JavaScript error: http://192.168.198.128/mutillidae/index.php?page=pen-test-tool-lookup.php, line 1: ReferenceError: onLoadOfBody is not defined
+1718124643571	Marionette	INFO	Stopped listening on port 48550
+Dynamically enable window occlusion 1
+1718124675534	geckodriver	INFO	Listening on 127.0.0.1:48615
+1718124678611	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "48616" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Grzes\\AppData\\Local\\Temp\\rust_mozprofileguz7tf"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1718124678962	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1718124679050	Marionette	INFO	Listening on port 48625
+WebDriver BiDi listening on ws://127.0.0.1:48616
+Read port: 48625
+1718124679222	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:48616/devtools/browser/1c147ed0-4412-47bb-a452-ed7847578a57
+JavaScript warning: http://192.168.198.128/mutillidae/javascript/ddsmoothmenu/jquery.min.js, line 19: unreachable code after return statement
+JavaScript error: http://192.168.198.128/mutillidae/index.php?page=pen-test-tool-lookup.php, line 1: ReferenceError: onLoadOfBody is not defined
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://192.168.198.128."
+JavaScript warning: http://192.168.198.128/mutillidae/javascript/ddsmoothmenu/jquery.min.js, line 19: unreachable code after return statement
+JavaScript error: http://192.168.198.128/mutillidae/index.php?page=pen-test-tool-lookup.php, line 1: ReferenceError: onLoadOfBody is not defined
+1718124684928	Marionette	INFO	Stopped listening on port 48625
+Dynamically enable window occlusion 1
+1718124706585	geckodriver	INFO	Listening on 127.0.0.1:48683
+1718124709630	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "48684" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Grzes\\AppData\\Local\\Temp\\rust_mozprofilewRXcO1"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1718124709978	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1718124710069	Marionette	INFO	Listening on port 48694
+WebDriver BiDi listening on ws://127.0.0.1:48684
+Read port: 48694
+1718124710253	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:48684/devtools/browser/32734163-7019-45b1-9a01-236f527e7c93
+JavaScript warning: http://192.168.198.128/mutillidae/javascript/ddsmoothmenu/jquery.min.js, line 19: unreachable code after return statement
+JavaScript error: http://192.168.198.128/mutillidae/index.php?page=pen-test-tool-lookup.php, line 1: ReferenceError: onLoadOfBody is not defined
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://192.168.198.128."
+JavaScript warning: http://192.168.198.128/mutillidae/javascript/ddsmoothmenu/jquery.min.js, line 19: unreachable code after return statement
+JavaScript error: http://192.168.198.128/mutillidae/index.php?page=pen-test-tool-lookup.php, line 1: ReferenceError: onLoadOfBody is not defined
+1718124741851	geckodriver	INFO	Listening on 127.0.0.1:48754
+1718124744905	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "48755" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Grzes\\AppData\\Local\\Temp\\rust_mozprofileCwGlfy"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1718124745255	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1718124745348	Marionette	INFO	Listening on port 48763
+WebDriver BiDi listening on ws://127.0.0.1:48755
+Read port: 48763
+1718124745536	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:48755/devtools/browser/670a3866-0097-4e42-beee-a6c3d58c1540
+JavaScript warning: http://192.168.198.128/mutillidae/javascript/ddsmoothmenu/jquery.min.js, line 19: unreachable code after return statement
+JavaScript error: http://192.168.198.128/mutillidae/index.php?page=pen-test-tool-lookup.php, line 1: ReferenceError: onLoadOfBody is not defined
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://192.168.198.128."
+JavaScript warning: http://192.168.198.128/mutillidae/javascript/ddsmoothmenu/jquery.min.js, line 19: unreachable code after return statement
+JavaScript error: http://192.168.198.128/mutillidae/index.php?page=pen-test-tool-lookup.php, line 1: ReferenceError: onLoadOfBody is not defined
+1718124775800	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://192.168.198.128."
+JavaScript warning: http://192.168.198.128/mutillidae/javascript/ddsmoothmenu/jquery.min.js, line 19: unreachable code after return statement
+JavaScript error: http://192.168.198.128/mutillidae/index.php?page=pen-test-tool-lookup.php, line 1: ReferenceError: onLoadOfBody is not defined
+Exiting due to channel error.
+Exiting due to channel error.
+1718124840682	geckodriver	INFO	Listening on 127.0.0.1:48853
+1718124843720	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "48854" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Grzes\\AppData\\Local\\Temp\\rust_mozprofile9sL6IN"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1718124844072	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1718124844174	Marionette	INFO	Listening on port 48864
+WebDriver BiDi listening on ws://127.0.0.1:48854
+Read port: 48864
+1718124844366	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:48854/devtools/browser/9e583356-cd58-44ad-859b-a4f316cc5a25
+JavaScript warning: http://192.168.198.128/mutillidae/javascript/ddsmoothmenu/jquery.min.js, line 19: unreachable code after return statement
+JavaScript error: http://192.168.198.128/mutillidae/index.php?page=pen-test-tool-lookup.php, line 1: ReferenceError: onLoadOfBody is not defined
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://192.168.198.128."
+JavaScript warning: http://192.168.198.128/mutillidae/javascript/ddsmoothmenu/jquery.min.js, line 19: unreachable code after return statement
+JavaScript error: http://192.168.198.128/mutillidae/index.php?page=pen-test-tool-lookup.php, line 1: ReferenceError: onLoadOfBody is not defined
+1718124865110	Marionette	INFO	Stopped listening on port 48864
+Dynamically enable window occlusion 1
+console.warn: "Async method failed in safeAsyncMethod" (new Error("Connection closed, pending request to server0.conn0.windowGlobal6442450946/customhighlighter189, type hide failed\n\nRequest stack:\nrequest@resource://devtools/shared/protocol/Front.js:299:14\ngenerateRequestMethods/</frontProto[name]@resource://devtools/shared/protocol/Front/FrontClassWithSpec.js:47:19\nhide@resource://devtools/client/fronts/highlighters.js:36:18\nexports.safeAsyncMethod/<@resource://devtools/shared/async-utils.js:61:25\nhideHighlighterType@resource://devtools/client/inspector/shared/highlighters-overlay.js:650:23\nexports.safeAsyncMethod/<@resource://devtools/shared/async-utils.js:61:25\n_hideBoxModel@resource://devtools/client/inspector/markup/markup.js:794:40\n_onMouseOut@resource://devtools/client/inspector/markup/markup.js:762:16\nobserve@resource://gre/modules/AsyncShutdown.sys.mjs:570:17\nquit@chrome://remote/content/shared/Browser.sys.mjs:94:22\nGeckoDriver.prototype.quit@chrome://remote/content/marionette/driver.sys.mjs:2923:42\ndespatch@chrome://remote/content/marionette/server.sys.mjs:318:40\nexecute@chrome://remote/content/marionette/server.sys.mjs:289:16\nonPacket/<@chrome://remote/content/marionette/server.sys.mjs:262:20\nonPacket@chrome://remote/content/marionette/server.sys.mjs:263:9\n_onJSONObjectReady/<@chrome://remote/content/marionette/transport.sys.mjs:494:20\n", "resource://devtools/shared/protocol/Front.js", 105))
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+1718124894064	geckodriver	INFO	Listening on 127.0.0.1:48938
+1718124897104	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "48939" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Grzes\\AppData\\Local\\Temp\\rust_mozprofileH2w0ZN"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1718124897458	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1718124897545	Marionette	INFO	Listening on port 48949
+WebDriver BiDi listening on ws://127.0.0.1:48939
+Read port: 48949
+1718124897717	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:48939/devtools/browser/339ef14d-48c1-46fc-9053-acbb651848e4
+JavaScript warning: http://192.168.198.128/mutillidae/javascript/ddsmoothmenu/jquery.min.js, line 19: unreachable code after return statement
+JavaScript error: http://192.168.198.128/mutillidae/index.php?page=pen-test-tool-lookup.php, line 1: ReferenceError: onLoadOfBody is not defined
+JavaScript error: http://192.168.198.128/mutillidae/javascript/jQuery/jquery.balloon.js, line 250: TypeError: options is undefined
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://192.168.198.128."
+JavaScript warning: http://192.168.198.128/mutillidae/javascript/ddsmoothmenu/jquery.min.js, line 19: unreachable code after return statement
+JavaScript error: http://192.168.198.128/mutillidae/index.php?page=pen-test-tool-lookup.php, line 1: ReferenceError: onLoadOfBody is not defined
+1718124937653	geckodriver	INFO	Listening on 127.0.0.1:49020
+1718124940695	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "49021" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Grzes\\AppData\\Local\\Temp\\rust_mozprofileroWCJ9"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1718124941050	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1718124941143	Marionette	INFO	Listening on port 49029
+WebDriver BiDi listening on ws://127.0.0.1:49021
+Read port: 49029
+1718124941329	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:49021/devtools/browser/7d70ce60-f714-4877-b62e-91ba85e3b31c
+JavaScript warning: http://192.168.198.128/mutillidae/javascript/ddsmoothmenu/jquery.min.js, line 19: unreachable code after return statement
+JavaScript error: http://192.168.198.128/mutillidae/index.php?page=pen-test-tool-lookup.php, line 1: ReferenceError: onLoadOfBody is not defined
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://192.168.198.128."
+JavaScript warning: http://192.168.198.128/mutillidae/javascript/ddsmoothmenu/jquery.min.js, line 19: unreachable code after return statement
+1718124959424	Marionette	INFO	Stopped listening on port 49029
+JavaScript warning: http://192.168.198.128/mutillidae/javascript/jQuery/jquery.js, line 7332: Script terminated by timeout at:
+@http://192.168.198.128/mutillidae/javascript/jQuery/jquery.js:7332:21
+@http://192.168.198.128/mutillidae/javascript/jQuery/jquery.js:9472:3
+
+JavaScript error: http://192.168.198.128/mutillidae/javascript/jQuery/colorbox/jquery.colorbox-min.js line 1090 > srcScript, line 4: TypeError: a(...).delegate is not a function
+JavaScript error: http://192.168.198.128/mutillidae/index.php?page=pen-test-tool-lookup.php, line 1: ReferenceError: onLoadOfBody is not defined
+Dynamically enable window occlusion 1
+console.warn: "Error while destroying front:" "inspector" (new Error("Connection closed, pending request to server0.conn0.watcher2, type getParentBrowsingContextID failed\n\nRequest stack:\nrequest@resource://devtools/shared/protocol/Front.js:299:14\ngenerateRequestMethods/</frontProto[name]@resource://devtools/shared/protocol/Front/FrontClassWithSpec.js:47:19\ngetParentWindowGlobalTarget@resource://devtools/client/fronts/watcher.js:93:27\ngetParentTarget@resource://devtools/shared/commands/target/target-command.js:1095:30\ngetParentTarget@resource://devtools/client/fronts/targets/target-mixin.js:152:42\nreparentRemoteFrame@resource://devtools/client/fronts/walker.js:391:49\n_getWalker@resource://devtools/client/fronts/inspector.js:91:23\nobserve@resource://gre/modules/AsyncShutdown.sys.mjs:570:17\nquit@chrome://remote/content/shared/Browser.sys.mjs:94:22\nGeckoDriver.prototype.quit@chrome://remote/content/marionette/driver.sys.mjs:2923:42\ndespatch@chrome://remote/content/marionette/server.sys.mjs:318:40\nexecute@chrome://remote/content/marionette/server.sys.mjs:289:16\nonPacket/<@chrome://remote/content/marionette/server.sys.mjs:262:20\nonPacket@chrome://remote/content/marionette/server.sys.mjs:263:9\n_onJSONObjectReady/<@chrome://remote/content/marionette/transport.sys.mjs:494:20\n", "resource://devtools/shared/protocol/Front.js", 105))
+console.error: "Failed to start [root-node] legacy listener for target null" (new Error("Connection closed, pending request to server0.conn0.watcher2, type getParentBrowsingContextID failed\n\nRequest stack:\nrequest@resource://devtools/shared/protocol/Front.js:299:14\ngenerateRequestMethods/</frontProto[name]@resource://devtools/shared/protocol/Front/FrontClassWithSpec.js:47:19\ngetParentWindowGlobalTarget@resource://devtools/client/fronts/watcher.js:93:27\ngetParentTarget@resource://devtools/shared/commands/target/target-command.js:1095:30\ngetParentTarget@resource://devtools/client/fronts/targets/target-mixin.js:152:42\nreparentRemoteFrame@resource://devtools/client/fronts/walker.js:391:49\n_getWalker@resource://devtools/client/fronts/inspector.js:91:23\nobserve@resource://gre/modules/AsyncShutdown.sys.mjs:570:17\nquit@chrome://remote/content/shared/Browser.sys.mjs:94:22\nGeckoDriver.prototype.quit@chrome://remote/content/marionette/driver.sys.mjs:2923:42\ndespatch@chrome://remote/content/marionette/server.sys.mjs:318:40\nexecute@chrome://remote/content/marionette/server.sys.mjs:289:16\nonPacket/<@chrome://remote/content/marionette/server.sys.mjs:262:20\nonPacket@chrome://remote/content/marionette/server.sys.mjs:263:9\n_onJSONObjectReady/<@chrome://remote/content/marionette/transport.sys.mjs:494:20\n", "resource://devtools/shared/protocol/Front.js", 105))
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://devtools/shared/protocol/Front.js, line 105: Error: Connection closed, pending request to server0.conn0.watcher2, type getParentBrowsingContextID failed
+
+Request stack:
+request@resource://devtools/shared/protocol/Front.js:299:14
+generateRequestMethods/</frontProto[name]@resource://devtools/shared/protocol/Front/FrontClassWithSpec.js:47:19
+getParentWindowGlobalTarget@resource://devtools/client/fronts/watcher.js:93:27
+getParentTarget@resource://devtools/shared/commands/target/target-command.js:1095:30
+getParentTarget@resource://devtools/client/fronts/targets/target-mixin.js:152:42
+reparentRemoteFrame@resource://devtools/client/fronts/walker.js:391:49
+_getWalker@resource://devtools/client/fronts/inspector.js:91:23
+observe@resource://gre/modules/AsyncShutdown.sys.mjs:570:17
+quit@chrome://remote/content/shared/Browser.sys.mjs:94:22
+GeckoDriver.prototype.quit@chrome://remote/content/marionette/driver.sys.mjs:2923:42
+despatch@chrome://remote/content/marionette/server.sys.mjs:318:40
+execute@chrome://remote/content/marionette/server.sys.mjs:289:16
+onPacket/<@chrome://remote/content/marionette/server.sys.mjs:262:20
+onPacket@chrome://remote/content/marionette/server.sys.mjs:263:9
+_onJSONObjectReady/<@chrome://remote/content/marionette/transport.sys.mjs:494:20
+
+1718125001835	geckodriver	INFO	Listening on 127.0.0.1:49118
+1718125004890	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "49119" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Grzes\\AppData\\Local\\Temp\\rust_mozprofilerivOOh"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1718125005244	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1718125005336	Marionette	INFO	Listening on port 49128
+WebDriver BiDi listening on ws://127.0.0.1:49119
+Read port: 49128
+1718125005522	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:49119/devtools/browser/17825146-e4b0-4ea5-82fc-12f31c440396
+JavaScript warning: http://192.168.198.128/mutillidae/javascript/ddsmoothmenu/jquery.min.js, line 19: unreachable code after return statement
+JavaScript error: http://192.168.198.128/mutillidae/index.php?page=pen-test-tool-lookup.php, line 1: ReferenceError: onLoadOfBody is not defined
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://192.168.198.128."
+JavaScript warning: http://192.168.198.128/mutillidae/javascript/ddsmoothmenu/jquery.min.js, line 19: unreachable code after return statement
+1718125023013	Marionette	INFO	Stopped listening on port 49128
+JavaScript error: http://192.168.198.128/mutillidae/index.php?page=pen-test-tool-lookup.php, line 1: ReferenceError: onLoadOfBody is not defined
+Dynamically enable window occlusion 1
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+1718125125932	geckodriver	INFO	Listening on 127.0.0.1:38671
+1718125128996	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "38672" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Grzes\\AppData\\Local\\Temp\\rust_mozprofileIi9IRg"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1718125129354	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1718125129444	Marionette	INFO	Listening on port 38681
+WebDriver BiDi listening on ws://127.0.0.1:38672
+Read port: 38681
+1718125129630	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:38672/devtools/browser/a19e549c-1b8f-4f5b-971f-6d3699a8aa5b
+JavaScript warning: http://192.168.198.128/mutillidae/javascript/ddsmoothmenu/jquery.min.js, line 19: unreachable code after return statement
+JavaScript error: http://192.168.198.128/mutillidae/index.php?page=pen-test-tool-lookup.php, line 1: ReferenceError: onLoadOfBody is not defined
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://192.168.198.128."
+JavaScript warning: http://192.168.198.128/mutillidae/javascript/ddsmoothmenu/jquery.min.js, line 19: unreachable code after return statement
+JavaScript error: http://192.168.198.128/mutillidae/index.php?page=pen-test-tool-lookup.php, line 1: ReferenceError: onLoadOfBody is not defined
+1718125138927	Marionette	INFO	Stopped listening on port 38681
+Dynamically enable window occlusion 1
+1718125152143	geckodriver	INFO	Listening on 127.0.0.1:38732
+1718125155167	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "38733" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Grzes\\AppData\\Local\\Temp\\rust_mozprofileNLMmHr"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1718125155529	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1718125155625	Marionette	INFO	Listening on port 38742
+WebDriver BiDi listening on ws://127.0.0.1:38733
+Read port: 38742
+1718125155806	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:38733/devtools/browser/86a0d382-4e56-4c56-a8c0-afa472fd913d
+JavaScript warning: http://192.168.198.128/mutillidae/javascript/ddsmoothmenu/jquery.min.js, line 19: unreachable code after return statement
+JavaScript error: http://192.168.198.128/mutillidae/index.php?page=pen-test-tool-lookup.php, line 1: ReferenceError: onLoadOfBody is not defined
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://192.168.198.128."
+JavaScript warning: http://192.168.198.128/mutillidae/javascript/ddsmoothmenu/jquery.min.js, line 19: unreachable code after return statement
+1718125158557	Marionette	INFO	Stopped listening on port 38742
+Dynamically enable window occlusion 1
+JavaScript error: resource://gre/modules/Prompter.sys.mjs, line 1212: NS_ERROR_NOT_AVAILABLE: prompt aborted by user
