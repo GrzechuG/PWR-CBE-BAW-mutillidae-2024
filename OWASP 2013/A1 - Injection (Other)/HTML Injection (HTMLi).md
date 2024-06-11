@@ -41,14 +41,6 @@ Tester:
 ```
 python Tester.py --url <ciąg znaków, zawierający adres ip lub nazwę domeny> --htmli Onsite
 ```
-Tester przez header:
-```
-python Tester.py --url <ciąg znaków, zawierający adres ip lub nazwę domeny> --htmli Header
-```
-Tester przez cookie:
-```
-python Tester.py --url <ciąg znaków, zawierający adres ip lub nazwę domeny> --htmli Cookie
-```
 
 SeleniumTester:
 ```
