@@ -2,7 +2,7 @@
 
 
 
-|-------|------------------|-----------|------|
+
 | Numer | Nazwa Podatności | Istotność | Link |
 |-------|------------------|-----------|------|
 | 1     | Nazwa 1          | Wysoka    | [Link do pliku Markdown](OWASP%202013/A1%20-%20Injection%20(Other)/Buffer%20Overflow.md) |
