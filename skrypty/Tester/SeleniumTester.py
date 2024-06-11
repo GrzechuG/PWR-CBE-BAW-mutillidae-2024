@@ -109,10 +109,10 @@ def main():
         "--xss-reflected-1", action="store_true", help="Reflected (First Order)"
     )
 
-
-
     parser.add_argument(
-        "--xss-reflected-2", action="store_true", help="Reflected (First order) - Set Background colour"
+        "--xss-reflected-2",
+        action="store_true",
+        help="Reflected (First order) - Set Background colour",
     )
     # xss_via_html_attribute
     parser.add_argument(
@@ -153,10 +153,10 @@ def main():
         "priv_esc": privilege_escalation_via_cookie_into_uid,
         "idor": idor,
         "xss_persistent": xss_persistent,
-        "xss_reflected_1" : xss_reflected_1,
-        "xss_reflected_2" : xss_reflected_2,
+        "xss_reflected_1": xss_reflected_1,
+        "xss_reflected_2": xss_reflected_2,
         "xss_via_html_attribute": xss_via_html_attribute,
-        "xss_against_json" : xss_against_json
+        "xss_against_json": xss_against_json,
     }
 
     if extract_ip(args.url) is None:
