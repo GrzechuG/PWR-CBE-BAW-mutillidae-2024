@@ -1,7 +1,7 @@
 
 ## Nazwa podatności: Privilege Escalation
 
-**Istotność:** 10
+**Istotność:** Wysoka
 
 ---
 
