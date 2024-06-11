@@ -1,6 +1,6 @@
 # PWR-CBE-BAW-mutillidae
 
-
+|-------|------------------|-----------|------|
 | Podatności typu 'Injection' (Inne)  |
 |-------|------------------|-----------|------|
 | Numer | Nazwa Podatności | Istotność | Link |
