@@ -1,6 +1,6 @@
 ## Nazwa podatności: Cross-Site Scripting (XSS)
 
-**Istotność:** 8
+**Istotność:** Wysoka
 
 ---
 
