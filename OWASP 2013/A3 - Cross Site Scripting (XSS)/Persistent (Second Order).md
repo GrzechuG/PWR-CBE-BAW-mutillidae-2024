@@ -23,7 +23,10 @@ Jeśli natomiast treścią postu będzie kod JavaScript, zostanie on wykonany. P
 Zapisanie blogu i otworzenie strony z jego zawartością powoduje wywołanie się kodu JavaScript:
 ![image](https://github.com/GrzechuG/PWR-CBE-BAW-mutillidae-2024/assets/28838004/39fb0aeb-0fe8-4064-b394-3449a54eca6a)
 
-
+SeleniumTester:
+```
+python SeleniumTester.py --url <ciąg znaków, zawierający adres ip lub nazwę domeny> --xss-persistent
+```
 
 ---
 
