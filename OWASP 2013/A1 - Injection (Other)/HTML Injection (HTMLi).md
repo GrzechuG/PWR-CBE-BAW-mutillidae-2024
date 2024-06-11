@@ -37,6 +37,11 @@ Payload: `http://192.168.198.128/mutillidae/index.php?page=password-generator.ph
 
 ![image](https://github.com/GrzechuG/PWR-CBE-BAW-mutillidae-2024/assets/28838004/5af8ef8c-a05d-4ef6-9613-ca0bf3f65aeb)
 
+Tester:
+```
+python Tester.py --url <ciąg znaków, zawierający adres ip lub nazwę domeny> --htmli Onsite
+```
+
 SeleniumTester:
 ```
 python SeleniumTester.py --url <ciąg znaków, zawierający adres ip lub nazwę domeny> --htmli
