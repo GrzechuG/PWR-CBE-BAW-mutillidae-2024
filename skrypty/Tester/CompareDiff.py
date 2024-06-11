@@ -61,7 +61,6 @@ def compare_pages_post(url1, data, regex=r">([^<]+)<"):
     page_text1 = get_page_text(url1)
     page_text2 = post_page_text(url1, data)
 
-    print(page_text2)
     # source https://docs.python.org/3/library/difflib.html
     diff = difflib.unified_diff(
         page_text1.splitlines(), page_text2.splitlines(), lineterm=""
