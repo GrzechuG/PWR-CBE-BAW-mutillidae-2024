@@ -12,7 +12,7 @@ Możliwe jest wyeksploitowanie parametru page na stronie "http://192.168.64.141/
 
 **Technika eksploitacji:**
 Możliwa jest enumeracja podstron przez parametr 'page=' przy pomocy dowolnego oprogramowania lub skryptu lub przez ręczne umieszczenie tekstu. Aby móc spróbować wyeksportować pliki systemowe trzeba użyć w parametrze poprzedzić to przez wyrażenie "file:///". Do wylistowania podstron został wykorzystany prosty skrypt, którego wynik widać poniżej:
-![obraz](https://github.com/GrzechuG/PWR-CBE-BAW-mutillidae-2024/assets/93217316/fa89cdd2-95ec-4702-88b7-cde0ca9884a4)
+![obraz](https://github.com/GrzechuG/PWR-CBE-BAW-mutillidae-2024/assets/93217316/4756da36-9019-4799-b809-c0e0c3451d3e)
 
 Program:
 ```
