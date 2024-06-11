@@ -1,6 +1,6 @@
 ## Nazwa podatności: HTML Injection
 
-**Istotność:** Medium
+**Istotność:** Średnia
 
 ---
 
