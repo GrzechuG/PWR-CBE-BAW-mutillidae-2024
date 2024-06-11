@@ -1,16 +1,10 @@
 from selenium import webdriver
 from seleniumwire import webdriver as wire_webdriver
 
-# from os import path
-
 
 class FirefoxBrowser:
     def __init__(self, headless=False):
         options = webdriver.FirefoxOptions()
-        # if path.exists(r'C:\Program Files (x86)\Mozilla Firefox\firefox.exe'):
-        #     options.binary_location = r'C:\Program Files (x86)\Mozilla Firefox\firefox.exe'
-        # else:
-        #     options.binary_location = r'C:\Program Files\Mozilla Firefox\firefox.exe'
         if headless:
             options.add_argument("--headless")
         self.driver = webdriver.Firefox(options=options)

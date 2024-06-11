@@ -100,39 +100,24 @@ def main():
         action="store_true",
         help="Insecure Direct Object References - Text File Viewer",
     )
-
     parser.add_argument(
         "--xss-persistent", action="store_true", help="XSS Persistent (Second Order)"
     )
-
     parser.add_argument(
         "--xss-reflected-1", action="store_true", help="Reflected (First Order)"
     )
-
     parser.add_argument(
         "--xss-reflected-2",
         action="store_true",
         help="Reflected (First order) - Set Background colour",
     )
-    # xss_via_html_attribute
     parser.add_argument(
         "--xss-via-html-attribute", action="store_true", help="XSS Via HTML Attribute"
     )
-    # xss_against_json
     parser.add_argument(
         "--xss-against-json", action="store_true", help="XSS Against JSON"
     )
 
-    # parser.add_argument("--xssget", action="store_true", help="XSS via GET")
-    # parser.add_argument("--xsspost", action="store_true", help="XSS via POST")
-    # parser.add_argument(
-    #     "--sqli",
-    #     type=str,
-    #     nargs="?",
-    #     const="Normal",
-    #     help='SQLI via POST: currently supported: "Normal", "Insert", "Timing"',
-    # )
-    # parser.add_argument("--postdata", nargs="*", help="Post Data")
     args = parser.parse_args()
     flag_to_function = {
         "http_pollution": http_parameter_pollution,
@@ -177,10 +162,6 @@ def main():
                 return
     if args.buffer_overflow:
         buffer_overflow(extract_ip(args.url), args.sleep if args.sleep else 0)
-    # elif args.xssget:
-    #     print(xss_get(args.url))
-    # elif args.xsspost:
-    #     print(xss_post(args.url, args.postdata))
     else:
         print("Nie podano odpowiedniego argumentu.")
 
