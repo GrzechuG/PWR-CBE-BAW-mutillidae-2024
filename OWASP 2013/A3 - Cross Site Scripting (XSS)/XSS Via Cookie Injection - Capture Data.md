@@ -1,4 +1,4 @@
-## Nazwa podatności: Reflected XSS - via cookie injection
+## Nazwa podatności: XSS Reflected - via cookie injection
 
 **Istotność:** 9
 
