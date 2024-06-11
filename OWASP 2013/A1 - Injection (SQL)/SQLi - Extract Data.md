@@ -1,4 +1,4 @@
-## Nazwa podatności: SQL Injection
+## Nazwa podatności: SQL Injection - Extract Data
 
 **Istotność:** Wysoka
 
