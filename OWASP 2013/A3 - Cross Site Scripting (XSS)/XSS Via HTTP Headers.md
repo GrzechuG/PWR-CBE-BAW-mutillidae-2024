@@ -23,6 +23,11 @@ Po przesłaniu tak zmodyfikowanego zapytania wywoływane jest powiadomienie z za
 
 ![image](https://github.com/GrzechuG/PWR-CBE-BAW-mutillidae-2024/assets/56219452/50e1278b-9081-4941-8718-9799de341146)
 
+SeleniumTester:
+```
+python SeleniumTester.py --url <ciąg znaków, zawierający adres ip lub nazwę domeny> --xss-via-http-headers
+```
+
 **Mitygacja:**
 1. Kodowanie danych wejściowych: Zawsze koduj dane wejściowe przed ich wyświetleniem na stronie. Używaj HTML entity encoding, aby zamienić specjalne znaki na ich odpowiedniki HTML (np. > na \&gt;, < na \&lt;, " na \&quot;).
 1. Walidacja danych wejściowych: Waliduj wszystkie dane wejściowe, aby upewnić się, że zawierają tylko dozwolone znaki i formaty. Odrzuć dane, które mogą zawierać złośliwy kod. W przypadku nagłówka User-Agent, sprawdź, czy zawiera tylko dozwolone znaki.
