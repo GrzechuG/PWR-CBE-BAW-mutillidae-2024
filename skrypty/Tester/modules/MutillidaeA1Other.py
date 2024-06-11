@@ -234,6 +234,7 @@ def xss_injection_via_dom_injection(
         browser.get(
             f"http://{ip}/mutillidae/index.php?page=password-generator.php&username={payload}"
         )
+        sleep(sleep_time)
         if verify_default_payload:
             WebDriverWait(browser, 3).until(
                 EC.alert_is_present(),
@@ -241,9 +242,7 @@ def xss_injection_via_dom_injection(
             )
             alert = browser.switch_to.alert
             print(f"Captured alert: {alert.text}")
-            sleep(sleep_time)
             alert.accept()
-            sleep(sleep_time)
             scripts = browser.find_elements(By.TAG_NAME, "script")
             for script in scripts:
                 script_content = script.get_attribute("innerHTML")
@@ -306,6 +305,7 @@ def javascript_injection(
         browser.get(
             f"http://{ip}/mutillidae/index.php?page=password-generator.php&username={payload}"
         )
+        sleep(sleep_time)
         if verify_default_payload:
             WebDriverWait(browser, 3).until(
                 EC.alert_is_present(),
@@ -313,9 +313,7 @@ def javascript_injection(
             )
             alert = browser.switch_to.alert
             print(f"Captured alert: {alert.text}")
-            sleep(sleep_time)
             alert.accept()
-            sleep(sleep_time)
             scripts = browser.find_elements(By.TAG_NAME, "script")
             for script in scripts:
                 script_content = script.get_attribute("innerHTML")
@@ -400,6 +398,7 @@ def xss_injection_via_http_header(
         browser.get(
             f"http://{ip}/mutillidae/index.php?page=site-footer-xss-discussion.php"
         )
+        sleep(sleep_time)
         if verify_default_payload:
             WebDriverWait(browser, 3).until(
                 EC.alert_is_present(),
@@ -407,9 +406,7 @@ def xss_injection_via_http_header(
             )
             alert = browser.switch_to.alert
             print(f"Captured alert: {alert.text}")
-            sleep(sleep_time)
             alert.accept()
-            sleep(sleep_time)
             print("XSS via HTTP headers succeeded")
             return True
     except UnexpectedAlertPresentException as e:

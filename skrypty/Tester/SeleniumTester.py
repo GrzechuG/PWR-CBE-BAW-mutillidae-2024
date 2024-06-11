@@ -117,6 +117,9 @@ def main():
     parser.add_argument(
         "--xss-against-json", action="store_true", help="XSS Against JSON"
     )
+    parser.add_argument(
+        "--xss-via-http-headers", action="store_true", help="XSS via HTTP headers"
+    )
 
     args = parser.parse_args()
     flag_to_function = {
@@ -142,6 +145,7 @@ def main():
         "xss_reflected_2": xss_reflected_2,
         "xss_via_html_attribute": xss_via_html_attribute,
         "xss_against_json": xss_against_json,
+        "xss_via_http_headers": xss_via_http_headers,
     }
 
     if extract_ip(args.url) is None:
