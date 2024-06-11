@@ -7,23 +7,21 @@ def main():
     parser.add_argument("--url", type=str, help="Adres URL strony (wraz z parametrem jeżeli http_polution)")
     parser.add_argument("--http-polution", action="store_true", help="HTTP polution")
     parser.add_argument(
-        "--parameter", nargs="*", type=str, help='Podaj parametry GET po spacjach w ""'
+        "--parameter", nargs="*", type=str, help='Podaj parametry GET po spacjach w formacie "parametr=wartosc"'
     )
-    # parser.add_argument('--xssget', action='store_true', help='XSS via GET')
-    # parser.add_argument('--xsspost', action='store_true', help='XSS via POST')
     parser.add_argument(
         "--sqli",
         type=str,
         nargs="?",
         const="Normal",
-        help='SQLI via POST: currently supported: "Normal", "Insert", "Timing"',
+        help='SQLI via POST: aktualnie wspierane: "Normal", "Insert", "Timing"',
     )
     parser.add_argument(
         "--comminj",
         type=str,
         nargs="?",
         const="AND",
-        help='Command Injection: currently supporte: "AND", "DoubleAND", "OR"',
+        help='Command Injection: aktualnie wspierane: "AND", "DoubleAND", "OR"',
     )
     parser.add_argument(
         "--xmleei", action="store_true", help="XML External Entity Injection"
@@ -33,7 +31,7 @@ def main():
         type=str,
         nargs="?",
         const="Onsite",
-        help='HTML Injection currently supported: "Onsite", "Header", "Cookie"',
+        help='HTML Injection: aktualnie wspierane: "Onsite", "Header", "Cookie"',
     )
     parser.add_argument("--autoforms", action="store_true", help="Scrap all forms")
     parser.add_argument("--postdata", nargs="*", help="Post Data")
@@ -41,10 +39,6 @@ def main():
 
     if args.http_polution:
         print(http_pollution(args.url, args.parameter))
-    # elif args.xssget:
-    #     print(xss_get(args.url))
-    # elif args.xsspost:
-    #     print(xss_post(args.url, args.autoforms, args.postdata))
     elif args.sqli:
         print(sqlinjection(args.url, args.sqli, args.autoforms, args.postdata))
     elif args.comminj:
