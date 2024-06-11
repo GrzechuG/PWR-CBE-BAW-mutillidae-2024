@@ -12,7 +12,12 @@ Możliwa jest enumeracja podstron "http://192.168.64.141/mutillidae/", co może 
 
 **Technika eksploitacji:**
 Możliwa jest enumeracja podstron przy pomocy dowolnego oprogramowania lub skryptu lub przez ręczne umieszczenie tekstu. Do wylistowania podstron został wykorzystany prosty skrypt, którego wynik widać poniżej: 
-![obraz](https://github.com/GrzechuG/PWR-CBE-BAW-mutillidae-2024/assets/93217316/e66700ca-e1f3-43f0-8c45-89285cc21e63)
+![obraz](https://github.com/GrzechuG/PWR-CBE-BAW-mutillidae-2024/assets/93217316/d5220eaf-d634-4940-9eaa-20011c26510f)
+
+Program
+```
+python SecretAdminitrativePagesEnumeration.py --url "http://<adres IP>/mutillidae/" --list lista_url_directory.txt --klucz "Validation Error: 404 - Page Not Found"
+```
 
 ---
 
