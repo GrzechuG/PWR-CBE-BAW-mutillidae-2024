@@ -1,4 +1,4 @@
-## Nazwa podatności: Cross-Site Scripting (XSS)
+## Nazwa podatności: XSS Reflected - Set Background Colour page
 
 **Istotność:** 8
 
