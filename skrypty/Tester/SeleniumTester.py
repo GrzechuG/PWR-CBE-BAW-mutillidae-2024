@@ -4,6 +4,7 @@ https://stackoverflow.com/questions/2890896/how-to-extract-an-ip-address-from-an
 """
 import argparse
 from modules.MutillidaeA1Other import *
+from modules.MutillidaeA1Sqli import *
 from re import findall
 
 
@@ -61,6 +62,22 @@ def main():
     parser.add_argument(
         "--xss-http-header", action="store_true", help="XSS via DOM injection"
     )
+    parser.add_argument(
+        "--blind-sqli", action="store_true", help="BLIND SQL injection via timing"
+    )
+    parser.add_argument(
+        "--sqli-bypass-auth",
+        action="store_true",
+        help="SQL injection - bypass authentication",
+    )
+    parser.add_argument(
+        "--sqli-extract-data", action="store_true", help="SQL injection - extract data"
+    )
+    parser.add_argument(
+        "--sqli-insert",
+        action="store_true",
+        help="SQL injection - INSERT injection into password input at register form. Tip for custom injections: Login password is set to x",
+    )
     # parser.add_argument("--xssget", action="store_true", help="XSS via GET")
     # parser.add_argument("--xsspost", action="store_true", help="XSS via POST")
     # parser.add_argument(
@@ -84,6 +101,10 @@ def main():
         "javascript": javascript_injection,
         "xml": xml_external_entity_injection,
         "xss_http_header": xss_injection_via_http_header,
+        "blind_sqli": blind_sqli_via_timing,
+        "sqli_bypass_auth": sqli_bypass_authentication,
+        "sqli_extract_data": sqli_extract_data,
+        "sqli_insert": sqli_insert,
     }
 
     for flag, function in flag_to_function.items():
@@ -105,8 +126,6 @@ def main():
     #     print(xss_get(args.url))
     # elif args.xsspost:
     #     print(xss_post(args.url, args.postdata))
-    # elif args.sqli:
-    #     print(sqlinjection(args.url, args.sqli, args.postdata))
     else:
         print("Nie podano odpowiedniego argumentu.")
 
