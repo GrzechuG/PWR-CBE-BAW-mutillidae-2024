@@ -5,6 +5,7 @@ https://stackoverflow.com/questions/2890896/how-to-extract-an-ip-address-from-an
 import argparse
 from modules.MutillidaeA1Other import *
 from modules.MutillidaeA1Sqli import *
+from modules.MutillidaeA2BrokenAuthentication import *
 from re import findall
 
 
@@ -78,6 +79,11 @@ def main():
         action="store_true",
         help="SQL injection - INSERT injection into password input at register form. Tip for custom injections: Login password is set to x",
     )
+    parser.add_argument(
+        "--priv-esc",
+        action="store_true",
+        help="Privilege escalation via cookie injection",
+    )
     # parser.add_argument("--xssget", action="store_true", help="XSS via GET")
     # parser.add_argument("--xsspost", action="store_true", help="XSS via POST")
     # parser.add_argument(
@@ -105,6 +111,7 @@ def main():
         "sqli_bypass_auth": sqli_bypass_authentication,
         "sqli_extract_data": sqli_extract_data,
         "sqli_insert": sqli_insert,
+        "priv_esc": privilege_escalation_via_cookie_into_uid,
     }
 
     for flag, function in flag_to_function.items():

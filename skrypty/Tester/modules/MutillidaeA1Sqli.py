@@ -1,10 +1,7 @@
-from selenium.common.exceptions import UnexpectedAlertPresentException
-from selenium.webdriver.support.ui import WebDriverWait
-from selenium.webdriver.support import expected_conditions as EC
-from selenium.common.exceptions import TimeoutException, NoSuchElementException
+from selenium.common.exceptions import NoSuchElementException
 from selenium.webdriver.common.by import By
 from time import sleep
-from modules.SeleniumDrivers import FirefoxBrowser, FirefoxBrowserSeleniumWire
+from modules.SeleniumDrivers import FirefoxBrowser
 import random, string
 
 
