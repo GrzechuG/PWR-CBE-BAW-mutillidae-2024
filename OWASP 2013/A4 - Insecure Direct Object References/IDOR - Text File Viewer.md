@@ -23,6 +23,11 @@ Po wybraniu i zatwierdzeniu wyświetlany jest plik /etc/passwd
 
 ![image](https://github.com/GrzechuG/PWR-CBE-BAW-mutillidae-2024/assets/56219452/30716f2c-7a21-44ae-a27b-a6cf98880d49)
 
+SeleniumTester:
+```
+python SeleniumTester.py --url <ciąg znaków, zawierający adres ip lub nazwę domeny> --idor
+```
+
 **Mitygacja:**
 1. Walidacja autoryzacji: Upewnij się, że każda żądana operacja na zasobie jest sprawdzana pod kątem odpowiednich uprawnień użytkownika. Wdroż mechanizmy autoryzacji na poziomie zasobów.
 2. Ukrywanie identyfikatorów: Zamiast używać przewidywalnych identyfikatorów (np. numerów ID), stosuj losowe identyfikatory lub tokeny, które są trudniejsze do odgadnięcia przez atakującego.
