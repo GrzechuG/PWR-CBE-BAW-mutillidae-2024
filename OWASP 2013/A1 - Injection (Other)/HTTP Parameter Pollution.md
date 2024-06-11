@@ -17,6 +17,11 @@ Atakujący może w kodzie URI umieścić wiele parametrów doprowadzając do prz
 http://192.168.64.141/mutillidae/index.php?page=user-poll.php&csrf-token=&choice=nmap&initials=test&choice=netcat&user-poll-php-submit-button=Submit+Vote&
 ```
 
+Tester:
+```
+python Tester.py --url "http://<adres IP>/mutillidae/index.php?page=user-poll.php&csrf-token=&choice=nmap&initials=&user-poll-php-submit-button=Submit+Vote" --http-polution --parameter "choice=Paros"
+```
+
 SeleniumTester:
 ```
 python SeleniumTester.py --url <ciąg znaków, zawierający adres ip lub nazwę domeny> --http-pollution
