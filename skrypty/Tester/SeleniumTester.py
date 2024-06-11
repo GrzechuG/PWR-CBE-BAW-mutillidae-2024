@@ -9,17 +9,25 @@ from modules.MutillidaeA2BrokenAuthentication import *
 from modules.MutillidaeA3XSS import *
 from modules.MutillidaeA4IDOR import *
 from re import findall
+from os import path
+from json import load
 
 
 def extract_ip(url):
-    if not url:
-        return "192.168.255.133"
-    if findall(r"[0-9]+(?:\.[0-9]+){3}:[0-9]+", url):
-        return findall(r"[0-9]+(?:\.[0-9]+){3}:[0-9]+", url)[0]
-    elif findall(r"(?<=:\/\/)(.*?)(?=\/mutillidae)", url):
-        return findall(r"(?<=:\/\/)(.*?)(?=\/mutillidae)", url)[0]
-    elif findall(r"https?://([^/]+)", url):
-        return findall(r"https?://([^/]+)", url)[0]
+    if url:
+        if findall(r"[0-9]+(?:\.[0-9]+){3}:[0-9]+", url):
+            return findall(r"[0-9]+(?:\.[0-9]+){3}:[0-9]+", url)[0]
+        elif findall(r"(?<=:\/\/)(.*?)(?=\/mutillidae)", url):
+            return findall(r"(?<=:\/\/)(.*?)(?=\/mutillidae)", url)[0]
+        elif findall(r"https?://([^/]+)", url):
+            return findall(r"https?://([^/]+)", url)[0]
+    config_file_path = "config.json"
+    if path.exists(config_file_path):
+        with open(config_file_path, "r") as config_file:
+            config = load(config_file)
+            if "server_ip" in config:
+                return config.get("server_ip")
+    return None
 
 
 def main():
@@ -122,6 +130,9 @@ def main():
         "idor": idor,
     }
 
+    if extract_ip(args.url) is None:
+        print("No url provided nor correct config file")
+        return
     for flag, function in flag_to_function.items():
         if getattr(args, flag):
             if args.payload:
