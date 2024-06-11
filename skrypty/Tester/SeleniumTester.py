@@ -6,6 +6,7 @@ import argparse
 from modules.MutillidaeA1Other import *
 from modules.MutillidaeA1Sqli import *
 from modules.MutillidaeA2BrokenAuthentication import *
+from modules.MutillidaeA3XSS import *
 from modules.MutillidaeA4IDOR import *
 from re import findall
 
