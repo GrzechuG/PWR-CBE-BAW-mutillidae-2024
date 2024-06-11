@@ -22,6 +22,11 @@ Kiedy strona jest ładowana lub odświeżana, przeglądarka interpretuje i wykon
 
 ![image](https://github.com/GrzechuG/PWR-CBE-BAW-mutillidae-2024/assets/56219452/d3a9b93b-dbd5-4a1b-b52a-546beffbdff1)
 
+SeleniumTester:
+```
+python SeleniumTester.py --url <ciąg znaków, zawierający adres ip lub nazwę domeny> --xss-reflected-2
+```
+
 **Mitygacja:**
 1. Kodowanie danych wejściowych: Upewnij się, że wszelkie dane wprowadzane przez użytkownika są odpowiednio kodowane przed osadzeniem w atrybutach HTML lub jako wartości w stylach CSS. Użyj odpowiednich metod kodowania, takich jak HTML entity encoding i JavaScript encoding.
 1. Walidacja i sanityzacja danych wejściowych: Waliduj wszystkie dane wejściowe, aby upewnić się, że zawierają tylko dozwolone wartości. Dla pól związanych z wyglądem, takich jak kolor tła, akceptuj tylko wartości, które spełniają oczekiwany format (np. wartości HEX, RGB).
