@@ -24,6 +24,15 @@ Złośliwy użytkownik modyfikuje wartość ciasteczka PHPSESSID (lub innego par
 
 ![image](https://github.com/GrzechuG/PWR-CBE-BAW-mutillidae-2024/assets/56219452/00312398-fdc0-4bd1-9f18-2064a178fe5d)
 
+Tester przez header:
+```
+python Tester.py --url <ciąg znaków, zawierający adres ip lub nazwę domeny> --htmli Header
+```
+Tester przez cookie:
+```
+python Tester.py --url <ciąg znaków, zawierający adres ip lub nazwę domeny> --htmli Cookie
+```
+
 SeleniumTester:
 ```
 python SeleniumTester.py --url <ciąg znaków, zawierający adres ip lub nazwę domeny> --htmli-cookie
