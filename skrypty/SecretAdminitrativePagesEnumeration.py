@@ -1,4 +1,5 @@
 import requests
+import argparse
 from bs4 import BeautifulSoup
 from tqdm import tqdm
 from concurrent.futures import ThreadPoolExecutor
@@ -43,7 +44,10 @@ def pages_enum(popular_url, main_url, check_value, cores=8):
 
 
 if __name__ == "__main__":
-    popular_url_list = "lista_url_directory.txt"
-    check_value = "404 Not Found"
-    url = "http://192.168.64.141/mutillidae/"
-    pages_enum(popular_url_list, url, check_value)
+    parser = argparse.ArgumentParser(description="Enumeracja stron/podstron/plików/parametrów na bazie odwrócenia słowa kluczowego, odnajdując wszystkie podstrony nie zawierające tej treści. ")
+    parser.add_argument("--url", type=str, help="Adres URL strony")
+    parser.add_argument("--list", type=str, help="Nazwa pliku zawierającego liste (musi znajdować się na tym samym poziomie w systemie co plik wykonywalny)")
+    parser.add_argument("--klucz", type=str, help="Słowo kluczowe np. '404 Not Found'")
+    args = parser.parse_args()
+
+    pages_enum(args.list, args.url, args.klucz)
