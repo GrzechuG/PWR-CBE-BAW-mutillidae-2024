@@ -44,9 +44,15 @@ def pages_enum(popular_url, main_url, check_value, cores=8):
 
 
 if __name__ == "__main__":
-    parser = argparse.ArgumentParser(description="Enumeracja stron/podstron/plików/parametrów na bazie odwrócenia słowa kluczowego, odnajdując wszystkie podstrony nie zawierające tej treści. ")
+    parser = argparse.ArgumentParser(
+        description="Enumeracja stron/podstron/plików/parametrów na bazie odwrócenia słowa kluczowego, odnajdując wszystkie podstrony nie zawierające tej treści. "
+    )
     parser.add_argument("--url", type=str, help="Adres URL strony")
-    parser.add_argument("--list", type=str, help="Nazwa pliku zawierającego liste (musi znajdować się na tym samym poziomie w systemie co plik wykonywalny)")
+    parser.add_argument(
+        "--list",
+        type=str,
+        help="Nazwa pliku zawierającego liste (musi znajdować się na tym samym poziomie w systemie co plik wykonywalny)",
+    )
     parser.add_argument("--klucz", type=str, help="Słowo kluczowe np. '404 Not Found'")
     args = parser.parse_args()
 
