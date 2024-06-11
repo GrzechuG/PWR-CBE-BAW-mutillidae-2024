@@ -23,22 +23,56 @@ def post_page_text(url, data):
     return str(soup)
 
 
-def compare_pages_post(url1, data):
+def get_page_htmli_header(url, data):
+    page = requests.get(url, headers=data, verify=False)
+    soup = BeautifulSoup(page.content, "html.parser")
+    return str(soup)
+
+def get_page_htmli_cookie(url, data):
+    page = requests.get(url, cookies=data, verify=False)
+    soup = BeautifulSoup(page.content, "html.parser")
+    return str(soup)
+
+def compare_page_htmli(url, inj, cookie):
+    page_text_normal = get_page_text(url)
+    if cookie == False:
+        header = {
+        "User-Agent": inj
+        }
+        page = get_page_htmli_header(url, header)
+    else:
+        get_header = requests.get(url)
+        get_cookie = get_header.cookies
+        get_cookie_name = list(get_cookie.keys())[0] #ostatni
+        get_cookie.update({get_cookie_name: get_cookie.get(get_cookie_name) + inj})
+        page = get_page_htmli_cookie(url, get_cookie)
+   
+    diff = difflib.unified_diff(
+        page_text_normal.splitlines(), page.splitlines(), lineterm=""
+    )
+
+    output = "\n".join(diff)
+    regex = r"<img([\w\W]+?)/>"
+
+    return re.findall(regex, output)
+
+
+def compare_pages_post(url1, data, regex=r">([^<]+)<"):
     page_text1 = get_page_text(url1)
     page_text2 = post_page_text(url1, data)
 
+    print(page_text2)
     # source https://docs.python.org/3/library/difflib.html
     diff = difflib.unified_diff(
         page_text1.splitlines(), page_text2.splitlines(), lineterm=""
     )
 
     output = "\n".join(diff)
-    regex = r">([^<]+)<"
 
     return re.findall(regex, output)
 
 
-def compare_pages(url1, url2):
+def compare_pages(url1, url2, regex=r">([^<]+)<"):
     page_text1 = get_page_text(url1)
     page_text2 = get_page_text(url2)
 
@@ -48,7 +82,6 @@ def compare_pages(url1, url2):
     )
 
     output = "\n".join(diff)
-    regex = r">([^<]+)<"
 
     return re.findall(regex, output)
 
