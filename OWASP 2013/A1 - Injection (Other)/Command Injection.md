@@ -17,7 +17,7 @@ Atakujący może po wpisaniu dowolnego tekstu, spróbować przy pomocy zarezerwo
 
 Tester:
 ```
-python Tester.py --url http://192.168.64.145/mutillidae/index.php?page=dns-lookup.php --comminj AND
+python Tester.py --url <ciąg znaków, zawierający adres ip lub nazwę domeny> --comminj AND
 ```
 
 SeleniumTester:
