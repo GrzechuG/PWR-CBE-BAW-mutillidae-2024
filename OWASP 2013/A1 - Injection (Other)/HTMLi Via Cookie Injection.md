@@ -26,11 +26,11 @@ Złośliwy użytkownik modyfikuje wartość ciasteczka PHPSESSID (lub innego par
 
 Tester przez header:
 ```
-python Tester.py --url <ciąg znaków, zawierający adres ip lub nazwę domeny> --htmli Header
+python Tester.py --url http://<adres IP>/mutillidae/index.php?page=browser-info.php --htmli Header
 ```
 Tester przez cookie:
 ```
-python Tester.py --url <ciąg znaków, zawierający adres ip lub nazwę domeny> --htmli Cookie
+python Tester.py --url http://<adres IP>/mutillidae/index.php?page=browser-info.php --htmli Cookie
 ```
 
 SeleniumTester:
