@@ -1,6 +1,6 @@
 ## Nazwa podatności: JSON Injection - Reflective XSS Attack
 
-**Istotność:** 8
+**Istotność:** Wysoka
 
 ---
 
