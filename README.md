@@ -2,6 +2,7 @@
 
 
 
+## Podatności 'Injection' (Inne)
 
 | Numer | Nazwa Podatności | Istotność | Link |
 |-------|------------------|-----------|------|
