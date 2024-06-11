@@ -1,5 +1,5 @@
 
-## Nazwa podatności: Privilege Escalation
+## Nazwa podatności: Privilege Escalation przez Ciastka
 
 **Istotność:** Wysoka
 
