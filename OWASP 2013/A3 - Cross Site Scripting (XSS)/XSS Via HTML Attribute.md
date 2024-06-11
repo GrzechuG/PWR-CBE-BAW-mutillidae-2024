@@ -1,4 +1,4 @@
-## Nazwa podatności: Reflected XSS
+## Nazwa podatności: Reflected XSS via HTML attribute
 
 **Istotność:** 9
 
