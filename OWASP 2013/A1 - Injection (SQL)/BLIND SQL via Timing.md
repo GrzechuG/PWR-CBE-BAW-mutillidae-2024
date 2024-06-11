@@ -20,6 +20,11 @@ Tester:
 python Tester.py --url http://<Tutaj Podaj IP>/mutillidae/index.php?page=user-info.php --sqli Timing
 ```
 
+SeleniumTester:
+```
+python SeleniumTester.py --url <ciąg znaków, zawierający adres ip lub nazwę domeny> --blind-sqli
+```
+
 ---
 
 **Mitygacja:**
