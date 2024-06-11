@@ -1,4 +1,4 @@
-## Nazwa podatności: XSS Reflected (First Order)
+## Nazwa podatności: XSS Reflected - DNS Lookup page
 
 **Istotność:** Średnia
 
