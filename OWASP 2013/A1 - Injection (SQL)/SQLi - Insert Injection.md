@@ -1,6 +1,6 @@
-## Nazwa podatności: SQL Injection
+## Nazwa podatności: SQL Injection - Insert Injection
 
-**Istotność:** 9
+**Istotność:** Wysoka
 
 ---
 
