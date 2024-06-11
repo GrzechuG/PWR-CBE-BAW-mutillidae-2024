@@ -27,6 +27,11 @@ Kroki konieczne do eksploatacji tej podatności obejmują:
 
 Atakujący może wykorzystać narzędzia automatyzujące proces wstrzykiwania SQL, takie jak SQLMap, lub ręcznie manipulować danymi wysyłanymi do serwera poprzez narzędzia do przeglądania sieci, takie jak Burp Suite. Opanowanie podatności SQL Injection może umożliwić atakującemu zdobycie dostępu do systemu, kradzież danych, uszkodzenie bazy danych lub nawet przejęcie kontroli nad serwerem.
 
+SeleniumTester:
+```
+python SeleniumTester.py --url <ciąg znaków, zawierający adres ip lub nazwę domeny> --sqli-bypass-auth
+```
+
 **Mitygacja:**
 Aby skutecznie zabezpieczyć się przed podatnością SQL Injection i uniknąć omijania uwierzytelniania, istotne jest wdrożenie odpowiednich środków bezpieczeństwa. Przede wszystkim, aplikacja powinna wykorzystywać przygotowane zapytania (prepared statements) lub procedury przechowywane (stored procedures) do wykonywania operacji na bazie danych. Te techniki automatycznie escapują dane wejściowe, eliminując ryzyko wstrzyknięcia złośliwego kodu SQL.
 
