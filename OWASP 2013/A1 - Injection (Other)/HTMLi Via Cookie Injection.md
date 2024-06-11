@@ -1,4 +1,4 @@
-## Nazwa podatności: HTML Injection
+## Nazwa podatności: HTML Injection przez pliki Cookie
 
 **Istotność:** Średnia
 
