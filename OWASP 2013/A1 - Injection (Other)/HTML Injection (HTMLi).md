@@ -39,7 +39,7 @@ Payload: `http://192.168.198.128/mutillidae/index.php?page=password-generator.ph
 
 Tester:
 ```
-python Tester.py --url <ciąg znaków, zawierający adres ip lub nazwę domeny> --htmli Onsite
+python Tester.py --url http://<adres IP>/mutillidae/index.php?page=add-to-your-blog.php --htmli Onsite
 ```
 
 SeleniumTester:
