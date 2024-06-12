@@ -1,6 +1,6 @@
 ## Nazwa podatności: XSS Reflected - DNS Lookup page
 
-**Istotność:** Średnia
+**Istotność:** Wysoka
 
 ---
 
