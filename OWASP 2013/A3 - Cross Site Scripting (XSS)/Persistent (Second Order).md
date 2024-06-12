@@ -1,5 +1,5 @@
 ## Nazwa podatności: XSS Persistent (Second Order)
-
+---
 **Istotność:** Wysoka
 ---
 
