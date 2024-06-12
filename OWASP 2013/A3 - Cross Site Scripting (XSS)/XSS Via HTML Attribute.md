@@ -1,6 +1,6 @@
 ## Nazwa podatności: XSS Reflected - via HTML attribute
 
-**Istotność:** 9
+**Istotność:** Wysoka
 
 ---
 
