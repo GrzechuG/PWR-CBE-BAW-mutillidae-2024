@@ -14,9 +14,9 @@ Testowana aplikacja została pobrana ze strony [https://sourceforge.net/projects
 
 ## Kryteria przyznawania istotności dla podatności
 
-Przyznawanie istotności podatności dla aplikacji webowych jest kluczowym elementem zarządzania bezpieczeństwem. Podczas testowania aplikacji Mutilldae zdecydowano się na przyznywanie istotności w 3 skalach, które zostały opisane poniżej:
+Przyznawanie istotności podatności dla aplikacji webowych jest kluczowym elementem zarządzania bezpieczeństwem. Podczas testowania aplikacji Mutilldae zdecydowano się na przyznywanie istotności w 2 skalach, które zostały opisane poniżej:
 - Wysoki - Podatności te mają wysoki wpływ na bezpieczeństwo aplikacji i mogą prowadzić do poważnych naruszeń danych, eskalacji uprawnień lub innych krytycznych incydentów. Podczas przeprowadzania testów, wpływ znalezionych podatności na system był zazwyczaj znaczący. Dodatokowo te podatności mogą prowadzić do kompromitacji systemu lub jego awarii.
-- Niski - Podatności nie wpływają na ciągłość działania aplikacji, ale mogą wywołać nieprawidłowe działanie lub prowadzić do obciążenia systemu. Podatności te nie pozwalają na kompromitację systemu lub na utrate bezpieczeństwa danych
+- Niski - Podatności nie wpływają na bezpośrednie bezpieczeństwo systemu i danych, ani na  ciągłość działania aplikacji. Mogą jednak wywołać nieprawidłowe działanie lub prowadzić do obciążenia systemu. Podatności te nie pozwalają na kompromitację systemu lub na utrate bezpieczeństwa danych
 
 ## Wykorzystane oprogramowania i skrypty
 
@@ -177,3 +177,4 @@ Directory Browsing - Directory Browsing polega na ujawnieniu zawartości katalog
 
 ## Podsumowanie
 
+Zgodnie z celem projektu udało się wyeksploitować dużą ilość podatności w aplikacji Mutillidae. Maszyna ta pozwala na zdobycie zarówno wiedzy teoretycznej, jak i praktycznej dotyczącej najważniejszych ataków oraz podatności w aplikacjach webowych. Większość odkrytych podatności okazała się bardzo istotna pod względem potencjalnego naruszenia bezpieczeństwa aplikacji. Jednak wiele z nich można było ograniczyć przez wdrożenie odpowiednich zabezpieczeń, takich jak sanitizacja danych wejściowych oraz blokowanie znaków specjalnych w formularzach. Projekt pokazał, jak wiele podatności jest możliwych do wyeksploitowania i jaki duży wpływ mogą mieć na bezpieczeństwo aplikacji webowych.
