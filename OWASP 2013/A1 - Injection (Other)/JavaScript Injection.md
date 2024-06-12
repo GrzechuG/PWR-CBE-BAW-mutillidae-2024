@@ -1,6 +1,6 @@
 ## Nazwa podatności: JavaScript Injection
 
-**Istotność:** Wysoki
+**Istotność:** Wysoka
 
 ---
 
