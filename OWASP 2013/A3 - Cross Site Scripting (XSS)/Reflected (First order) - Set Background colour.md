@@ -1,6 +1,7 @@
 ## Nazwa podatności: XSS Reflected - Set Background Colour page
 
 **Istotność:** Wysoka
+
 ---
 
 **Opis:**
