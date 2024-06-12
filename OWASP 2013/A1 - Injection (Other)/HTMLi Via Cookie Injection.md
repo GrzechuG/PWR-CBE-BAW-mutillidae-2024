@@ -1,6 +1,6 @@
 ## Nazwa podatności: HTML Injection przez pliki Cookie
 
-**Istotność:** Średnia
+**Istotność:** Niska
 
 ---
 
