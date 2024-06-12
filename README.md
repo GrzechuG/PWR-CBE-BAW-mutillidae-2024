@@ -8,7 +8,7 @@ Realizowany przez:
 
 ## Wprowadzenie
 
-Cel projektu itp.
+Celem projektu było znalezienie oraz eksploitacja jak największej liczby podatności w aplikacji Mutillidae. Dla każdej podatności przygotowano jej opis, technikę eksploitacji i sposoby mitygacji. Dodatkowo, tam gdzie to możliwe, stworzono skrypty automatyzujące wykorzystanie podatności. W tym celu utworzono 2 skrypty: **Tester** oraz **SeleniumTester**, które w różny sposób podchodzą do zadania automatyzacji.
 
 ## Wykorzystane oprogramowania i skrypty
 
