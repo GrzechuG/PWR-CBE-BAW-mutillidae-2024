@@ -1,4 +1,4 @@
-## Nazwa podatności: XSS Reflected via HTTP headers
+## Nazwa podatności: XSS Reflected - via HTTP headers
 
 **Istotność:** Wysoka
 
