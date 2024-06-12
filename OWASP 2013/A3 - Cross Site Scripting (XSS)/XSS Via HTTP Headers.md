@@ -1,6 +1,6 @@
 ## Nazwa podatności: XSS Reflected via HTTP headers
 
-**Istotność:** 9
+**Istotność:** Wysoka
 
 ---
 
