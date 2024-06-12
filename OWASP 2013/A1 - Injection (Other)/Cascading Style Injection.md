@@ -1,6 +1,6 @@
 ## Nazwa podatności: HTML/CSS Injection
 
-**Istotność:** Średnia
+**Istotność:** Niska
 
 ---
 
