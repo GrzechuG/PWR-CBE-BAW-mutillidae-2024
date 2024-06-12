@@ -47,6 +47,11 @@ Sposób wykorzystania skryptu **SeleniumTester.py** wygląda podobnie dla każde
 python SeleniumTester.py --url <ciąg znaków, zawierający adres ip lub nazwę domeny> --sleep <czas uśpienia w sekundach> --payload <autorski payload> <flaga odpowiedzialna za atak>
 ```
 
+Wykorzystanie pliku konfiguracyjnego i domyślnych ustawień (payload i czas uśpienia) pozwala na skrócenie komendy do:
+```
+python SeleniumTester.py <flaga odpowiedzialna za atak>
+```
+
 Za pomocą komendy ```python SeleniumTester.py --help``` można wyszukać flagę do wykorzystania wybranego typu ataku.
 
 ## Opis znalezionych podatności
