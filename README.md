@@ -2,7 +2,18 @@
 
 
 
-## Podatności 'Injection' (Inne)
+### Podatności 'Injection' (SQL)
+
+| Numer | Nazwa Podatności | Istotność | Link |
+|-------|------------------|-----------|------|
+| 1 | BLIND SQL via TIMING | <span style="color:red">Wysoka</span> | [Opis podatności](OWASP%202013/A1%20-%20Injection%20(SQL)/BLIND%20SQL%20via%20Timing.md) |
+| 2 | SQLMAP Practice | <span style="color:red">Wysoka</span> | [Opis podatności](OWASP%202013/A1%20-%20Injection%20(SQL)/SQLMAP%20Practice.md) |
+| 3 | SQLi - Bypass Authentication | <span style="color:red">Wysoka</span> | [Opis podatności](OWASP%202013/A1%20-%20Injection%20(SQL)/SQLi%20-%20Bypass%20Authentication.md) |
+| 4 | SQL Injection - Extract Data | <span style="color:red">Wysoka</span> | [Opis podatności](OWASP%202013/A1%20-%20Injection%20(SQL)/SQLi%20-%20Extract%20Data.md) |
+| 5 | SQL Injection - Insert Injection | <span style="color:red">Wysoka</span> | [Opis podatności](OWASP%202013/A1%20-%20Injection%20(SQL)/SQLi%20-%20Insert%20Injection.md) |
+| 6 | JSON Injection - Reflective XSS Attack | <span style="color:red">Wysoka</span> | [Opis podatności](OWASP%202013/A1%20-%20Injection%20(SQL)/XSS%20JSON%20injection%20-%20Pen%20Test%20Tool%20Lookup.md) |
+
+### Podatności 'Injection' (Inne)
 
 | Numer | Nazwa Podatności | Istotność | Link |
 |-------|------------------|-----------|------|
