@@ -1,7 +1,7 @@
 
 ## Nazwa podatności: Authentication Bypass (Bruteforce)
 
-**Istotność:** Niska/Średnia
+**Istotność:** Niska
 
 ---
 
