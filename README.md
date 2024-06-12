@@ -20,6 +20,8 @@ Stworzono skrypty, napisane w pythonie, do automatyzacji wykorzystywania podatno
 - SeleniumTester
 - Tester
 
+### Selenium Tester
+
 **SeleniumTester** to skrypt wykorzystujący biblioteki: argparse, os, re, json, time, selenium, seleniumwire.
 Struktura **SeleniumTester** opiera się na:
 - **SeleniumTester.py** - jest to plik, parsujący dane podane na wejściu i wykonujący funkcje odpowiedzialne za automatyzację podatności. Dodatkową funkcjonalnością jest funkcja _extract_ip_, która pobiera ip, ip z numerem portu lub nazwę domeny albo pobiera ip z pliku konfiguracyjnego _config.json_ i podaje tę wartość do wykonywanych funkcji automatyzujących.
