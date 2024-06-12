@@ -1,6 +1,6 @@
 ## Nazwa podatności: IDOR - Insecure Direct Object Reference
 
-**Istotność:** 9
+**Istotność:** Wysoka
 
 ---
 
