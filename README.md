@@ -1,6 +1,12 @@
 # PWR-CBE-BAW-mutillidae
 
+## Wprowadzenie
 
+## Wykorzystane oprogramowania i skrypty
+
+## Opis znalezionych podatności
+
+### Spis wszystkich znalezionych podatności
 
 ### Injection (SQL) (A1)
 
