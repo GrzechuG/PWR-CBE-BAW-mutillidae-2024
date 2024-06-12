@@ -43,7 +43,9 @@ Struktura większości funkcji automatyzujących nie różni się od siebie i wy
 
 Sposób wykorzystania skryptu **SeleniumTester.py** wygląda podobnie dla każdej podatności. Tam, gdzie to możliwe, w plikach markdown znajdują się komendy potrzebne do uruchomienia eksploitacji danej podatności. Ogólna komenda wygląda tak, jak poniżej:
 
-```python SeleniumTester.py --url <ciąg znaków, zawierający adres ip lub nazwę domeny> --sleep <czas uśpienia w sekundach> --payload <autorski payload> <flaga odpowiedzialna za atak>```
+```
+python SeleniumTester.py --url <ciąg znaków, zawierający adres ip lub nazwę domeny> --sleep <czas uśpienia w sekundach> --payload <autorski payload> <flaga odpowiedzialna za atak>
+```
 
 Za pomocą komendy ```python SeleniumTester.py --help``` można wyszukać flagę do wykorzystania wybranego typu ataku.
 
