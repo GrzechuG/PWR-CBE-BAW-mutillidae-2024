@@ -1,6 +1,6 @@
-## Nazwa podatności: XSS Reflected - via cookie injection
+## Nazwa podatności: XSS Reflected - Via Cookie Injection
 
-**Istotność:** 9
+**Istotność:** Wysoka
 
 ---
 
