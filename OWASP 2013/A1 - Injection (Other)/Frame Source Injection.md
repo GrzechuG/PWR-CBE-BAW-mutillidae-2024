@@ -1,6 +1,6 @@
 ## Nazwa podatności: Frame Source Injection
 
-**Istotność:** Średnia
+**Istotność:** Niska
 
 ---
 
