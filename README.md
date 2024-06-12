@@ -10,6 +10,8 @@ Realizowany przez:
 
 Celem projektu było znalezienie oraz eksploitacja jak największej liczby podatności w aplikacji Mutillidae. Dla każdej podatności przygotowano jej opis, technikę eksploitacji i sposoby mitygacji. Dodatkowo, tam gdzie to możliwe, stworzono skrypty automatyzujące wykorzystanie podatności. W tym celu utworzono 2 skrypty: **Tester** oraz **SeleniumTester**, które w różny sposób podchodzą do zadania automatyzacji.
 
+Testowana aplikacja została pobrana ze strony [https://sourceforge.net/projects/owaspbwa/files/1.2/](https://sourceforge.net/projects/owaspbwa/files/1.2/) i zaimportowana do wybranego oprogramowania wirtualizacyjnego, obsługującego pliki _.ova_.
+
 ## Wykorzystane oprogramowania i skrypty
 
 Spis wszystkich wykorzystywanych narzędzi wraz z linkami oraz opisem
