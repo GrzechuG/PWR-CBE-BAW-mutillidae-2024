@@ -16,6 +16,37 @@ Testowana aplikacja została pobrana ze strony [https://sourceforge.net/projects
 
 Spis wszystkich wykorzystywanych narzędzi wraz z linkami oraz opisem
 
+Stworzono skrypty, napisane w pythonie, do automatyzacji wykorzystywania podatności:
+- SeleniumTester
+- Tester
+
+**SeleniumTester** to skrypt wykorzystujący biblioteki: argparse, os, re, json, time, selenium, seleniumwire.
+Struktura **SeleniumTester** opiera się na:
+- **SeleniumTester.py** - jest to plik, parsujący dane podane na wejściu i wykonujący funkcje odpowiedzialne za automatyzację podatności. Dodatkową funkcjonalnością jest funkcja _extract_ip_, która pobiera ip, ip z numerem portu lub nazwę domeny albo pobiera ip z pliku konfiguracyjnego _config.json_ i podaje tę wartość do wykonywanych funkcji automatyzujących.
+- **SeleniumDrivers.py** - jest to plik, zawierający klasy _FirefoxBrowser_ oraz _FirefoxBrowserSeleniumWire_, które umożliwiają wykorzystanie selenium oraz selenium-wire.
+- Pliki **MutillidaeAxxx.py** - są to pliki, zawierające funkcje, automatyzujące wykorzystanie podatności z odpowiednich zakładek w aplikacji _Mutillidae_.
+
+Struktura większości funkcji automatyzujących nie różni się od siebie i wygląda w sposób następujący:
+- Podawane wartości na wejściu:
+  - _ip_ - adres ip, adres ip z numerem portu lub nazwa domeny
+  - _sleep\_time_ - czas, na który metoda usypia wykonanie eksploitacji, zaraz po jej wykorzystaniu, w celu obserwacji efektów działania przez użytkownika.
+  - _payload_ - wykorzystany payload. Wykorzystanie autorskiego payloadu oznacza brak sprawdzenia przez funkcję, czy atak się udał. Należy wtedy wykorzystać argument _sleep\_time_ i obserwować efekty eksploitacji.
+  - _verify\_default\_payload_ - flaga wykorzystywana w przypadku użycia autorskiego payloadu.
+- Uruchomienie przeglądarki
+- Wypisanie payloadu w cmd
+- Załadowanie strony
+- Uruchomienie payloadu
+- Uśpienie działania - domyślnie 0 sekund
+- Wypisanie wyniku działania payloadu w cmd (nie wszystkie funkcje/podatności na to pozwalają)
+- Zweryfikowanie udanego ataku (w przypadku wykorzystania domyślnego payloadu)
+- Wypisanie w cmd informacji o statusie ataku - sukces, porażka, wypisanie błędów podczas uruchomienia
+
+Sposób wykorzystania skryptu **SeleniumTester.py** wygląda podobnie dla każdej podatności. Tam, gdzie to możliwe, w plikach markdown znajdują się komendy potrzebne do uruchomienia eksploitacji danej podatności. Ogólna komenda wygląda tak, jak poniżej:
+
+```python SeleniumTester.py --url <ciąg znaków, zawierający adres ip lub nazwę domeny> --sleep <czas uśpienia w sekundach> --payload <autorski payload> <flaga odpowiedzialna za atak>```
+
+Za pomocą komendy ```python SeleniumTester.py --help``` można wyszukać flagę do wykorzystania wybranego typu ataku.
+
 ## Opis znalezionych podatności
 
 Opis teoretyczny podatności per kategoria jak Injection (SQL)
