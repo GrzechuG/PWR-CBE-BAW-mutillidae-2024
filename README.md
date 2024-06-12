@@ -2,7 +2,7 @@
 
 
 
-### Podatności 'Injection' (SQL)
+### Injection (SQL) (A1)
 
 | Numer | Nazwa Podatności | Istotność | Link |
 |-------|------------------|-----------|------|
@@ -13,7 +13,7 @@
 | 5 | SQL Injection - Insert Injection | <span style="color:red">Wysoka</span> | [Opis podatności](OWASP%202013/A1%20-%20Injection%20(SQL)/SQLi%20-%20Insert%20Injection.md) |
 | 6 | JSON Injection - Reflective XSS Attack | <span style="color:red">Wysoka</span> | [Opis podatności](OWASP%202013/A1%20-%20Injection%20(SQL)/XSS%20JSON%20injection%20-%20Pen%20Test%20Tool%20Lookup.md) |
 
-### Podatności 'Injection' (Inne)
+### Injection (Other) (A1)
 
 | Numer | Nazwa Podatności | Istotność | Link |
 |-------|------------------|-----------|------|
@@ -29,21 +29,15 @@
 | 10 | Buffer Overflow | <span style="color:green">Niska</span> | [Opis podatności](OWASP%202013/A1%20-%20Injection%20(Other)/Buffer%20Overflow.md) |
 | 11 | HTTP Parameter Pollution | <span style="color:green">Niska</span> | [Opis podatności](OWASP%202013/A1%20-%20Injection%20(Other)/HTTP%20Parameter%20Pollution.md) |
 
-### Podatności
+### Broken Authentication and Session Management (A2)
 
 | Numer | Nazwa Podatności | Istotność | Link |
 |-------|------------------|-----------|------|
 | 1 | Privilege Escalation - via Cookies | <span style="color:red">Wysoka</span> | [Opis podatności](OWASP%202013/A2%20-%20Broken%20Authentication%20and%20Session%20Management/Privilege%20Escalation%20Via%20Cookies.md) |
 | 2 | Authentication Bypass (Bruteforce) | <span style="color:orange">Niska/Średnia</span> | [Opis podatności](OWASP%202013/A2%20-%20Broken%20Authentication%20and%20Session%20Management/Authentication%20Bypass.md) |
 
-### Podatności
 
-| Numer | Nazwa Podatności | Istotność | Link |
-|-------|------------------|-----------|------|
-| 1 | Privilege Escalation - via Cookies | <span style="color:red">Wysoka</span> | [Opis podatności](OWASP%202013/A2%20-%20Broken%20Authentication%20and%20Session%20Management/Privilege%20Escalation%20Via%20Cookies.md) |
-| 2 | Authentication Bypass (Bruteforce) | Niska/Średnia | [Opis podatności](OWASP%202013/A2%20-%20Broken%20Authentication%20and%20Session%20Management/Authentication%20Bypass.md) |
-
-### Podatności
+### Cross Site Scripting (XSS) (A3)
 
 | Numer | Nazwa Podatności | Istotność | Link |
 |-------|------------------|-----------|------|
@@ -56,20 +50,20 @@
 | 7 | XSS Reflected - DNS Lookup Page | <span style="color:orange">Średnia</span> | [Opis podatności](OWASP%202013/A3%20-%20Cross%20Site%20Scripting%20(XSS)/Reflected%20(First%20Order).md) |
 | 8 | XSS Against JSON | <span style="color:green">Niska</span> | [Opis podatności](OWASP%202013/A3%20-%20Cross%20Site%20Scripting%20(XSS)/Against%20JSON.md) |
 
-### Podatności
+### Insecure Direct Object References (A4)
 
 | Numer | Nazwa Podatności | Istotność | Link |
 |-------|------------------|-----------|------|
 | 1 | IDOR - Insecure Direct Object Reference | <span style="color:red">Wysoka</span> | [Opis podatności](OWASP%202013/A4%20-%20Insecure%20Direct%20Object%20References/IDOR%20-%20Text%20File%20Viewer.md) |
 
-### Podatności
+### Security Misconfiguration (A5)
 
 | Numer | Nazwa Podatności | Istotność | Link |
 |-------|------------------|-----------|------|
 | 1 | Zdalne wykonanie kodu przez wysłanie pliku | <span style="color:red">Wysoka</span> | [Opis podatności](OWASP%202013/A5%20-%20Security%20Misconfiguration/Unrestricted%20File%20Upload.md) |
 | 2 | Directory browsing | <span style="color:orange">Średnia</span> | [Opis podatności](OWASP%202013/A5%20-%20Security%20Misconfiguration/Directory%20Browsing.md) |
 
-### Podatności
+### Missing Function Level Access Control (A7)
 
 | Numer | Nazwa Podatności | Istotność | Link |
 |-------|------------------|-----------|------|
