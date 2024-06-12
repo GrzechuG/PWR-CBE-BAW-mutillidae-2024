@@ -81,5 +81,5 @@ Realizowany przez:
 |-------|------------------|-----------|------|
 | 1 | Dostęp do wrażliwych stron oraz plików przez parametr 'page' | <span style="color:red">Wysoka</span> | [Opis podatności](OWASP%202013/A7%20-%20Missing%20Function%20Level%20Access%20Control/Secret%20Administrative%20Pages.md) |
 
-
+## Podsumowanie
 
