@@ -14,7 +14,7 @@ Testowana aplikacja została pobrana ze strony [https://sourceforge.net/projects
 
 ## Wykorzystane oprogramowania i skrypty
 
-Spis wszystkich wykorzystywanych narzędzi wraz z linkami oraz opisem
+[comment]: <> (Spis wszystkich wykorzystywanych narzędzi wraz z linkami oraz opisem)
 
 Stworzono skrypty, napisane w pythonie, do automatyzacji wykorzystywania podatności:
 - SeleniumTester
