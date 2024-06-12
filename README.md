@@ -8,9 +8,15 @@ Realizowany przez:
 
 ## Wprowadzenie
 
+Cel projektu itp.
+
 ## Wykorzystane oprogramowania i skrypty
 
+Spis wszystkich wykorzystywanych narzędzi wraz z linkami oraz opisem
+
 ## Opis znalezionych podatności
+
+Opis teoretyczny podatności per kategoria jak Injection (SQL)
 
 ### Spis wszystkich znalezionych podatności
 
