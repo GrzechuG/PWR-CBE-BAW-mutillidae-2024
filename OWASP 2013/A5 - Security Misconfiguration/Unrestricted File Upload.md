@@ -1,6 +1,7 @@
 ## Nazwa podatności: Zdalne wykonanie kodu przez wysłanie pliku
 
 **Istotność:** Wysoka
+
 ---
 
 **Opis:**
