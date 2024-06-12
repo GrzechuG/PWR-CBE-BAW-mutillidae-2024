@@ -43,3 +43,15 @@
 | 1 | Privilege Escalation - via Cookies | <span style="color:red">Wysoka</span> | [Opis podatności](OWASP%202013/A2%20-%20Broken%20Authentication%20and%20Session%20Management/Privilege%20Escalation%20Via%20Cookies.md) |
 | 2 | Authentication Bypass (Bruteforce) | Niska/Średnia | [Opis podatności](OWASP%202013/A2%20-%20Broken%20Authentication%20and%20Session%20Management/Authentication%20Bypass.md) |
 
+| Numer | Nazwa Podatności | Istotność | Link |
+|-------|------------------|-----------|------|
+| 1 | XSS Persistent (Second Order) | <span style="color:red">Wysoka</span> | [Opis podatności](OWASP%202013/A3%20-%20Cross%20Site%20Scripting%20(XSS)/Persistent%20(Second%20Order).md) |
+| 2 | XSS Reflected - Capture Data Page | <span style="color:red">Wysoka</span> | [Opis podatności](OWASP%202013/A3%20-%20Cross%20Site%20Scripting%20(XSS)/Reflected%20(First%20Order)%20-%20Capture%20Data%20Page.md) |
+| 3 | XSS Reflected - Set Background Colour Page | <span style="color:red">Wysoka</span> | [Opis podatności](OWASP%202013/A3%20-%20Cross%20Site%20Scripting%20(XSS)/Reflected%20(First%20order)%20-%20Set%20Background%20colour.md) |
+| 4 | XSS Reflected - Via Cookie Injection | <span style="color:red">Wysoka</span> | [Opis podatności](OWASP%202013/A3%20-%20Cross%20Site%20Scripting%20(XSS)/XSS%20Via%20Cookie%20Injection%20-%20Capture%20Data.md) |
+| 5 | XSS Reflected - via HTML attribute | <span style="color:red">Wysoka</span> | [Opis podatności](OWASP%202013/A3%20-%20Cross%20Site%20Scripting%20(XSS)/XSS%20Via%20HTML%20Attribute.md) |
+| 6 | XSS Reflected - via HTTP headers | <span style="color:red">Wysoka</span> | [Opis podatności](OWASP%202013/A3%20-%20Cross%20Site%20Scripting%20(XSS)/XSS%20Via%20HTTP%20Headers.md) |
+| 7 | XSS Reflected - DNS Lookup Page | <span style="color:orange">Średnia</span> | [Opis podatności](OWASP%202013/A3%20-%20Cross%20Site%20Scripting%20(XSS)/Reflected%20(First%20Order).md) |
+| 8 | XSS Against JSON | <span style="color:green">Niska</span> | [Opis podatności](OWASP%202013/A3%20-%20Cross%20Site%20Scripting%20(XSS)/Against%20JSON.md) |
+
+
