@@ -1,6 +1,6 @@
 ## Nazwa podatności: XSS Against JSON
 
-**Istotność:** Niska
+**Istotność:** Wysoka
 
 ---
 
