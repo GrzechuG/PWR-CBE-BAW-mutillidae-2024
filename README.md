@@ -43,6 +43,8 @@
 | 1 | Privilege Escalation - via Cookies | <span style="color:red">Wysoka</span> | [Opis podatności](OWASP%202013/A2%20-%20Broken%20Authentication%20and%20Session%20Management/Privilege%20Escalation%20Via%20Cookies.md) |
 | 2 | Authentication Bypass (Bruteforce) | Niska/Średnia | [Opis podatności](OWASP%202013/A2%20-%20Broken%20Authentication%20and%20Session%20Management/Authentication%20Bypass.md) |
 
+### Podatności
+
 | Numer | Nazwa Podatności | Istotność | Link |
 |-------|------------------|-----------|------|
 | 1 | XSS Persistent (Second Order) | <span style="color:red">Wysoka</span> | [Opis podatności](OWASP%202013/A3%20-%20Cross%20Site%20Scripting%20(XSS)/Persistent%20(Second%20Order).md) |
@@ -53,5 +55,25 @@
 | 6 | XSS Reflected - via HTTP headers | <span style="color:red">Wysoka</span> | [Opis podatności](OWASP%202013/A3%20-%20Cross%20Site%20Scripting%20(XSS)/XSS%20Via%20HTTP%20Headers.md) |
 | 7 | XSS Reflected - DNS Lookup Page | <span style="color:orange">Średnia</span> | [Opis podatności](OWASP%202013/A3%20-%20Cross%20Site%20Scripting%20(XSS)/Reflected%20(First%20Order).md) |
 | 8 | XSS Against JSON | <span style="color:green">Niska</span> | [Opis podatności](OWASP%202013/A3%20-%20Cross%20Site%20Scripting%20(XSS)/Against%20JSON.md) |
+
+### Podatności
+
+| Numer | Nazwa Podatności | Istotność | Link |
+|-------|------------------|-----------|------|
+| 1 | IDOR - Insecure Direct Object Reference | <span style="color:red">Wysoka</span> | [Opis podatności](OWASP%202013/A4%20-%20Insecure%20Direct%20Object%20References/IDOR%20-%20Text%20File%20Viewer.md) |
+
+### Podatności
+
+| Numer | Nazwa Podatności | Istotność | Link |
+|-------|------------------|-----------|------|
+| 1 | Zdalne wykonanie kodu przez wysłanie pliku | <span style="color:red">Wysoka</span> | [Opis podatności](OWASP%202013/A5%20-%20Security%20Misconfiguration/Unrestricted%20File%20Upload.md) |
+| 2 | Directory browsing | <span style="color:orange">Średnia</span> | [Opis podatności](OWASP%202013/A5%20-%20Security%20Misconfiguration/Directory%20Browsing.md) |
+
+### Podatności
+
+| Numer | Nazwa Podatności | Istotność | Link |
+|-------|------------------|-----------|------|
+| 1 | Dostęp do wrażliwych stron oraz plików przez parametr 'page' | <span style="color:red">Wysoka</span> | [Opis podatności](OWASP%202013/A7%20-%20Missing%20Function%20Level%20Access%20Control/Secret%20Administrative%20Pages.md) |
+
 
 
