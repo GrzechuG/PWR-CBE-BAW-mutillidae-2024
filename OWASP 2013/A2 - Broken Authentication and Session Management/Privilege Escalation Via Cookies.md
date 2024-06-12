@@ -1,5 +1,5 @@
 
-## Nazwa podatności: Privilege Escalation przez Ciastka
+## Nazwa podatności: Privilege Escalation - via Cookies
 
 **Istotność:** Wysoka
 
