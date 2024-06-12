@@ -1,6 +1,6 @@
 ## Nazwa podatności: HTML Injection (HTMLi)
 
-**Istotność:** Średnia
+**Istotność:** Niska
 
 ---
 
