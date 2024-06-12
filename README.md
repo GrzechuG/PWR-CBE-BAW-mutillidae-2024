@@ -28,3 +28,10 @@
 | 9 | HTMLi Via DOM Injection | <span style="color:orange">Średnia</span> | [Opis podatności](OWASP%202013/A1%20-%20Injection%20(Other)/HTMLi%20Via%20DOM%20Injection.md) |
 | 10 | Buffer Overflow | <span style="color:green">Niska</span> | [Opis podatności](OWASP%202013/A1%20-%20Injection%20(Other)/Buffer%20Overflow.md) |
 | 11 | HTTP Parameter Pollution | <span style="color:green">Niska</span> | [Opis podatności](OWASP%202013/A1%20-%20Injection%20(Other)/HTTP%20Parameter%20Pollution.md) |
+
+### Podatności
+
+| Numer | Nazwa Podatności | Istotność | Link |
+|-------|------------------|-----------|------|
+| 1 | Privilege Escalation - via Cookies | <span style="color:red">Wysoka</span> | [Opis podatności](OWASP%202013/A2%20-%20Broken%20Authentication%20and%20Session%20Management/Privilege%20Escalation%20Via%20Cookies.md) |
+| 2 | Authentication Bypass (Bruteforce) | <span style="color:orange">Niska/Średnia</span> | [Opis podatności](OWASP%202013/A2%20-%20Broken%20Authentication%20and%20Session%20Management/Authentication%20Bypass.md) |
