@@ -17,7 +17,7 @@
 
 | Numer | Nazwa Podatności | Istotność | Link |
 |-------|------------------|-----------|------|
-| 1 | Wykonanie dowolnego kodu w systemie w aplikacji 'DNS Lookup' | <span style="color:red">Wysoka</span> | [Opis podatności](OWASP%202013/A1%20-%20Injection%20(Other)/Command%20Injection.md) |
+| 1 | RCE przez aplikacje 'DNS Lookup' | <span style="color:red">Wysoka</span> | [Opis podatności](OWASP%202013/A1%20-%20Injection%20(Other)/Command%20Injection.md) |
 | 2 | XML External Entity Injection | <span style="color:red">Wysoka</span> | [Opis podatności](OWASP%202013/A1%20-%20Injection%20(Other)/XML%20External%20Entity%20Injection.md) |
 | 3 | XSS: HTMLi via HTTP Header | <span style="color:red">Wysoka</span> | [Opis podatności](OWASP%202013/A1%20-%20Injection%20(Other)/XSS%20HTMLi%20via%20HTTP%20Header.md) |
 | 4 | JavaScript Injection | <span style="color:orange">Średnia</span> | [Opis podatności](OWASP%202013/A1%20-%20Injection%20(Other)/JavaScript%20Injection.md) |
