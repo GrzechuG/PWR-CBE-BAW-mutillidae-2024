@@ -1,5 +1,11 @@
 # PWR-CBE-BAW-mutillidae
 
+Projekt realizowany na przedmiot "Bezpieczeństwo aplikacji webowych", termin: Piątek 13:15 — 15:00.
+Realizowany przez:
+- Patryk Duniak 
+- Grzegorz Gajewski
+- Tomasz Słowik
+
 ## Wprowadzenie
 
 ## Wykorzystane oprogramowania i skrypty
