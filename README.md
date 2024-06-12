@@ -88,23 +88,23 @@ Program posiada następujące parametry do wykonania:
 
 ## Opis znalezionych podatności
 
-SQL Injection - 
+SQL Injection - SQL Injection polega na wstrzyknięciu złośliwego kodu SQL do zapytania wysyłanego do bazy danych przez aplikację webową. Może to prowadzić do nieautoryzowanego dostępu do danych, ich modyfikacji lub usunięcia, a także do zakłócenia pracy aplikacji.
 
-HTML Injection - 
+HTML Injection - HTML Injection polega na wstrzyknięciu złośliwego kodu HTML do aplikacji webowej, co może prowadzić do manipulacji treści wyświetlanej użytkownikom. Może to skutkować wykradaniem danych użytkowników poprzez fałszywe formularze oraz zmianą wyglądu i funkcjonalności strony.
 
-XML External Entity Injection
+XML External Entity Injection - XML External Entity Injection polega na wstrzyknięciu złośliwych jednostek zewnętrznych do dokumentów XML. Może to prowadzić do wycieku danych, ujawnienia zawartości plików systemowych oraz wykonania złośliwego kodu na serwerze.
 
-RCE - 
+RCE - Remote Code Execution pozwala atakującemu na zdalne wykonanie dowolnego kodu na serwerze aplikacji. Może to prowadzić do pełnej kompromitacji systemu, kradzieży danych oraz uruchamiania złośliwego oprogramowania.
 
-Frame Source Injection - 
+Frame Source Injection - Frame Source Injection polega na wstrzyknięciu złośliwego kodu do atrybutów źródła ramki. Może to prowadzić do wyświetlania fałszywych treści, phishingu oraz kradzieży danych logowania użytkowników.
 
-HTTP pollution - 
+HTTP pollution - HTTP Parameter Pollution polega na wstrzyknięciu złośliwych parametrów do zapytań HTTP. Może to prowadzić do nieprawidłowego przetwarzania zapytań, obejścia mechanizmów zabezpieczeń oraz potencjalnych ataków na bazy danych.
 
-XSS -
+XSS - Cross-Site Scripting polega na wstrzyknięciu złośliwego skryptu, który jest wykonywany w przeglądarce użytkownika. Może to prowadzić do kradzieży ciasteczek, sesji użytkowników oraz przejęcia kont.
 
-Insecure Direct Object References -
+Insecure Direct Object References - Insecure Direct Object References polega na bezpośrednim dostępie do obiektów bez odpowiedniej autoryzacji. Może to prowadzić do odczytu, modyfikacji lub usunięcia danych innych użytkowników.
 
-Directory Browsing -
+Directory Browsing - Directory Browsing polega na ujawnieniu zawartości katalogów serwera. Może to prowadzić do wycieku informacji o strukturze serwera, dostępnych plikach oraz potencjalnie wrażliwych danych, które mogą zostać wykorzystane do dalszych ataków.
 
 ### Spis wszystkich znalezionych podatności
 
