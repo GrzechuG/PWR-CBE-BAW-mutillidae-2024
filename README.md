@@ -35,3 +35,11 @@
 |-------|------------------|-----------|------|
 | 1 | Privilege Escalation - via Cookies | <span style="color:red">Wysoka</span> | [Opis podatności](OWASP%202013/A2%20-%20Broken%20Authentication%20and%20Session%20Management/Privilege%20Escalation%20Via%20Cookies.md) |
 | 2 | Authentication Bypass (Bruteforce) | <span style="color:orange">Niska/Średnia</span> | [Opis podatności](OWASP%202013/A2%20-%20Broken%20Authentication%20and%20Session%20Management/Authentication%20Bypass.md) |
+
+### Podatności
+
+| Numer | Nazwa Podatności | Istotność | Link |
+|-------|------------------|-----------|------|
+| 1 | Privilege Escalation - via Cookies | <span style="color:red">Wysoka</span> | [Opis podatności](OWASP%202013/A2%20-%20Broken%20Authentication%20and%20Session%20Management/Privilege%20Escalation%20Via%20Cookies.md) |
+| 2 | Authentication Bypass (Bruteforce) | Niska/Średnia | [Opis podatności](OWASP%202013/A2%20-%20Broken%20Authentication%20and%20Session%20Management/Authentication%20Bypass.md) |
+
