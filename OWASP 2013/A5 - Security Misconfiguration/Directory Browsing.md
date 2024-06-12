@@ -1,6 +1,6 @@
-## Nazwa podatności: Directory brwosing
+## Nazwa podatności: Directory browsing
 
-**Istotność:** Średnia
+**Istotność:** Niska
 
 ---
 
