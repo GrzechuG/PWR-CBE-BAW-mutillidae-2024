@@ -68,23 +68,23 @@ Za pomocą komendy ```python SeleniumTester.py --help``` można wyszukać flagę
 **Tester** to skrypt zapewniający częsciową automatyzacje, pozwalający na uniwersalne weryfikowanie podatności na różnych stronach. Oprogramowania pozwala przez parametr '--autoforms' wypełniać formularze i umieszczać złośliwy kod w odpowiednie miejsca.
 Program jest oparty bibliotece request, co nie pozwoliło na weryfikacje podatności typu XSS, jednakże zapewniło uniwersalność oraz zgodność z podstawowymi bibliotekami Python.
 Program posiada następujące parametry do wykonania:
---url <adres_url> (Adres URL strony (wraz z parametrem jeżeli http_polution)
---http_pollution (Wykonanie ataku http pollution)
---parameter "parametr1=wartosc1" "parametr2=wartosc2" ... (Parametry do ataku http_pollution)
---sqli <Normal/Insert/Timing> (Wykonanie ataku sqli injection przez POST. Aktualne jest wspierane zwykłe sqli injection, przez wykonanie insert, oraz używania funkcji czasowej)
---comminj <AND/DoubleAND/OR> (Wykonanie ataku command injection przez POST. Aktualne są wspierane różne łączniki poleceń jak AND(&), DoubleAND(&&), oraz OR(||))
---xmleei (Wykonanie ataku XML External Enityty Injection)
---htmli <Onsite/Header/Cookie> (Wykonanie ataku HTML injection. Aktualne są wspierane zwykły atak na strone przez POST, wysłanie ataku przez header nagłówka HTTP, oraz same Ciastko)
---autoforms (Funkcjonalność automatycznego wypełniania formularzy)
---postdata "nazwa1: wartosc1" "nazwa2: wartosc2" ... (Funkcjonalność ręcznego wypełniania formularzy)
+- --url <adres_url> (Adres URL strony (wraz z parametrem jeżeli http_polution)
+- --http_pollution (Wykonanie ataku http pollution)
+- --parameter "parametr1=wartosc1" "parametr2=wartosc2" ... (Parametry do ataku http_pollution)
+- --sqli <Normal/Insert/Timing> (Wykonanie ataku sqli injection przez POST. Aktualne jest wspierane zwykłe sqli injection, przez wykonanie insert, oraz używania funkcji czasowej)
+- --comminj <AND/DoubleAND/OR> (Wykonanie ataku command injection przez POST. Aktualne są wspierane różne łączniki poleceń jak AND(&), DoubleAND(&&), oraz OR(||))
+- --xmleei (Wykonanie ataku XML External Enityty Injection)
+- --htmli <Onsite/Header/Cookie> (Wykonanie ataku HTML injection. Aktualne są wspierane zwykły atak na strone przez POST, wysłanie ataku przez header nagłówka HTTP, oraz same Ciastko)
+- --autoforms (Funkcjonalność automatycznego wypełniania formularzy)
+- --postdata "nazwa1: wartosc1" "nazwa2: wartosc2" ... (Funkcjonalność ręcznego wypełniania formularzy)
 
 ### SecretAdminitrativePagesEnumeration
 
 ***SecretAdminitrativePagesEnumeration*** to prosty skrypt pozwalający na wyszukiwanie wszystkich stron gdzie nie występuje wprowadzony string. Pozwala to znaleźć strony z unikalną zawortością, a wszystkie pozostałe strony do który aplikacja nie ma dostępu lub nie istnieją odpowiednio pominąć, nawet jeżeli aplikacja przekierowuje zapytanie na oryginalną stronę.
 Program posiada następujące parametry do wykonania:
---url <adres_url> (Adres URL strony, jeżeli chce się iterować podstrony to należy zakończyć url znakiem '/', a po parametrze należy podać 'parametr='
---list <nazwa_listy> (Nazwa pliku zawierającego liste (musi znajdować się na tym samym poziomie w systemie co plik wykonywalny))
---klucz <string_ze_słowem_kluczowym> (Słowo kluczowe np. '404 Not Found')
+- --url <adres_url> (Adres URL strony, jeżeli chce się iterować podstrony to należy zakończyć url znakiem '/', a po parametrze należy podać 'parametr='
+- --list <nazwa_listy> (Nazwa pliku zawierającego liste (musi znajdować się na tym samym poziomie w systemie co plik wykonywalny))
+- --klucz <string_ze_słowem_kluczowym> (Słowo kluczowe np. '404 Not Found')
 
 ## Opis znalezionych podatności
 
