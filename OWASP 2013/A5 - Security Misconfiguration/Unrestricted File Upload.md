@@ -33,7 +33,7 @@ Pozwoliło to na zestawienie połączenia z podatną maszyną i wykonanie dowoln
 
 **Mitygacja podatności:**
 
-
+Aby zabezpieczyć stronę przed podatnością polegającą na wysyłaniu i wykonywaniu pliku przez parametr "page", należy walidować i filtrować dane wejściowe. Ważne jest także ustawianie odpowiednich uprawnień plików, aby uniemożliwić ich wykonywanie. Stosowanie whitelisty dozwolonych wartości parametru "page" dodatkowo zwiększa bezpieczeństwo. Warto również oddzielać katalogi plików przesyłanych od katalogów plików wykonywalnych serwera.
 
 
 
