@@ -25,11 +25,5 @@ python SeleniumTester.py --url <ciąg znaków, zawierający adres ip lub nazwę 
 ---
 
 Mitygacja:
-1. Silna walidacja autoryzacji: Upewnij się, że każda akcja i zasób jest zabezpieczony przez ścisłą walidację uprawnień użytkownika. Sprawdzaj uprawnienia użytkownika na serwerze przed wykonaniem każdej operacji.
-1. Minimalne uprawnienia: Stosuj zasadę minimalnych uprawnień (Principle of Least Privilege). Każdemu użytkownikowi przypisz tylko te uprawnienia, które są niezbędne do wykonania jego obowiązków.
-1. Zabezpieczone tokeny sesji: Upewnij się, że tokeny sesji są bezpieczne i trudne do odgadnięcia. Tokeny powinny być przypisane do określonego użytkownika i jego sesji.
-1. Walidacja danych wejściowych: Waliduj wszystkie dane wejściowe, w tym parametry przekazywane w żądaniach GET, POST i innych. Upewnij się, że nie można zmieniać krytycznych parametrów, takich jak UID, bez odpowiednich uprawnień.
-1. Rozdzielenie uprawnień: Rozdziel uprawnienia na różne role i upewnij się, że jedna rola nie może uzyskać pełnych uprawnień nad systemem bez odpowiedniego procesu autoryzacji.
-1. Monitorowanie i audytowanie: Regularnie monitoruj i audytuj logi aktywności użytkowników pod kątem nieautoryzowanych prób eskalacji uprawnień. Wdróż mechanizmy wykrywania nieprawidłowych działań.
-1. Bezpieczne API: Upewnij się, że wszystkie interfejsy API są odpowiednio zabezpieczone i wymagają autoryzacji przed wykonaniem działań, które mogą zmienić poziom uprawnień użytkownika.
-1. Aktualizacje i łaty: Regularnie aktualizuj oprogramowanie i stosuj poprawki bezpieczeństwa, aby zapobiec znanym podatnościom, które mogą być wykorzystane do eskalacji uprawnień.
+Mitygacja podatności powinna obejmować walidację i sanityzację danych wejściowych, aby upewnić się, że wszystkie dane są sprawdzane i filtrowane zgodnie z oczekiwanymi formatami i typami. Stosowanie zasady minimalnych uprawnień pozwoli na dodatkowe zabezpieczenie systemu. Należy upewnić się, że interfejsy API są odpowiednio zabezpieczone i wymagają autoryzacji przed wykonaniem działań, które mogą zmienić poziom uprawnień użytkownika.
+Należy wdrożyć mechanizmy pozwalające na wykrycie wstrzyknięcia ciatseczek przez użytkownika albo usunąć ciasteczko userid i przechowywać identyfikator użytkownika w inny sposób.
