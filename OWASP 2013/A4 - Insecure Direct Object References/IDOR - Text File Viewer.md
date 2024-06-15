@@ -29,9 +29,4 @@ python SeleniumTester.py --url <ciąg znaków, zawierający adres ip lub nazwę 
 ```
 
 **Mitygacja:**
-1. Walidacja autoryzacji: Upewnij się, że każda żądana operacja na zasobie jest sprawdzana pod kątem odpowiednich uprawnień użytkownika. Wdroż mechanizmy autoryzacji na poziomie zasobów.
-2. Ukrywanie identyfikatorów: Zamiast używać przewidywalnych identyfikatorów (np. numerów ID), stosuj losowe identyfikatory lub tokeny, które są trudniejsze do odgadnięcia przez atakującego.
-3. Kontrola dostępu na poziomie serwera: Implementuj kontrolę dostępu bezpośrednio na poziomie serwera, aby zapobiec nieautoryzowanemu dostępowi do plików i zasobów. Upewnij się, że serwer sprawdza, czy użytkownik ma uprawnienia dostępu do danego zasobu.
-4. Skanowanie podatności: Regularnie skanuj aplikację pod kątem podatności IDOR, używając narzędzi do testów bezpieczeństwa aplikacji, aby wykryć i naprawić potencjalne luki.
-5. Ograniczanie ekspozycji plików systemowych: Zadbaj o to, aby aplikacja webowa nie miała bezpośredniego dostępu do plików systemowych takich jak /etc/passwd. Używaj mechanizmów chroot lub konteneryzacji, aby ograniczyć dostęp do systemu plików.
-6. Bezpieczne konfiguracje serwera: Upewnij się, że serwer jest odpowiednio skonfigurowany, aby uniemożliwić dostęp do wrażliwych plików systemowych poprzez HTTP/HTTPS.
+Mitygacja podatności powinna obejmować walidację i sanityzację danych wejściowych, aby upewnić się, że wszystkie dane są sprawdzane i filtrowane zgodnie z oczekiwanymi formatami i typami. Stosowanie zasady minimalnych uprawnień pozwoli na dodatkowe zabezpieczenie systemu. Należy zabezpieczyć aplikację webową, aby nie miała dostępu do plików systemowych takich jak /etc/passwd. Serwer powinien sprawdzać, czy użytkownik ma uprawnienia dostępu do danego zasobu.
