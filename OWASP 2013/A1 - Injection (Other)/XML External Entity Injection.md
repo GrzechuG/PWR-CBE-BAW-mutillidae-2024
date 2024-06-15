@@ -37,4 +37,4 @@ python SeleniumTester.py --url <ciąg znaków, zawierający adres ip lub nazwę 
 ---
 
 **Mitygacja:**
-Należy wyłączyć możliwość przetwarzania zewnętrznych encji w parserach XML, na przykład ustawiając opcje takie jak XMLParser.setFeature("http://apache.org/xml/features/disallow-doctype-decl", true). Należy także walidować i sanityzować wszystkie dane wejściowe, aby upewnić się, że nie zawierają niebezpiecznych konstrukcji XML, takich jak DTD. 
+Należy wyłączyć możliwość przetwarzania zewnętrznych encji w parserach XML, na przykład ustawiając opcje takie jak XMLParser.setFeature("http://apache.org/xml/features/disallow-doctype-decl", true). Należy także walidować i sanityzować wszystkie dane wejściowe, aby upewnić się, że nie zawierają niebezpiecznych konstrukcji XML.
