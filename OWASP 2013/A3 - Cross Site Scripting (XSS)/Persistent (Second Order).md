@@ -33,3 +33,29 @@ python SeleniumTester.py --url <ciąg znaków, zawierający adres ip lub nazwę 
 
 **Mitygacja podatności:**
 Ważne jest, aby wdrożyć odpowiednie środki bezpieczeństwa w celu zapobieżenia atakom XSS Persistent (Second Order). Należy prawidłowo walidować i oczyszczać dane wejściowe przed zapisaniem ich w bazie danych, zastosować mechanizmy ucieczki (escaping) danych przed ich wyświetleniem na stronie internetowej, aby zapobiec interpretacji danych jako kodu HTML lub JavaScript, ograniczyć dostęp do danych przechowywanych w bazie danych i unikać przechowywania potencjalnie złośliwych skryptów. Ponadto, regularne przeprowadzanie audytów bezpieczeństwa, w tym testów penetracyjnych, jest kluczowe w celu wykrycia potencjalnych podatności XSS Persistent (Second Order) oraz szybkiego ich naprawienia.
+
+** Mitygacja w kodzie: **
+Ogólny kod dodający zawartość bloga wygląda następująco:
+![image](https://github.com/GrzechuG/PWR-CBE-BAW-mutillidae-2024/assets/28838004/867b9dc1-fbdf-44f8-a824-c12cfcd389d7)
+
+Natomiast kod wewnątrz zaprezentowanej funkcji wygląda następująco:
+![image](https://github.com/GrzechuG/PWR-CBE-BAW-mutillidae-2024/assets/28838004/8a0c1403-2371-43e1-ae58-bb717cd706d0)
+
+Pomijając oczywisty problem SQL Injection, widać tutaj, iż po drodze znaki specjalne nie były w żaden sposób escapeowane.
+
+To samo tyczy się funkcji, która potem jest odpowiedzialna za pobranie zawartości z bloga:
+![image](https://github.com/GrzechuG/PWR-CBE-BAW-mutillidae-2024/assets/28838004/fa651161-ce77-4887-9662-b72a04f2ae90)
+
+W kodzie odpowiedzialnym za pobranie i wyświetlenie zawartości blogu na żadnym z kolejnych etapów nie następuje encoding symboli html:
+![image](https://github.com/GrzechuG/PWR-CBE-BAW-mutillidae-2024/assets/28838004/65bc65d3-a379-4402-a296-64edc2a91d1d)
+![image](https://github.com/GrzechuG/PWR-CBE-BAW-mutillidae-2024/assets/28838004/0be4377b-4050-4d4c-8fda-5fd16185b655)
+
+Aby zmitygować problem, należałoby użyć funkcjo takiej jak `htmlspecialchars`, jak pokazano poniżej:
+```php
+$lBloggerName = htmlspecialchars($lRecord->blogger_name, ENT_QUOTES, 'UTF-8');
+$lDate = htmlspecialchars($lRecord->date, ENT_QUOTES, 'UTF-8');
+$lComment = htmlspecialchars($lRecord->comment, ENT_QUOTES, 'UTF-8');
+```
+
+
+
