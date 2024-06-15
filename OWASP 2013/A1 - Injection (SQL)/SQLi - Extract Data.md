@@ -33,6 +33,7 @@ Należy używać prepared statements z parameter binding do wszystkich operacji 
 **Mitygacja w kodzie:**
 Ogólna walidacja została zaimplementowana następująco:
 ![image](https://github.com/GrzechuG/PWR-CBE-BAW-mutillidae-2024/assets/28838004/91c9a276-cdd5-4ff9-8909-c9f9516bfd76)
+
 W atki sposób wyszukiwano czy użytkownik istnieje w bazie danych. Jeśli przyjrzeć się funkcji `getUserAccount` możemy znaleźć implementacje sposobu wywoływania zapytań SQL do bazy MySQL. Niebezpieczny kod wygląda następująco:
 ![image](https://github.com/GrzechuG/PWR-CBE-BAW-mutillidae-2024/assets/28838004/34de7ee3-9d4b-4861-a2bf-60281d25ef26)
 
