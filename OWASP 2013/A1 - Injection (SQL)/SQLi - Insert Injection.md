@@ -37,9 +37,4 @@ python SeleniumTester.py --url <ciąg znaków, zawierający adres ip lub nazwę 
 ---
 
 **Mitygacja:**
-1. Używanie parametryzowanych zapytań: Zawsze używaj parametryzowanych zapytań (prepared statements) zamiast dynamicznego generowania zapytań SQL z danymi użytkownika.
-2. Sanityzacja i walidacja danych wejściowych: Waliduj i sanityzuj wszystkie dane wejściowe, upewniając się, że zawierają tylko dozwolone znaki. Na przykład, pola przeznaczone na hasło powinny akceptować tylko bezpieczne znaki alfanumeryczne.
-3. Użycie ORM (Object-Relational Mapping): Korzystaj z bibliotek ORM, które automatycznie chronią przed atakami SQL Injection poprzez separację danych wejściowych od zapytań SQL.
-4. Minimalne uprawnienia: Przyznaj bazie danych minimalne uprawnienia wymagane do działania aplikacji. Unikaj używania użytkowników bazy danych z uprawnieniami administracyjnymi.
-5. Wykrywanie i monitorowanie: Implementuj mechanizmy wykrywania i monitorowania nieautoryzowanych działań w bazie danych, takie jak logowanie prób wstrzyknięcia SQL i inne podejrzane aktywności.
-6. Zasady bezpieczeństwa: Ustal i egzekwuj zasady bezpiecznego kodowania, które obejmują unikanie bezpośredniego używania danych użytkownika w zapytaniach SQL.
+Należy używać parametryzowanych zapytań (prepared statements) z parameter binding do wszystkich operacji bazodanowych, aby uniknąć bezpośredniego wstrzykiwania danych wejściowych do zapytań SQL. Należy sanityzować i walidować wszystkie dane wejściowe, upewniając się, że są zgodne z oczekiwanym formatem i typem danych. Należy minimalizować uprawnienia kont bazy danych używanych przez aplikację, aby ograniczyć potencjalne szkody wynikające z udanych ataków SQL Injection.
