@@ -24,4 +24,4 @@ python SeleniumTester.py --url <ciąg znaków, zawierający adres ip lub nazwę 
 ---
 
 **Mitygacja:**
-Należy upewnić się, że elementy iframe ładowane są tylko z zaufanych źródeł, unikając dynamicznego ustawiania źródeł iframe na podstawie danych wejściowych użytkownika bez odpowiedniej walidacji i sanityzacji.  Należy skonfigurować Content Security Policy (CSP), aby ograniczyć źródła treści, które mogą być załadowane do iframe. Należy używać nagłówków takich jak X-Frame-Options (np. DENY lub SAMEORIGIN), aby ograniczyć możliwość osadzania treści w iframe przez nieautoryzowane źródła.
+Należy upewnić się, że elementy iframe ładowane są tylko z zaufanych źródeł, unikając dynamicznego ustawiania źródeł iframe na podstawie danych wejściowych użytkownika bez odpowiedniej walidacji i sanityzacji.  Należy skonfigurować Content Security Policy (CSP), aby ograniczyć elementy, które mogą być załadowane do iframe. Należy używać nagłówków takich jak X-Frame-Options (np. DENY lub SAMEORIGIN), aby ograniczyć możliwość wstrzykiwania treści w iframe przez nieautoryzowane elementy.
