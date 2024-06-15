@@ -24,10 +24,5 @@ Po przesłaniu tak zmodyfikowanego zapytania wywoływane jest powiadomienie z za
 ![image](https://github.com/GrzechuG/PWR-CBE-BAW-mutillidae-2024/assets/56219452/d5c4f9ab-e84a-43a2-8c9f-7dce115f1823)
 
 **Mitygacja:**
-1. Kodowanie danych wejściowych: Zawsze koduj dane wejściowe, zanim zostaną one wyświetlone na stronie. Używaj HTML entity encoding, aby zamienić specjalne znaki na ich odpowiedniki HTML (np. > na \&gt;, < na \&lt;).
-1. Walidacja danych wejściowych: Waliduj wszystkie dane wejściowe, aby upewnić się, że zawierają tylko dozwolone znaki i formaty. Odrzuć dane, które mogą zawierać złośliwy kod.
-1. Content Security Policy (CSP): Wdróż Content Security Policy, aby ograniczyć możliwość wykonania nieautoryzowanego JavaScript. CSP może pomóc w kontrolowaniu, skąd mogą być ładowane i wykonywane skrypty.
-1. HttpOnly i Secure Cookies: Ustaw flagi HttpOnly i Secure dla ciasteczek, aby zapobiec ich odczytowi przez skrypty JavaScript oraz zapewnić, że są przesyłane tylko przez bezpieczne połączenia HTTPS.
-1. Unikanie dynamicznego HTML: Unikaj bezpośredniego wstawiania danych wejściowych użytkownika do HTML. Zamiast tego, korzystaj z bezpiecznych metod renderowania szablonów, które oddzielają dane od logiki.
-1. Użycie whitelistingu: Stosuj whitelisting dla danych wejściowych, aby ograniczyć możliwe wartości tylko do tych, które są bezpieczne i oczekiwane.
-1. Bezpieczne frameworki: Korzystaj z frameworków i bibliotek webowych, które automatycznie sanityzują dane wejściowe i kodują dane wyjściowe, minimalizując ryzyko XSS.
+Mitygacja podatności powinna obejmować walidację i sanityzację danych wejściowych, aby upewnić się, że wszystkie dane są sprawdzane i filtrowane zgodnie z oczekiwanymi formatami i typami. Należy również kodować wszystkie dane wejściowe, używając odpowiednich funkcji do kodowania HTML, takich jak htmlspecialchars() w PHP czy HtmlUtils.htmlEscape() w Javie. Warto skorzystać z bibliotek i narzędzi przeznaczonych do zabezpieczania aplikacji przed XSS, takich jak OWASP Java Encoder lub Microsoft AntiXSS. Unikanie dynamicznego generowania HTML przy użyciu niezaufanych danych użytkownika oraz regularne przeprowadzanie testów bezpieczeństwa, w tym testów penetracyjnych, pomaga wykrywać i naprawiać podatności XSS. Dodatkowo, należy zachęcać użytkowników do korzystania z przeglądarek, które mają wbudowane mechanizmy ochrony przed XSS, takie jak Content Security Policy (CSP).
+Wdrożenie nagłówków CSP pozwoli ograniczyć możliwość wykonania nieautoryzowanego kodu JavaScript.
