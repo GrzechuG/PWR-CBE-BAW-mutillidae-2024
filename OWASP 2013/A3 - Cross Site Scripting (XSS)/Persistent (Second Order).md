@@ -50,7 +50,7 @@ W kodzie odpowiedzialnym za pobranie i wyświetlenie zawartości blogu na żadny
 ![image](https://github.com/GrzechuG/PWR-CBE-BAW-mutillidae-2024/assets/28838004/65bc65d3-a379-4402-a296-64edc2a91d1d)
 ![image](https://github.com/GrzechuG/PWR-CBE-BAW-mutillidae-2024/assets/28838004/0be4377b-4050-4d4c-8fda-5fd16185b655)
 
-Aby zmitygować problem, należałoby użyć funkcjo takiej jak `htmlspecialchars`, jak pokazano poniżej:
+Aby zmitygować problem, należałoby użyć funkcji takiej jak `htmlspecialchars`, jak pokazano poniżej:
 ```php
 $lBloggerName = htmlspecialchars($lRecord->blogger_name, ENT_QUOTES, 'UTF-8');
 $lDate = htmlspecialchars($lRecord->date, ENT_QUOTES, 'UTF-8');
