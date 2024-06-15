@@ -34,7 +34,7 @@ python SeleniumTester.py --url <ciąg znaków, zawierający adres ip lub nazwę 
 **Mitygacja podatności:**
 Ważne jest, aby wdrożyć odpowiednie środki bezpieczeństwa w celu zapobieżenia atakom XSS Persistent (Second Order). Należy prawidłowo walidować i oczyszczać dane wejściowe przed zapisaniem ich w bazie danych, zastosować mechanizmy ucieczki (escaping) danych przed ich wyświetleniem na stronie internetowej, aby zapobiec interpretacji danych jako kodu HTML lub JavaScript, ograniczyć dostęp do danych przechowywanych w bazie danych i unikać przechowywania potencjalnie złośliwych skryptów. Ponadto, regularne przeprowadzanie audytów bezpieczeństwa, w tym testów penetracyjnych, jest kluczowe w celu wykrycia potencjalnych podatności XSS Persistent (Second Order) oraz szybkiego ich naprawienia.
 
-** Mitygacja w kodzie: **
+**Mitygacja w kodzie:**
 Ogólny kod dodający zawartość bloga wygląda następująco:
 ![image](https://github.com/GrzechuG/PWR-CBE-BAW-mutillidae-2024/assets/28838004/867b9dc1-fbdf-44f8-a824-c12cfcd389d7)
 
