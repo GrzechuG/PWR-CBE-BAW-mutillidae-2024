@@ -29,3 +29,32 @@ python SeleniumTester.py --url <ciąg znaków, zawierający adres ip lub nazwę 
 
 **Mitygacja:**
 Należy używać prepared statements z parameter binding do wszystkich operacji bazodanowych, aby uniknąć bezpośredniego wstrzykiwania danych wejściowych do zapytań SQL. Należy walidować wszystkie dane wejściowe, upewniając się, że są zgodne z oczekiwanym formatem i typem danych. Należy minimalizować uprawnienia kont bazy danych używanych przez aplikację, aby ograniczyć potencjalne szkody wynikające z udanych ataków SQL Injection.
+
+**Mitygacja w kodzie:**
+Ogólna walidacja została zaimplementowana następująco:
+![image](https://github.com/GrzechuG/PWR-CBE-BAW-mutillidae-2024/assets/28838004/91c9a276-cdd5-4ff9-8909-c9f9516bfd76)
+W atki sposób wyszukiwano czy użytkownik istnieje w bazie danych. Jeśli przyjrzeć się funkcji `getUserAccount` możemy znaleźć implementacje sposobu wywoływania zapytań SQL do bazy MySQL. Niebezpieczny kod wygląda następująco:
+![image](https://github.com/GrzechuG/PWR-CBE-BAW-mutillidae-2024/assets/28838004/34de7ee3-9d4b-4861-a2bf-60281d25ef26)
+
+Widać na nim, iż stringi są łączone programistycznie przy pomocy PHP, a następnie połączony string jest wywoływany. Przy takiej implementacji łatwo jest tak dobrać wejście, aby jego część została zinterpretowana jako polecenie.
+
+Aby zmitygować taką podatność należałoby zaimplementować kod w poniższy sposób:
+
+```PHP
+$stmt = $this->mMySQLHandler->prepare("SELECT * FROM accounts WHERE username = ? AND password = ?");
+if ($stmt === false) {
+    die("Error preparing statement: " . $this->mMySQLHandler->error);
+}
+
+// Bind parameters
+$stmt->bind_param("ss", $pUsername, $pPassword);
+
+// Execute statement
+$stmt->execute();
+
+// Get result
+$result = $stmt->get_result();
+
+```
+
+
