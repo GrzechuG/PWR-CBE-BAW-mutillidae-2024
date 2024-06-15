@@ -26,8 +26,4 @@ python SeleniumTester.py --url <ciąg znaków, zawierający adres ip lub nazwę 
 ```
 
 **Mitygacja:**
-1. Walidacja danych wejściowych: Upewnij się, że wszystkie dane wejściowe są dokładnie walidowane. Ogranicz maksymalną wartość liczby powtórzeń do rozsądnego zakresu, np. 1-1000, aby zapobiec niekontrolowanemu wzrostowi wartości.
-1. Bezpieczne zarządzanie pamięcią: Używaj funkcji i bibliotek, które oferują bezpieczne zarządzanie pamięcią.
-1. Zastosowanie limitów: Implementuj limity i mechanizmy ochronne na poziomie serwera, które kontrolują zasoby alokowane na przetwarzanie żądań. Można to osiągnąć poprzez ustawienie limitów czasowych i pamięciowych dla poszczególnych operacji.
-1. Obsługa błędów: Implementuj odpowiednią obsługę błędów, aby aplikacja mogła bezpiecznie radzić sobie z nieoczekiwanymi lub zbyt dużymi danymi wejściowymi. Zamiast powodować awarię aplikacji, wyświetl użytkownikowi komunikat o błędzie.
-1. Ograniczenie długości danych wejściowych: Ustaw maksymalną długość dla wszystkich danych wejściowych, w tym ciągów znaków, które mogą być wprowadzone przez użytkowników.
+Aby zabezpieczyć stronę przed podatnością należy wprowadzić walidację danych wejściowych i ograniczyć liczbę powtórzeń orad długość tekstu do rozsądnego zakresu. Należy również zaimplementować odpowiednią obsługę błędów i wykorzystać funkcje i biblioteki oferujące bezpieczne zarządzanie pamięcią.
