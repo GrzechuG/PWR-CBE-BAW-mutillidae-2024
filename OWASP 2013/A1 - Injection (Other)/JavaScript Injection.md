@@ -7,7 +7,7 @@
 **Opis:**
 JavaScript Injection to rodzaj ataku, który polega na wstrzykiwaniu złośliwego kodu JavaScript na stronie internetowej w celu osiągnięcia nieautoryzowanego dostępu, kradzieży danych lub wykonania innych złośliwych działań. Atakujący wykorzystuje tę podatność, aby umieścić kod JavaScript w miejscach, gdzie normalnie występuje kod JavaScript, np. w polach formularzy, parametrach URL lub nawet w bazie danych.
 
-Konsekwencje JavaScript Injection mogą być poważne, obejmując kradzież sesji, ataki typu XSS (Cross-Site Scripting), przejęcie kontroli nad sesją użytkownika, przechwytywanie poufnych danych, a nawet pełną kompromitację serwera lub aplikacji internetowej.
+Konsekwencje JavaScript Injection mogą być poważne, obejmując kradzież sesji, ataki typu XSS (Cross-Site Scripting), przejęcie kontroli nad sesją użytkownika, przechwytywanie poufnych danych, a w skrajnym przypadku może doprowadzić nawet do pełnej kompromitacji serwera lub aplikacji internetowej.
 
 ---
 
