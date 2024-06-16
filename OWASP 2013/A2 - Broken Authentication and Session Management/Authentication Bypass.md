@@ -24,8 +24,11 @@ Skrypt przyjmuje 2 argumenty:
 Jako wordlistę (liste potencjalnych haseł) wykorzystano popularną listę - rockyou.txt.
 
 Wywołano skrypt z argumentami `Dawid` oraz `rockyou.txt`
+
 ![image](https://github.com/GrzechuG/PWR-CBE-BAW-mutillidae-2024/assets/28838004/165f013f-27c5-4bf1-845a-176b45c9bda2)
+
 output polecenia:
+
 ![image](https://github.com/GrzechuG/PWR-CBE-BAW-mutillidae-2024/assets/28838004/8efaf7b3-6389-436c-aea6-25c86a7eb8ac)
 ...
 
