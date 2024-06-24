@@ -57,5 +57,39 @@ $lDate = htmlspecialchars($lRecord->date, ENT_QUOTES, 'UTF-8');
 $lComment = htmlspecialchars($lRecord->comment, ENT_QUOTES, 'UTF-8');
 ```
 
+Funkcja `htmlspecialchars` mityguje podatność XSS (Cross-Site Scripting) poprzez zamienianie specjalnych znaków HTML na ich odpowiedniki encji, które są bezpieczne do wyświetlania w przeglądarce internetowej. Dzięki temu przeglądarka nie interpretuje tych znaków jako kodu HTML lub JavaScript, lecz jako zwykły tekst.
 
+XSS to atak, w którym złośliwy użytkownik wprowadza kod JavaScript (lub inny kod skryptowy) do aplikacji webowej, który następnie jest wyświetlany i wykonany w przeglądarce innych użytkowników. Typowe znaki używane w atakach XSS to m.in. `<`, `>`, `"`, `'` oraz `&`, ponieważ są one używane do tworzenia elementów HTML i atrybutów.
+
+Oto szczegółowe wyjaśnienie, jak `htmlspecialchars` działa dla poszczególnych znaków:
+
+1. **`<` (mniejszy niż)**: jest zamieniany na `&lt;`
+2. **`>` (większy niż)**: jest zamieniany na `&gt;`
+3. **`"` (cudzysłów podwójny)**: jest zamieniany na `&quot;`
+4. **`'` (cudzysłów pojedynczy)**: jest zamieniany na `&#039;`
+5. **`&` (ampersand)**: jest zamieniany na `&amp;`
+
+Przykład: jeśli użytkownik wprowadzi następujący tekst jako komentarz:
+
+```html
+<script>alert('XSS');</script>
+```
+
+Po użyciu `htmlspecialchars` tekst ten zostanie przekształcony na:
+
+```html
+&lt;script&gt;alert('XSS');&lt;/script&gt;
+```
+
+W wyniku tego, zamiast wykonać kod JavaScript, przeglądarka wyświetli go jako zwykły tekst. Dzięki temu atak XSS zostaje skutecznie zneutralizowany.
+
+W przedstawionym kodzie PHP:
+
+```php
+$lBloggerName = htmlspecialchars($lRecord->blogger_name, ENT_QUOTES, 'UTF-8');
+$lDate = htmlspecialchars($lRecord->date, ENT_QUOTES, 'UTF-8');
+$lComment = htmlspecialchars($lRecord->comment, ENT_QUOTES, 'UTF-8');
+```
+
+Funkcja `htmlspecialchars` jest używana do przetworzenia zawartości zmiennych `$lRecord->blogger_name`, `$lRecord->date` i `$lRecord->comment`, co zapewnia, że wszelkie potencjalnie niebezpieczne znaki w tych danych zostaną zamienione na bezpieczne encje HTML. Dzięki temu wszelkie dane pochodzące od użytkowników są bezpiecznie wyświetlane w przeglądarce, bez ryzyka wykonania nieautoryzowanego kodu skryptowego.
 
