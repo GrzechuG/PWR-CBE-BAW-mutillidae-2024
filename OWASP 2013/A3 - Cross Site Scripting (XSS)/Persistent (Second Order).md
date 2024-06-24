@@ -88,7 +88,7 @@ $lComment = htmlspecialchars($lRecord->comment, ENT_QUOTES, 'UTF-8');
 
 Funkcja `htmlspecialchars` jest używana do przetworzenia zawartości zmiennych `$lRecord->blogger_name`, `$lRecord->date` i `$lRecord->comment`, co zapewnia, że wszelkie potencjalnie niebezpieczne znaki w tych danych zostaną zamienione na bezpieczne encje HTML. Dzięki temu wszelkie dane pochodzące od użytkowników są bezpiecznie wyświetlane w przeglądarce, bez ryzyka wykonania nieautoryzowanego kodu skryptowego.
 
-Po dokonaniu modyfikacji payload zamiast się wykonać, jest wyświetlany na stronie, co zostało zweryfikowane skryptem:
+Po dokonaniu modyfikacji payload zamiast się wykonać, jest wyświetlany na stronie, co zostało zweryfikowane skryptem. Skrypt oczekiwał na wykonanie alertu, ale ze względu na wprowadzone zabezpieczenie nie odnalazł poszukiwanej treści i zwrócił błąd:
 ![obraz](https://github.com/GrzechuG/PWR-CBE-BAW-mutillidae-2024/assets/93217316/29bd0060-55f1-4859-a580-9f6ba28ab6a3)
 
 
