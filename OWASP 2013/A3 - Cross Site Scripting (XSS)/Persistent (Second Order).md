@@ -78,7 +78,7 @@ Po użyciu `htmlspecialchars` tekst ten zostanie przekształcony na:
 
 W wyniku tego, zamiast wykonać kod JavaScript, przeglądarka wyświetli go jako zwykły tekst. Dzięki temu atak XSS zostaje skutecznie zneutralizowany.
 
-W przedstawionym kodzie PHP:
+W przedstawionym kodzie PHP (plik add-to-your-blog.php):
 
 ```php
 $lBloggerName = htmlspecialchars($lRecord->blogger_name, ENT_QUOTES, 'UTF-8');
