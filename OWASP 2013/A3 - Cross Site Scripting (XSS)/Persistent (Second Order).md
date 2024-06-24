@@ -50,12 +50,7 @@ W kodzie odpowiedzialnym za pobranie i wyświetlenie zawartości blogu na żadny
 ![image](https://github.com/GrzechuG/PWR-CBE-BAW-mutillidae-2024/assets/28838004/65bc65d3-a379-4402-a296-64edc2a91d1d)
 ![image](https://github.com/GrzechuG/PWR-CBE-BAW-mutillidae-2024/assets/28838004/0be4377b-4050-4d4c-8fda-5fd16185b655)
 
-Aby zmitygować problem, należałoby użyć funkcji takiej jak `htmlspecialchars`, jak pokazano poniżej:
-```php
-$lBloggerName = htmlspecialchars($lRecord->blogger_name, ENT_QUOTES, 'UTF-8');
-$lDate = htmlspecialchars($lRecord->date, ENT_QUOTES, 'UTF-8');
-$lComment = htmlspecialchars($lRecord->comment, ENT_QUOTES, 'UTF-8');
-```
+Aby zmitygować problem, należałoby użyć funkcji takiej jak `htmlspecialchars`.
 
 Funkcja `htmlspecialchars` mityguje podatność XSS (Cross-Site Scripting) poprzez zamienianie specjalnych znaków HTML na ich odpowiedniki encji, które są bezpieczne do wyświetlania w przeglądarce internetowej. Dzięki temu przeglądarka nie interpretuje tych znaków jako kodu HTML lub JavaScript, lecz jako zwykły tekst.
 
@@ -93,5 +88,7 @@ $lComment = htmlspecialchars($lRecord->comment, ENT_QUOTES, 'UTF-8');
 
 Funkcja `htmlspecialchars` jest używana do przetworzenia zawartości zmiennych `$lRecord->blogger_name`, `$lRecord->date` i `$lRecord->comment`, co zapewnia, że wszelkie potencjalnie niebezpieczne znaki w tych danych zostaną zamienione na bezpieczne encje HTML. Dzięki temu wszelkie dane pochodzące od użytkowników są bezpiecznie wyświetlane w przeglądarce, bez ryzyka wykonania nieautoryzowanego kodu skryptowego.
 
-Po dokonaniu modyfikacji payload zamiast się wykonać, jest wyświetlany na stronie:
-![image](https://github.com/GrzechuG/PWR-CBE-BAW-mutillidae-2024/assets/28838004/cf529d4a-b95c-431e-8083-fe687ad5c42a)
+Po dokonaniu modyfikacji payload zamiast się wykonać, jest wyświetlany na stronie, co zostało zweryfikowane skryptem:
+![obraz](https://github.com/GrzechuG/PWR-CBE-BAW-mutillidae-2024/assets/93217316/29bd0060-55f1-4859-a580-9f6ba28ab6a3)
+
+
